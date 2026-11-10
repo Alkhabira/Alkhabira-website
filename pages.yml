@@ -1,0 +1,1860 @@
+# Website dashboard configuration (Pages CMS — https://pagescms.org)
+media:
+  input: img/uploads
+  output: img/uploads
+  extensions: [jpg, jpeg, png, webp]
+content:
+  - name: settings
+    label: "Contact details · بيانات التواصل"
+    type: file
+    path: content/settings.json
+    format: json
+    fields:
+      - { name: whatsapp, label: "WhatsApp number (digits only, with country code)", type: string }
+      - { name: whatsappDisplay, label: "WhatsApp number as displayed", type: string }
+      - { name: email, label: "Email", type: string }
+      - { name: linkedin, label: "LinkedIn URL (leave empty to hide)", type: string }
+  - name: images
+    label: "Images · الصور"
+    type: file
+    path: content/images.json
+    format: json
+    fields:
+      - { name: hero, label: "Homepage hero image", type: image }
+      - { name: portrait, label: "About — portrait photo", type: image }
+      - { name: pillar1, label: "Advisory image", type: image }
+      - { name: pillar2, label: "Investment image", type: image }
+      - { name: pillar3, label: "Concierge image", type: image }
+      - { name: banner_left, label: "Banner — left image", type: image }
+      - { name: banner_right, label: "Banner — right image", type: image }
+  - name: insights
+    label: "Insights articles · المقالات"
+    type: file
+    path: content/insights.json
+    format: json
+    fields:
+      - name: articles
+        label: Articles
+        type: object
+        list: true
+        fields:
+          - { name: slug, label: "Link name (English letters and dashes, unique)", type: string, required: true }
+          - name: category
+            label: Category
+            type: select
+            options: { values: [tax, strategy, gov, dubai, re, trends] }
+          - { name: minutes, label: "Reading time (minutes)", type: number }
+          - { name: published, label: "Published (off = shows as Coming soon)", type: boolean }
+          - { name: title_en, label: "Title (English)", type: string }
+          - { name: title_ar, label: "العنوان (عربي)", type: string }
+          - { name: title_sv, label: "Titel (svenska)", type: string }
+          - { name: title_fr, label: "Titre (français)", type: string }
+          - { name: title_nl, label: "Titel (Nederlands)", type: string }
+          - { name: excerpt_en, label: "Summary (English)", type: text }
+          - { name: excerpt_ar, label: "الملخص (عربي)", type: text }
+          - { name: excerpt_sv, label: "Sammanfattning (svenska)", type: text }
+          - { name: excerpt_fr, label: "Résumé (français)", type: text }
+          - { name: excerpt_nl, label: "Samenvatting (Nederlands)", type: text }
+          - { name: body_en, label: "Article (English)", type: rich-text }
+          - { name: body_ar, label: "المقال (عربي)", type: rich-text }
+          - { name: body_sv, label: "Artikel (svenska)", type: rich-text }
+          - { name: body_fr, label: "Article (français)", type: rich-text }
+          - { name: body_nl, label: "Artikel (Nederlands)", type: rich-text }
+  - name: services
+    label: "Services lists · قوائم الخدمات"
+    type: file
+    path: content/services.json
+    format: json
+    fields:
+      - name: advisory
+        label: "Business & Financial Advisory services"
+        type: object
+        list: true
+        fields:
+          - name: icon
+            label: Icon
+            type: select
+            options: { values: [chart, tax, shield, doc, cycle, building, compass, gear, tower, key, search, users, briefcase, globe, link, med, plane, bed, car, home, star, hand] }
+          - { name: title_en, label: "Title (English)", type: string }
+          - { name: title_ar, label: "العنوان (عربي)", type: string }
+          - { name: title_sv, label: "Titel (svenska)", type: string }
+          - { name: title_fr, label: "Titre (français)", type: string }
+          - { name: title_nl, label: "Titel (Nederlands)", type: string }
+          - { name: desc_en, label: "Description (English)", type: text }
+          - { name: desc_ar, label: "الوصف (عربي)", type: text }
+          - { name: desc_sv, label: "Beskrivning (svenska)", type: text }
+          - { name: desc_fr, label: "Description (français)", type: text }
+          - { name: desc_nl, label: "Beschrijving (Nederlands)", type: text }
+      - name: investment
+        label: "Investment & Real Estate services"
+        type: object
+        list: true
+        fields:
+          - name: icon
+            label: Icon
+            type: select
+            options: { values: [chart, tax, shield, doc, cycle, building, compass, gear, tower, key, search, users, briefcase, globe, link, med, plane, bed, car, home, star, hand] }
+          - { name: title_en, label: "Title (English)", type: string }
+          - { name: title_ar, label: "العنوان (عربي)", type: string }
+          - { name: title_sv, label: "Titel (svenska)", type: string }
+          - { name: title_fr, label: "Titre (français)", type: string }
+          - { name: title_nl, label: "Titel (Nederlands)", type: string }
+          - { name: desc_en, label: "Description (English)", type: text }
+          - { name: desc_ar, label: "الوصف (عربي)", type: text }
+          - { name: desc_sv, label: "Beskrivning (svenska)", type: text }
+          - { name: desc_fr, label: "Description (français)", type: text }
+          - { name: desc_nl, label: "Beschrijving (Nederlands)", type: text }
+      - name: concierge
+        label: "Private Concierge services"
+        type: object
+        list: true
+        fields:
+          - name: icon
+            label: Icon
+            type: select
+            options: { values: [chart, tax, shield, doc, cycle, building, compass, gear, tower, key, search, users, briefcase, globe, link, med, plane, bed, car, home, star, hand] }
+          - { name: title_en, label: "Title (English)", type: string }
+          - { name: title_ar, label: "العنوان (عربي)", type: string }
+          - { name: title_sv, label: "Titel (svenska)", type: string }
+          - { name: title_fr, label: "Titre (français)", type: string }
+          - { name: title_nl, label: "Titel (Nederlands)", type: string }
+          - { name: desc_en, label: "Description (English)", type: text }
+          - { name: desc_ar, label: "الوصف (عربي)", type: text }
+          - { name: desc_sv, label: "Beskrivning (svenska)", type: text }
+          - { name: desc_fr, label: "Description (français)", type: text }
+          - { name: desc_nl, label: "Beschrijving (Nederlands)", type: text }
+  - name: texts
+    label: "Website texts · نصوص الموقع"
+    type: file
+    path: content/text.json
+    format: json
+    fields:
+      - name: header
+        label: "Header & menu"
+        type: object
+        fields:
+          - name: nav_home
+            label: "Home"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: nav_about
+            label: "About"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: nav_services
+            label: "Services"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: nav_invest
+            label: "Investment Opportunities"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: nav_concierge
+            label: "Private Concierge"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: nav_insights
+            label: "Insights"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: nav_contact
+            label: "Contact"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: dd_p1
+            label: "Business & Financial Advisory"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: dd_p1d
+            label: "Tax, governance, reporting & corporate services"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: dd_p2
+            label: "Investment & Real Estate"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: dd_p2d
+            label: "Opportunities, assessment & licensed connections"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: dd_p3
+            label: "Dubai Private Concierge"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: dd_p3d
+            label: "Medical coordination, relocation & lifestyle"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: hd_cta
+            label: "Book a Private Consultation"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: wa_label
+            label: "WhatsApp"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: pg_home
+            label: "Home"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+      - name: footer
+        label: "Footer"
+        type: object
+        fields:
+          - name: ft_sig1
+            label: "Connecting Ambition"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: ft_sig2
+            label: "with Opportunity."
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: ft_desc
+            label: "Premium business advisory and private client services in …"
+            type: object
+            fields:
+              - { name: en, label: English, type: text }
+              - { name: ar, label: عربي, type: text }
+              - { name: sv, label: Svenska, type: text }
+              - { name: fr, label: Français, type: text }
+              - { name: nl, label: "Nederlands (Vlaams)", type: text }
+          - name: ft_nav
+            label: "Navigate"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: ft_services
+            label: "Services"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: ft_contact
+            label: "Contact"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: ft_privacy
+            label: "Privacy Policy"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: ft_terms
+            label: "Terms & Conditions"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: ft_rights
+            label: "© 2026 Saida Afly Business Gateway. All rights reserved."
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: ft_disc
+            label: "Saida Afly Business Gateway provides advisory, introducti…"
+            type: object
+            fields:
+              - { name: en, label: English, type: text }
+              - { name: ar, label: عربي, type: text }
+              - { name: sv, label: Svenska, type: text }
+              - { name: fr, label: Français, type: text }
+              - { name: nl, label: "Nederlands (Vlaams)", type: text }
+          - name: city
+            label: "Dubai, United Arab Emirates"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+      - name: form
+        label: "Consultation form"
+        type: object
+        fields:
+          - name: m_eyebrow
+            label: "Private & confidential"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: m_title
+            label: "Request a Private Consultation"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: m_sub
+            label: "Share a few details and we will respond to you personally."
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: tab_c
+            label: "Consultation"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: tab_i
+            label: "Investment inquiry"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: tab_r
+            label: "Concierge request"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: f_name
+            label: "Full name"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: f_email
+            label: "Email address"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: f_phone
+            label: "Phone / WhatsApp"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: f_country
+            label: "Country of residence"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: f_service
+            label: "Service of interest"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: f_choose
+            label: "Select a service"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: f_desc
+            label: "Brief description of your requirements"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: f_date
+            label: "Preferred consultation date"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: f_method
+            label: "Preferred contact method"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: m_email
+            label: "Email"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: m_phone
+            label: "Phone"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: m_wa
+            label: "WhatsApp"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: f_privacy
+            label: "Your information is used only to respond to your inquiry.…"
+            type: object
+            fields:
+              - { name: en, label: English, type: text }
+              - { name: ar, label: عربي, type: text }
+              - { name: sv, label: Svenska, type: text }
+              - { name: fr, label: Français, type: text }
+              - { name: nl, label: "Nederlands (Vlaams)", type: text }
+          - name: f_consent_a
+            label: "I agree that Saida Afly Business Gateway may use the info…"
+            type: object
+            fields:
+              - { name: en, label: English, type: text }
+              - { name: ar, label: عربي, type: text }
+              - { name: sv, label: Svenska, type: text }
+              - { name: fr, label: Français, type: text }
+              - { name: nl, label: "Nederlands (Vlaams)", type: text }
+          - name: f_consent_b
+            label: "Privacy Policy"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: f_submit
+            label: "Submit request"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: f_err
+            label: "Please complete the required fields and confirm your cons…"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: r_ok_t
+            label: "Thank you — your request has been received."
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: r_ok_d
+            label: "We will contact you using your preferred method."
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: r_fb_t
+            label: "Your request is ready"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: r_fb_d
+            label: "Online submission isn't available in this preview. Send y…"
+            type: object
+            fields:
+              - { name: en, label: English, type: text }
+              - { name: ar, label: عربي, type: text }
+              - { name: sv, label: Svenska, type: text }
+              - { name: fr, label: Français, type: text }
+              - { name: nl, label: "Nederlands (Vlaams)", type: text }
+          - name: r_wa
+            label: "Send via WhatsApp"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: r_mail
+            label: "Send by email"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: r_close
+            label: "Close"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+      - name: home_hero
+        label: "Home — Hero"
+        type: object
+        fields:
+          - name: h_eye
+            label: "Premium Business Advisory · Dubai"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: h_t1
+            label: "Your Ambitions."
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: h_t2
+            label: "Our Expertise."
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: h_t3
+            label: "Dubai."
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: h_lead
+            label: "From financial and tax advisory to investment opportuniti…"
+            type: object
+            fields:
+              - { name: en, label: English, type: text }
+              - { name: ar, label: عربي, type: text }
+              - { name: sv, label: Svenska, type: text }
+              - { name: fr, label: Français, type: text }
+              - { name: nl, label: "Nederlands (Vlaams)", type: text }
+          - name: h_cta1
+            label: "Book a Private Consultation"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: h_cta2
+            label: "Explore Our Services"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: h_sig
+            label: "Your Wealth. Our Priority. Your Peace of Mind."
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+      - name: home_services
+        label: "Home — Three pillars"
+        type: object
+        fields:
+          - name: p_eye
+            label: "Our Services"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: p_t
+            label: "Three pillars. One trusted gateway."
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: p_s
+            label: "Financial expertise is our foundation. Investment facilit…"
+            type: object
+            fields:
+              - { name: en, label: English, type: text }
+              - { name: ar, label: عربي, type: text }
+              - { name: sv, label: Svenska, type: text }
+              - { name: fr, label: Français, type: text }
+              - { name: nl, label: "Nederlands (Vlaams)", type: text }
+          - name: p1_t
+            label: "Business & Financial Advisory"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: p1_d
+            label: "The professional foundation of our brand: financial and t…"
+            type: object
+            fields:
+              - { name: en, label: English, type: text }
+              - { name: ar, label: عربي, type: text }
+              - { name: sv, label: Svenska, type: text }
+              - { name: fr, label: Français, type: text }
+              - { name: nl, label: "Nederlands (Vlaams)", type: text }
+          - name: p1_l1
+            label: "UAE Corporate Tax & VAT"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: p1_l2
+            label: "Corporate Governance & Risk Management"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: p1_l3
+            label: "Financial Reporting & Compliance"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: p1_l4
+            label: "Business Setup & Corporate Services"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: p1_more
+            label: "Explore advisory"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: p2_t
+            label: "Investment & Real Estate"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: p2_d
+            label: "Informed guidance through Dubai's investment landscape, w…"
+            type: object
+            fields:
+              - { name: en, label: English, type: text }
+              - { name: ar, label: عربي, type: text }
+              - { name: sv, label: Svenska, type: text }
+              - { name: fr, label: Français, type: text }
+              - { name: nl, label: "Nederlands (Vlaams)", type: text }
+          - name: p2_l1
+            label: "Dubai Real Estate Investment Opportunities"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: p2_l2
+            label: "Investment Opportunity Assessment"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: p2_l3
+            label: "Investor Introductions"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: p2_l4
+            label: "Coordination with Licensed Professionals"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: p2_more
+            label: "Explore investment"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: p3_t
+            label: "Dubai Private Concierge"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: p3_d
+            label: "Personalized services with discretion and attention to de…"
+            type: object
+            fields:
+              - { name: en, label: English, type: text }
+              - { name: ar, label: عربي, type: text }
+              - { name: sv, label: Svenska, type: text }
+              - { name: fr, label: Français, type: text }
+              - { name: nl, label: "Nederlands (Vlaams)", type: text }
+          - name: p3_l1
+            label: "Medical & Aesthetic Services Coordination"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: p3_l2
+            label: "Premium Accommodation Arrangements"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: p3_l3
+            label: "Relocation & Settling-in Assistance"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: p3_l4
+            label: "Luxury Lifestyle Experiences"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: p3_more
+            label: "Explore concierge"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+      - name: home_philosophy
+        label: "Home — Philosophy"
+        type: object
+        fields:
+          - name: t_eye
+            label: "Our philosophy"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: t_t
+            label: "Built on Expertise. Guided by Integrity. Focused on You."
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: t_s
+            label: "We believe every business decision, investment considerat…"
+            type: object
+            fields:
+              - { name: en, label: English, type: text }
+              - { name: ar, label: عربي, type: text }
+              - { name: sv, label: Svenska, type: text }
+              - { name: fr, label: Français, type: text }
+              - { name: nl, label: "Nederlands (Vlaams)", type: text }
+          - name: v1_t
+            label: "Professional Expertise"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: v1_d
+            label: "More than 15 years in financial management, tax, audit an…"
+            type: object
+            fields:
+              - { name: en, label: English, type: text }
+              - { name: ar, label: عربي, type: text }
+              - { name: sv, label: Svenska, type: text }
+              - { name: fr, label: Français, type: text }
+              - { name: nl, label: "Nederlands (Vlaams)", type: text }
+          - name: v2_t
+            label: "Independent Perspective"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: v2_d
+            label: "Candid, balanced guidance that puts your interests first …"
+            type: object
+            fields:
+              - { name: en, label: English, type: text }
+              - { name: ar, label: عربي, type: text }
+              - { name: sv, label: Svenska, type: text }
+              - { name: fr, label: Français, type: text }
+              - { name: nl, label: "Nederlands (Vlaams)", type: text }
+          - name: v3_t
+            label: "Personalized Attention"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: v3_d
+            label: "One point of contact who knows your file and follows ever…"
+            type: object
+            fields:
+              - { name: en, label: English, type: text }
+              - { name: ar, label: عربي, type: text }
+              - { name: sv, label: Svenska, type: text }
+              - { name: fr, label: Français, type: text }
+              - { name: nl, label: "Nederlands (Vlaams)", type: text }
+      - name: home_process
+        label: "Home — How we work"
+        type: object
+        fields:
+          - name: w_eye
+            label: "How we work"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: w_t
+            label: "A simple, discreet journey"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: w1_t
+            label: "Tell Us Your Goal"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: w1_d
+            label: "Share your business objectives, investment interests, or …"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: w2_t
+            label: "Receive Tailored Guidance"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: w2_d
+            label: "We assess your needs and identify suitable solutions, opp…"
+            type: object
+            fields:
+              - { name: en, label: English, type: text }
+              - { name: ar, label: عربي, type: text }
+              - { name: sv, label: Svenska, type: text }
+              - { name: fr, label: Français, type: text }
+              - { name: nl, label: "Nederlands (Vlaams)", type: text }
+          - name: w3_t
+            label: "Move Forward with Confidence"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: w3_d
+            label: "Benefit from personalized coordination, professional guid…"
+            type: object
+            fields:
+              - { name: en, label: English, type: text }
+              - { name: ar, label: عربي, type: text }
+              - { name: sv, label: Svenska, type: text }
+              - { name: fr, label: Français, type: text }
+              - { name: nl, label: "Nederlands (Vlaams)", type: text }
+      - name: home_banner
+        label: "Home — Banner"
+        type: object
+        fields:
+          - name: bn
+            label: "Dubai — where business, investment and quality of life meet."
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+      - name: home_about
+        label: "Home — About"
+        type: object
+        fields:
+          - name: a_eye
+            label: "About"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: a_t
+            label: "Professional Expertise. Personal Commitment."
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: a_s
+            label: "Saida Afly Business Gateway brings together financial exp…"
+            type: object
+            fields:
+              - { name: en, label: English, type: text }
+              - { name: ar, label: عربي, type: text }
+              - { name: sv, label: Svenska, type: text }
+              - { name: fr, label: Français, type: text }
+              - { name: nl, label: "Nederlands (Vlaams)", type: text }
+          - name: a_c1
+            label: "FTA Approved Tax Agent, United Arab Emirates"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: a_c2
+            label: "15+ years in financial management, taxation, external aud…"
+            type: object
+            fields:
+              - { name: en, label: English, type: text }
+              - { name: ar, label: عربي, type: text }
+              - { name: sv, label: Svenska, type: text }
+              - { name: fr, label: Français, type: text }
+              - { name: nl, label: "Nederlands (Vlaams)", type: text }
+          - name: a_c3
+            label: "Professional background at PwC"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: a_c4
+            label: "Based in Dubai, serving local and international clients"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: a_photo
+            label: "Portrait photo placeholder"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: a_role
+            label: "Founder"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+      - name: home_insights
+        label: "Home — Insights preview"
+        type: object
+        fields:
+          - name: i_eye
+            label: "Insights"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: i_t
+            label: "Perspectives for informed decisions"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: i_s
+            label: "Articles on finance, tax, governance and Dubai's investme…"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: i_all
+            label: "View all insights"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+      - name: home_contact
+        label: "Home — Contact"
+        type: object
+        fields:
+          - name: c_eye
+            label: "Contact"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: c_t
+            label: "Begin a confidential conversation"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: c_s
+            label: "Choose the path that fits your needs, or reach us directly."
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: path1
+            label: "Private consultation"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: path1d
+            label: "Business, financial and tax advisory"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: path2
+            label: "Investment inquiry"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: path2d
+            label: "Real estate and business opportunities"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: path3
+            label: "Concierge request"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: path3d
+            label: "Medical coordination, relocation and lifestyle"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: cc_t
+            label: "Direct contact"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: cc_wa
+            label: "WhatsApp"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: cc_em
+            label: "Email"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: cc_loc
+            label: "Location"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+      - name: page_advisory
+        label: "Page — Advisory"
+        type: object
+        fields:
+          - name: adv_eye
+            label: "Pillar 01"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: adv_t
+            label: "Business & Financial Advisory"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: adv_s
+            label: "The professional foundation of our brand — financial, tax…"
+            type: object
+            fields:
+              - { name: en, label: English, type: text }
+              - { name: ar, label: عربي, type: text }
+              - { name: sv, label: Svenska, type: text }
+              - { name: fr, label: Français, type: text }
+              - { name: nl, label: "Nederlands (Vlaams)", type: text }
+          - name: adv_cta
+            label: "Book a Private Consultation"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: adv_h_eye
+            label: "What we offer"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: adv_h_t
+            label: "Expertise that translates into better decisions"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: adv_h_s
+            label: "From company setup to governance and transformation, we s…"
+            type: object
+            fields:
+              - { name: en, label: English, type: text }
+              - { name: ar, label: عربي, type: text }
+              - { name: sv, label: Svenska, type: text }
+              - { name: fr, label: Français, type: text }
+              - { name: nl, label: "Nederlands (Vlaams)", type: text }
+          - name: adv_who_t
+            label: "Who we work with"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: who1_t
+            label: "New founders"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: who1_d
+            label: "Establishing their first company in the UAE."
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: who2_t
+            label: "SMEs"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: who2_d
+            label: "Seeking financial discipline and tax compliance."
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: who3_t
+            label: "Family businesses"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: who3_d
+            label: "Strengthening governance and preparing for growth."
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: who4_t
+            label: "International companies"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: who4_d
+            label: "Entering or expanding in the UAE market."
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: adv_band
+            label: "Let’s discuss your company’s objectives — in complete con…"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+      - name: page_investment
+        label: "Page — Investment"
+        type: object
+        fields:
+          - name: inv_eye
+            label: "Pillar 02"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: inv_t
+            label: "Investment & Real Estate"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: inv_s
+            label: "We help you navigate Dubai’s investment landscape through…"
+            type: object
+            fields:
+              - { name: en, label: English, type: text }
+              - { name: ar, label: عربي, type: text }
+              - { name: sv, label: Svenska, type: text }
+              - { name: fr, label: Français, type: text }
+              - { name: nl, label: "Nederlands (Vlaams)", type: text }
+          - name: inv_cta
+            label: "Send an Investment Inquiry"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: inv_h_eye
+            label: "How we help"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: inv_h_t
+            label: "Investment decisions built on understanding"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: inv_h_s
+            label: "For international investors and individuals exploring opp…"
+            type: object
+            fields:
+              - { name: en, label: English, type: text }
+              - { name: ar, label: عربي, type: text }
+              - { name: sv, label: Svenska, type: text }
+              - { name: fr, label: Français, type: text }
+              - { name: nl, label: "Nederlands (Vlaams)", type: text }
+          - name: inv_disc
+            label: "We are not a licensed investment manager or real estate b…"
+            type: object
+            fields:
+              - { name: en, label: English, type: text }
+              - { name: ar, label: عربي, type: text }
+              - { name: sv, label: Svenska, type: text }
+              - { name: fr, label: Français, type: text }
+              - { name: nl, label: "Nederlands (Vlaams)", type: text }
+          - name: inv_band
+            label: "Exploring an investment opportunity in Dubai?"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+      - name: page_concierge
+        label: "Page — Concierge"
+        type: object
+        fields:
+          - name: con_eye
+            label: "Pillar 03"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: con_t
+            label: "Dubai Private Concierge"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: con_s
+            label: "Personalized services for international visitors, executi…"
+            type: object
+            fields:
+              - { name: en, label: English, type: text }
+              - { name: ar, label: عربي, type: text }
+              - { name: sv, label: Svenska, type: text }
+              - { name: fr, label: Français, type: text }
+              - { name: nl, label: "Nederlands (Vlaams)", type: text }
+          - name: con_cta
+            label: "Send a Concierge Request"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: con_h_eye
+            label: "Our private services"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: con_h_t
+            label: "Your time in Dubai, thoughtfully arranged"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: con_h_s
+            label: "A single point of contact coordinating with trusted, lice…"
+            type: object
+            fields:
+              - { name: en, label: English, type: text }
+              - { name: ar, label: عربي, type: text }
+              - { name: sv, label: Svenska, type: text }
+              - { name: fr, label: Français, type: text }
+              - { name: nl, label: "Nederlands (Vlaams)", type: text }
+          - name: con_disc
+            label: "We are not a medical clinic or a direct provider of regul…"
+            type: object
+            fields:
+              - { name: en, label: English, type: text }
+              - { name: ar, label: عربي, type: text }
+              - { name: sv, label: Svenska, type: text }
+              - { name: fr, label: Français, type: text }
+              - { name: nl, label: "Nederlands (Vlaams)", type: text }
+          - name: con_band
+            label: "Tell us what you need during your stay in Dubai."
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+      - name: page_insights
+        label: "Page — Insights & articles"
+        type: object
+        fields:
+          - name: ins_eye
+            label: "Insights"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: ins_t
+            label: "Insights & perspectives"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: ins_s
+            label: "Concise reading on finance, tax, strategy, governance and…"
+            type: object
+            fields:
+              - { name: en, label: English, type: text }
+              - { name: ar, label: عربي, type: text }
+              - { name: sv, label: Svenska, type: text }
+              - { name: fr, label: Français, type: text }
+              - { name: nl, label: "Nederlands (Vlaams)", type: text }
+          - name: cat_all
+            label: "All"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: cat_tax
+            label: "Finance & Tax"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: cat_strategy
+            label: "Business Strategy"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: cat_gov
+            label: "Corporate Governance"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: cat_dubai
+            label: "Dubai Investment Landscape"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: cat_re
+            label: "Real Estate Insights"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: cat_trends
+            label: "Business & Economic Trends"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: soon
+            label: "Coming soon"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: min
+            label: "min read"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: back
+            label: "Back to Insights"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: art_note
+            label: "This article provides general information only and does n…"
+            type: object
+            fields:
+              - { name: en, label: English, type: text }
+              - { name: ar, label: عربي, type: text }
+              - { name: sv, label: Svenska, type: text }
+              - { name: fr, label: Français, type: text }
+              - { name: nl, label: "Nederlands (Vlaams)", type: text }
+      - name: legal
+        label: "Legal pages"
+        type: object
+        fields:
+          - name: priv_t
+            label: "Privacy Policy"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: terms_t
+            label: "Terms & Conditions"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }
+          - name: updated
+            label: "Last updated: November 2026"
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: ar, label: عربي, type: string }
+              - { name: sv, label: Svenska, type: string }
+              - { name: fr, label: Français, type: string }
+              - { name: nl, label: "Nederlands (Vlaams)", type: string }

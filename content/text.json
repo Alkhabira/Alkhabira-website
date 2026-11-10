@@ -2,773 +2,1328 @@
   "header": {
     "nav_home": {
       "en": "Home",
-      "ar": "الرئيسية"
+      "ar": "الرئيسية",
+      "sv": "Hem",
+      "fr": "Accueil",
+      "nl": "Home"
     },
     "nav_about": {
       "en": "About",
-      "ar": "من نحن"
+      "ar": "من نحن",
+      "sv": "Om oss",
+      "fr": "À propos",
+      "nl": "Over ons"
     },
     "nav_services": {
-      "en": "Services",
-      "ar": "الخدمات"
+      "en": "Business & Financial Services",
+      "ar": "خدمات الأعمال والخدمات المالية",
+      "sv": "Affärs- och finansiella tjänster",
+      "fr": "Services financiers et aux entreprises",
+      "nl": "Zakelijke en financiële diensten"
     },
     "nav_invest": {
       "en": "Investment Opportunities",
-      "ar": "فرص الاستثمار"
+      "ar": "فرص الاستثمار",
+      "sv": "Investeringsmöjligheter",
+      "fr": "Opportunités d'investissement",
+      "nl": "Investeringsmogelijkheden"
     },
     "nav_concierge": {
       "en": "Private Concierge",
-      "ar": "الكونسيرج الخاص"
+      "ar": "الكونسيرج الخاص",
+      "sv": "Privat concierge",
+      "fr": "Conciergerie privée",
+      "nl": "Private concierge"
     },
     "nav_insights": {
       "en": "Insights",
-      "ar": "رؤى"
+      "ar": "رؤى",
+      "sv": "Insikter",
+      "fr": "Analyses",
+      "nl": "Inzichten"
     },
     "nav_contact": {
       "en": "Contact",
-      "ar": "تواصل معنا"
+      "ar": "تواصل معنا",
+      "sv": "Kontakt",
+      "fr": "Contact",
+      "nl": "Contact"
     },
     "dd_p1": {
       "en": "Business & Financial Advisory",
-      "ar": "الاستشارات المالية والأعمال"
+      "ar": "الاستشارات المالية والأعمال",
+      "sv": "Affärs- och finansiell rådgivning",
+      "fr": "Conseil financier et aux entreprises",
+      "nl": "Zakelijk en financieel advies"
     },
     "dd_p1d": {
       "en": "Tax, governance, reporting & corporate services",
-      "ar": "الضرائب والحوكمة والتقارير والخدمات المؤسسية"
+      "ar": "الضرائب والحوكمة والتقارير والخدمات المؤسسية",
+      "sv": "Skatt, styrning, rapportering och företagstjänster",
+      "fr": "Fiscalité, gouvernance, reporting et services aux entreprises",
+      "nl": "Fiscaliteit, governance, rapportering en vennootschapsdiensten"
     },
     "dd_p2": {
       "en": "Investment & Real Estate",
-      "ar": "الاستثمار والعقارات"
+      "ar": "الاستثمار والعقارات",
+      "sv": "Investeringar och fastigheter",
+      "fr": "Investissement et immobilier",
+      "nl": "Investeringen en vastgoed"
     },
     "dd_p2d": {
       "en": "Opportunities, assessment & licensed connections",
-      "ar": "الفرص والتقييم والتواصل مع المختصين المرخّصين"
+      "ar": "الفرص والتقييم والتواصل مع المختصين المرخّصين",
+      "sv": "Möjligheter, analys och licensierade kontakter",
+      "fr": "Opportunités, analyse et mises en relation avec des professionnels agréés",
+      "nl": "Opportuniteiten, analyse en contacten met erkende professionals"
     },
     "dd_p3": {
       "en": "Dubai Private Concierge",
-      "ar": "الكونسيرج الخاص في دبي"
+      "ar": "الكونسيرج الخاص في دبي",
+      "sv": "Privat concierge i Dubai",
+      "fr": "Conciergerie privée à Dubaï",
+      "nl": "Private concierge in Dubai"
     },
     "dd_p3d": {
       "en": "Medical coordination, relocation & lifestyle",
-      "ar": "التنسيق الطبي والانتقال وأسلوب الحياة"
+      "ar": "التنسيق الطبي والانتقال وأسلوب الحياة",
+      "sv": "Medicinsk samordning, flytt och livsstil",
+      "fr": "Coordination médicale, installation et art de vivre",
+      "nl": "Medische coördinatie, verhuis en lifestyle"
     },
     "hd_cta": {
       "en": "Book a Private Consultation",
-      "ar": "احجز استشارة خاصة"
+      "ar": "احجز استشارة خاصة",
+      "sv": "Boka en privat konsultation",
+      "fr": "Réserver une consultation privée",
+      "nl": "Boek een privéconsultatie"
     },
     "wa_label": {
       "en": "WhatsApp",
-      "ar": "واتساب"
+      "ar": "واتساب",
+      "sv": "WhatsApp",
+      "fr": "WhatsApp",
+      "nl": "WhatsApp"
     },
     "pg_home": {
       "en": "Home",
-      "ar": "الرئيسية"
+      "ar": "الرئيسية",
+      "sv": "Hem",
+      "fr": "Accueil",
+      "nl": "Home"
     }
   },
   "footer": {
     "ft_sig1": {
       "en": "Connecting Ambition",
-      "ar": "نربط الطموح"
+      "ar": "نربط الطموح",
+      "sv": "Vi förenar ambition",
+      "fr": "Relier l'ambition",
+      "nl": "Ambitie verbinden"
     },
     "ft_sig2": {
       "en": "with Opportunity.",
-      "ar": "بالفرص."
+      "ar": "بالفرص.",
+      "sv": "med möjligheter.",
+      "fr": "aux opportunités.",
+      "nl": "met opportuniteiten."
     },
     "ft_desc": {
       "en": "Premium business advisory and private client services in Dubai, combining professional expertise with personal attention.",
-      "ar": "منصة استشارات مالية وأعمال وخدمات خاصة في دبي، تجمع بين الخبرة المهنية والاهتمام الشخصي بكل عميل."
+      "ar": "استشارات مالية وأعمال وخدمات خاصة في دبي، بخبرة مهنية واهتمام شخصي.",
+      "sv": "Finansiell rådgivning, affärsrådgivning och privata tjänster i Dubai – med expertis och personlig omsorg.",
+      "fr": "Conseil financier, accompagnement des entreprises et services privés à Dubaï, avec expertise et attention personnelle.",
+      "nl": "Financieel en zakelijk advies en privédiensten in Dubai, met expertise en persoonlijke aandacht."
     },
     "ft_nav": {
       "en": "Navigate",
-      "ar": "تصفّح"
+      "ar": "تصفّح",
+      "sv": "Navigera",
+      "fr": "Navigation",
+      "nl": "Navigatie"
     },
     "ft_services": {
       "en": "Services",
-      "ar": "الخدمات"
+      "ar": "الخدمات",
+      "sv": "Tjänster",
+      "fr": "Services",
+      "nl": "Diensten"
     },
     "ft_contact": {
       "en": "Contact",
-      "ar": "تواصل"
+      "ar": "تواصل",
+      "sv": "Kontakt",
+      "fr": "Contact",
+      "nl": "Contact"
     },
     "ft_privacy": {
       "en": "Privacy Policy",
-      "ar": "سياسة الخصوصية"
+      "ar": "سياسة الخصوصية",
+      "sv": "Integritetspolicy",
+      "fr": "Politique de confidentialité",
+      "nl": "Privacybeleid"
     },
     "ft_terms": {
       "en": "Terms & Conditions",
-      "ar": "الشروط والأحكام"
+      "ar": "الشروط والأحكام",
+      "sv": "Villkor",
+      "fr": "Conditions d'utilisation",
+      "nl": "Gebruiksvoorwaarden"
     },
     "ft_rights": {
       "en": "© 2026 Saida Afly Business Gateway. All rights reserved.",
-      "ar": "© 2026 Saida Afly Business Gateway. جميع الحقوق محفوظة."
+      "ar": "© 2026 Saida Afly Business Gateway. جميع الحقوق محفوظة.",
+      "sv": "© 2026 Saida Afly Business Gateway. Alla rättigheter förbehållna.",
+      "fr": "© 2026 Saida Afly Business Gateway. Tous droits réservés.",
+      "nl": "© 2026 Saida Afly Business Gateway. Alle rechten voorbehouden."
     },
     "ft_disc": {
       "en": "Saida Afly Business Gateway provides advisory, introduction and coordination services. Regulated activities — including real estate brokerage, investment management and medical services — are carried out by appropriately licensed providers. Nothing on this website constitutes investment advice or a guarantee of any return.",
-      "ar": "تقدّم Saida Afly Business Gateway خدمات استشارية وخدمات تعريف وتنسيق. أما الخدمات الخاضعة للتنظيم، كالوساطة العقارية وإدارة الاستثمارات والخدمات الطبية، فيقدّمها مزوّدون حاصلون على التراخيص المطلوبة. لا يشكّل محتوى هذا الموقع نصيحة استثمارية أو ضمانًا لأي عائد."
+      "ar": "نقدّم الاستشارات والتعريف والتنسيق فقط. الخدمات الخاضعة للتنظيم، كالوساطة العقارية وإدارة الاستثمار والخدمات الطبية، يقدّمها مزوّدون مرخّصون. لا يُعد محتوى الموقع نصيحة استثمارية ولا ضمانًا لأي عائد.",
+      "sv": "Vi erbjuder rådgivning, introduktioner och samordning. Reglerad verksamhet (fastighetsmäkleri, kapitalförvaltning, vård) utförs av licensierade aktörer. Webbplatsen är inte investeringsrådgivning och garanterar ingen avkastning.",
+      "fr": "Nous offrons conseil, mises en relation et coordination. Les activités réglementées (courtage immobilier, gestion d'actifs, soins médicaux) sont assurées par des prestataires agréés. Ce site ne constitue ni un conseil en investissement ni une garantie de rendement.",
+      "nl": "Wij bieden advies, introducties en coördinatie. Gereglementeerde activiteiten (vastgoedmakelaardij, vermogensbeheer, medische zorg) worden uitgevoerd door erkende dienstverleners. Deze website is geen beleggingsadvies en geeft geen rendementsgarantie."
     },
     "city": {
       "en": "Dubai, United Arab Emirates",
-      "ar": "دبي، الإمارات العربية المتحدة"
+      "ar": "دبي، الإمارات العربية المتحدة",
+      "sv": "Dubai, Förenade Arabemiraten",
+      "fr": "Dubaï, Émirats arabes unis",
+      "nl": "Dubai, Verenigde Arabische Emiraten"
     }
   },
   "form": {
     "m_eyebrow": {
       "en": "Private & confidential",
-      "ar": "خاص وسرّي"
+      "ar": "خاص وسرّي",
+      "sv": "Privat och konfidentiellt",
+      "fr": "Privé et confidentiel",
+      "nl": "Privé en vertrouwelijk"
     },
     "m_title": {
       "en": "Request a Private Consultation",
-      "ar": "طلب استشارة خاصة"
+      "ar": "طلب استشارة خاصة",
+      "sv": "Begär en privat konsultation",
+      "fr": "Demander une consultation privée",
+      "nl": "Vraag een privéconsultatie aan"
     },
     "m_sub": {
       "en": "Share a few details and we will respond to you personally.",
-      "ar": "شاركنا بعض التفاصيل، وسنتواصل معك شخصيًا."
+      "ar": "شاركنا بعض التفاصيل، وسنتواصل معك شخصيًا.",
+      "sv": "Dela några uppgifter så återkommer vi personligen till dig.",
+      "fr": "Partagez quelques informations et nous vous répondrons personnellement.",
+      "nl": "Deel enkele gegevens en we nemen persoonlijk contact met u op."
     },
     "tab_c": {
       "en": "Consultation",
-      "ar": "استشارة"
+      "ar": "استشارة",
+      "sv": "Konsultation",
+      "fr": "Consultation",
+      "nl": "Consultatie"
     },
     "tab_i": {
       "en": "Investment inquiry",
-      "ar": "استفسار استثماري"
+      "ar": "استفسار استثماري",
+      "sv": "Investeringsförfrågan",
+      "fr": "Demande d'investissement",
+      "nl": "Investeringsaanvraag"
     },
     "tab_r": {
       "en": "Concierge request",
-      "ar": "طلب كونسيرج"
+      "ar": "طلب كونسيرج",
+      "sv": "Concierge-förfrågan",
+      "fr": "Demande de conciergerie",
+      "nl": "Concierge-aanvraag"
     },
     "f_name": {
       "en": "Full name",
-      "ar": "الاسم الكامل"
+      "ar": "الاسم الكامل",
+      "sv": "Fullständigt namn",
+      "fr": "Nom complet",
+      "nl": "Volledige naam"
     },
     "f_email": {
       "en": "Email address",
-      "ar": "البريد الإلكتروني"
+      "ar": "البريد الإلكتروني",
+      "sv": "E-postadress",
+      "fr": "Adresse e-mail",
+      "nl": "E-mailadres"
     },
     "f_phone": {
       "en": "Phone / WhatsApp",
-      "ar": "الهاتف / واتساب"
+      "ar": "الهاتف / واتساب",
+      "sv": "Telefon / WhatsApp",
+      "fr": "Téléphone / WhatsApp",
+      "nl": "Telefoon / WhatsApp"
     },
     "f_country": {
       "en": "Country of residence",
-      "ar": "بلد الإقامة"
+      "ar": "بلد الإقامة",
+      "sv": "Bosättningsland",
+      "fr": "Pays de résidence",
+      "nl": "Land van verblijf"
     },
     "f_service": {
       "en": "Service of interest",
-      "ar": "الخدمة المطلوبة"
+      "ar": "الخدمة المطلوبة",
+      "sv": "Tjänst av intresse",
+      "fr": "Service souhaité",
+      "nl": "Gewenste dienst"
     },
     "f_choose": {
       "en": "Select a service",
-      "ar": "اختر خدمة"
+      "ar": "اختر خدمة",
+      "sv": "Välj en tjänst",
+      "fr": "Choisissez un service",
+      "nl": "Kies een dienst"
     },
     "f_desc": {
       "en": "Brief description of your requirements",
-      "ar": "وصف موجز لاحتياجاتك"
+      "ar": "وصف موجز لاحتياجاتك",
+      "sv": "Kort beskrivning av dina behov",
+      "fr": "Brève description de votre besoin",
+      "nl": "Korte beschrijving van uw vraag"
     },
     "f_date": {
       "en": "Preferred consultation date",
-      "ar": "التاريخ المفضل للاستشارة"
+      "ar": "التاريخ المفضل للاستشارة",
+      "sv": "Önskat datum för konsultation",
+      "fr": "Date de consultation souhaitée",
+      "nl": "Gewenste datum voor de consultatie"
     },
     "f_method": {
       "en": "Preferred contact method",
-      "ar": "وسيلة التواصل المفضلة"
+      "ar": "وسيلة التواصل المفضلة",
+      "sv": "Önskat kontaktsätt",
+      "fr": "Moyen de contact préféré",
+      "nl": "Gewenste contactwijze"
     },
     "m_email": {
       "en": "Email",
-      "ar": "البريد الإلكتروني"
+      "ar": "البريد الإلكتروني",
+      "sv": "E-post",
+      "fr": "E-mail",
+      "nl": "E-mail"
     },
     "m_phone": {
       "en": "Phone",
-      "ar": "الهاتف"
+      "ar": "الهاتف",
+      "sv": "Telefon",
+      "fr": "Téléphone",
+      "nl": "Telefoon"
     },
     "m_wa": {
       "en": "WhatsApp",
-      "ar": "واتساب"
+      "ar": "واتساب",
+      "sv": "WhatsApp",
+      "fr": "WhatsApp",
+      "nl": "WhatsApp"
     },
     "f_privacy": {
       "en": "Your information is used only to respond to your inquiry. It is never sold or shared for marketing. You may request its deletion at any time.",
-      "ar": "تُستخدم معلوماتك فقط للرد على طلبك، ولا تُباع ولا تُشارك لأغراض تسويقية. يمكنك طلب حذفها في أي وقت."
+      "ar": "نستخدم بياناتك للرد على طلبك فقط، ولا نبيعها ولا نشاركها للتسويق، ويمكنك طلب حذفها متى شئت.",
+      "sv": "Dina uppgifter används bara för din förfrågan. De säljs aldrig eller används för marknadsföring, och du kan när som helst begära radering.",
+      "fr": "Vos données servent uniquement à traiter votre demande. Elles ne sont ni vendues ni utilisées à des fins marketing, et vous pouvez en demander la suppression à tout moment.",
+      "nl": "We gebruiken uw gegevens enkel voor uw aanvraag. Ze worden niet verkocht of voor marketing gebruikt, en u kunt ze altijd laten verwijderen."
     },
     "f_consent_a": {
       "en": "I agree that Saida Afly Business Gateway may use the information I provide to respond to my inquiry, as described in the",
-      "ar": "أوافق على أن تستخدم Saida Afly Business Gateway المعلومات التي أقدّمها للرد على طلبي، وفق"
+      "ar": "أوافق على أن تستخدم Saida Afly Business Gateway المعلومات التي أقدّمها للرد على طلبي، وفق",
+      "sv": "Jag godkänner att mina uppgifter används för att besvara min förfrågan, enligt",
+      "fr": "J'accepte que mes informations soient utilisées pour répondre à ma demande, conformément à la",
+      "nl": "Ik ga akkoord dat mijn gegevens gebruikt worden om op mijn aanvraag te antwoorden, volgens het"
     },
     "f_consent_b": {
       "en": "Privacy Policy",
-      "ar": "سياسة الخصوصية"
+      "ar": "سياسة الخصوصية",
+      "sv": "integritetspolicyn",
+      "fr": "politique de confidentialité",
+      "nl": "privacybeleid"
     },
     "f_submit": {
       "en": "Submit request",
-      "ar": "إرسال الطلب"
+      "ar": "إرسال الطلب",
+      "sv": "Skicka förfrågan",
+      "fr": "Envoyer la demande",
+      "nl": "Aanvraag versturen"
     },
     "f_err": {
       "en": "Please complete the required fields and confirm your consent.",
-      "ar": "يرجى استكمال الحقول المطلوبة وتأكيد الموافقة."
+      "ar": "يرجى استكمال الحقول المطلوبة وتأكيد الموافقة.",
+      "sv": "Fyll i de obligatoriska fälten och bekräfta ditt samtycke.",
+      "fr": "Veuillez remplir les champs obligatoires et confirmer votre consentement.",
+      "nl": "Vul de verplichte velden in en bevestig uw toestemming."
     },
     "r_ok_t": {
       "en": "Thank you — your request has been received.",
-      "ar": "شكرًا لك، استلمنا طلبك."
+      "ar": "شكرًا لك، استلمنا طلبك.",
+      "sv": "Tack – vi har tagit emot din förfrågan.",
+      "fr": "Merci – nous avons bien reçu votre demande.",
+      "nl": "Dank u – we hebben uw aanvraag goed ontvangen."
     },
     "r_ok_d": {
       "en": "We will contact you using your preferred method.",
-      "ar": "سنتواصل معك عبر وسيلة التواصل التي اخترتها."
+      "ar": "سنتواصل معك عبر وسيلة التواصل التي اخترتها.",
+      "sv": "Vi kontaktar dig på det sätt du föredrar.",
+      "fr": "Nous vous contacterons par le moyen que vous préférez.",
+      "nl": "We nemen contact met u op via de contactwijze van uw voorkeur."
     },
     "r_fb_t": {
       "en": "Your request is ready",
-      "ar": "طلبك جاهز"
+      "ar": "طلبك جاهز",
+      "sv": "Din förfrågan är klar",
+      "fr": "Votre demande est prête",
+      "nl": "Uw aanvraag is klaar"
     },
     "r_fb_d": {
       "en": "Online submission isn't available in this preview. Send your request directly — it's already written for you:",
-      "ar": "الإرسال الإلكتروني غير متاح في هذه النسخة التجريبية. أرسل طلبك مباشرة، فقد كتبناه لك:"
+      "ar": "الإرسال الإلكتروني غير متاح في هذه النسخة التجريبية. أرسل طلبك مباشرة، فقد كتبناه لك:",
+      "sv": "Onlineinskick fungerar inte i förhandsvisningen. Skicka din förfrågan direkt – den är redan ifylld:",
+      "fr": "L'envoi en ligne n'est pas disponible dans cet aperçu. Envoyez directement votre demande, déjà rédigée :",
+      "nl": "Online versturen werkt niet in deze preview. Verstuur uw aanvraag rechtstreeks, ze staat al klaar:"
     },
     "r_wa": {
       "en": "Send via WhatsApp",
-      "ar": "إرسال عبر واتساب"
+      "ar": "إرسال عبر واتساب",
+      "sv": "Skicka via WhatsApp",
+      "fr": "Envoyer par WhatsApp",
+      "nl": "Versturen via WhatsApp"
     },
     "r_mail": {
       "en": "Send by email",
-      "ar": "إرسال بالبريد"
+      "ar": "إرسال بالبريد",
+      "sv": "Skicka via e-post",
+      "fr": "Envoyer par e-mail",
+      "nl": "Versturen via e-mail"
     },
     "r_close": {
       "en": "Close",
-      "ar": "إغلاق"
+      "ar": "إغلاق",
+      "sv": "Stäng",
+      "fr": "Fermer",
+      "nl": "Sluiten"
     }
   },
   "home_hero": {
     "h_eye": {
       "en": "Premium Business Advisory · Dubai",
-      "ar": "استشارات أعمال متميزة · دبي"
+      "ar": "استشارات أعمال متميزة · دبي",
+      "sv": "Exklusiv affärsrådgivning · Dubai",
+      "fr": "Conseil haut de gamme · Dubaï",
+      "nl": "Exclusief zakelijk advies · Dubai"
     },
     "h_t1": {
       "en": "Your Ambitions.",
-      "ar": "طموحاتك."
+      "ar": "طموحاتك.",
+      "sv": "Dina ambitioner.",
+      "fr": "Vos ambitions.",
+      "nl": "Uw ambities."
     },
     "h_t2": {
       "en": "Our Expertise.",
-      "ar": "خبرتنا."
+      "ar": "خبرتنا.",
+      "sv": "Vår expertis.",
+      "fr": "Notre expertise.",
+      "nl": "Onze expertise."
     },
     "h_t3": {
       "en": "Dubai.",
-      "ar": "دبي."
+      "ar": "دبي.",
+      "sv": "Dubai.",
+      "fr": "Dubaï.",
+      "nl": "Dubai."
     },
     "h_lead": {
       "en": "From financial and tax advisory to investment opportunities and exclusive concierge services — your trusted gateway to business, investment, and exceptional experiences in Dubai.",
-      "ar": "من الاستشارات المالية والضريبية إلى فرص الاستثمار وخدمات الكونسيرج الحصرية، بوابتك الموثوقة إلى الأعمال والاستثمار والتجارب الاستثنائية في دبي."
+      "ar": "استشارات مالية وضريبية، وفرص استثمار، وخدمات كونسيرج حصرية: بوابتك الموثوقة إلى الأعمال والحياة في دبي.",
+      "sv": "Finansiell rådgivning och skatterådgivning, investeringsmöjligheter och exklusiv concierge – din pålitliga väg till affärer och livet i Dubai.",
+      "fr": "Conseil financier et fiscal, opportunités d'investissement, conciergerie d'exception : votre accès privilégié aux affaires et à la vie à Dubaï.",
+      "nl": "Financieel en fiscaal advies, investeringsmogelijkheden en exclusieve conciërgediensten: uw vertrouwde toegang tot zakendoen en leven in Dubai."
     },
     "h_cta1": {
       "en": "Book a Private Consultation",
-      "ar": "احجز استشارة خاصة"
+      "ar": "احجز استشارة خاصة",
+      "sv": "Boka en privat konsultation",
+      "fr": "Réserver une consultation privée",
+      "nl": "Boek een privéconsultatie"
     },
     "h_cta2": {
       "en": "Explore Our Services",
-      "ar": "استكشف خدماتنا"
+      "ar": "استكشف خدماتنا",
+      "sv": "Utforska våra tjänster",
+      "fr": "Découvrir nos services",
+      "nl": "Ontdek onze diensten"
     },
     "h_sig": {
       "en": "Your Wealth. Our Priority. Your Peace of Mind.",
-      "ar": "ثروتك. أولويتنا. راحة بالك."
+      "ar": "ثروتك. أولويتنا. راحة بالك.",
+      "sv": "Din förmögenhet. Vår prioritet. Din trygghet.",
+      "fr": "Votre patrimoine. Notre priorité. Votre sérénité.",
+      "nl": "Uw vermogen. Onze prioriteit. Uw gemoedsrust."
     }
   },
   "home_services": {
     "p_eye": {
       "en": "Our Services",
-      "ar": "خدماتنا"
+      "ar": "خدماتنا",
+      "sv": "Våra tjänster",
+      "fr": "Nos services",
+      "nl": "Onze diensten"
     },
     "p_t": {
       "en": "Three pillars. One trusted gateway.",
-      "ar": "ثلاث ركائز، وبوابة واحدة موثوقة."
+      "ar": "ثلاث ركائز، وبوابة واحدة موثوقة.",
+      "sv": "Tre pelare. En kontaktperson.",
+      "fr": "Trois piliers, un seul interlocuteur.",
+      "nl": "Drie pijlers, één aanspreekpunt."
     },
     "p_s": {
       "en": "Financial expertise is our foundation. Investment facilitation and private concierge services complete a single, coordinated experience.",
-      "ar": "الخبرة المالية هي أساسنا، وتكمّلها خدمات تيسير الاستثمار والكونسيرج الخاص في تجربة واحدة متكاملة."
+      "ar": "الخبرة المالية أساسنا، ويكمّلها الاستثمار والكونسيرج الخاص في تجربة واحدة متكاملة.",
+      "sv": "Finansiell expertis är vår grund; investeringar och privat concierge kompletterar helheten.",
+      "fr": "L'expertise financière est notre socle ; l'investissement et la conciergerie privée complètent une offre intégrée.",
+      "nl": "Financiële expertise is onze basis; investeringen en private concierge maken het aanbod compleet."
     },
     "p1_t": {
       "en": "Business & Financial Advisory",
-      "ar": "الاستشارات المالية والأعمال"
+      "ar": "الاستشارات المالية والأعمال",
+      "sv": "Affärs- och finansiell rådgivning",
+      "fr": "Conseil financier et aux entreprises",
+      "nl": "Zakelijk en financieel advies"
     },
     "p1_d": {
       "en": "The professional foundation of our brand: financial and tax expertise with strategic insight for your company.",
-      "ar": "الأساس المهني لعلامتنا: خبرة مالية وضريبية ورؤية استراتيجية لشركتك."
+      "ar": "الأساس المهني لعلامتنا: خبرة مالية وضريبية ورؤية استراتيجية لشركتك.",
+      "sv": "Vår kärna: finansiell expertis, skattekunskap och strategisk blick.",
+      "fr": "Notre cœur de métier : expertise financière et fiscale, vision stratégique.",
+      "nl": "Onze kern: financiële en fiscale expertise met strategische visie."
     },
     "p1_l1": {
       "en": "UAE Corporate Tax & VAT",
-      "ar": "ضريبة الشركات وضريبة القيمة المضافة"
+      "ar": "ضريبة الشركات وضريبة القيمة المضافة",
+      "sv": "Bolagsskatt och moms i Förenade Arabemiraten",
+      "fr": "Impôt sur les sociétés et TVA aux Émirats",
+      "nl": "Vennootschapsbelasting en btw in de VAE"
     },
     "p1_l2": {
       "en": "Corporate Governance & Risk Management",
-      "ar": "الحوكمة المؤسسية وإدارة المخاطر"
+      "ar": "الحوكمة المؤسسية وإدارة المخاطر",
+      "sv": "Bolagsstyrning och riskhantering",
+      "fr": "Gouvernance d'entreprise et gestion des risques",
+      "nl": "Corporate governance en risicobeheer"
     },
     "p1_l3": {
       "en": "Financial Reporting & Compliance",
-      "ar": "التقارير المالية والامتثال"
+      "ar": "التقارير المالية والامتثال",
+      "sv": "Finansiell rapportering och regelefterlevnad",
+      "fr": "Reporting financier et conformité",
+      "nl": "Financiële rapportering en compliance"
     },
     "p1_l4": {
       "en": "Business Setup & Corporate Services",
-      "ar": "تأسيس الشركات والخدمات المؤسسية"
+      "ar": "تأسيس الشركات والخدمات المؤسسية",
+      "sv": "Företagsetablering och företagstjänster",
+      "fr": "Création d'entreprise et services aux sociétés",
+      "nl": "Oprichting van vennootschappen en vennootschapsdiensten"
     },
     "p1_more": {
       "en": "Explore advisory",
-      "ar": "استكشف الاستشارات"
+      "ar": "استكشف الاستشارات",
+      "sv": "Utforska rådgivning",
+      "fr": "Découvrir le conseil",
+      "nl": "Ontdek ons advies"
     },
     "p2_t": {
       "en": "Investment & Real Estate",
-      "ar": "الاستثمار والعقارات"
+      "ar": "الاستثمار والعقارات",
+      "sv": "Investeringar och fastigheter",
+      "fr": "Investissement et immobilier",
+      "nl": "Investeringen en vastgoed"
     },
     "p2_d": {
       "en": "Informed guidance through Dubai's investment landscape, with the right professional connections.",
-      "ar": "إرشاد مدروس في مشهد الاستثمار بدبي، وتواصل مع المختصين المناسبين."
+      "ar": "إرشاد مدروس في مشهد الاستثمار بدبي، وتواصل مع المختصين المناسبين.",
+      "sv": "Klok vägledning på Dubais investeringsmarknad, med rätt kontakter.",
+      "fr": "Un regard éclairé sur l'investissement à Dubaï et les bons contacts professionnels.",
+      "nl": "Heldere begeleiding op de investeringsmarkt van Dubai, met de juiste contacten."
     },
     "p2_l1": {
       "en": "Dubai Real Estate Investment Opportunities",
-      "ar": "فرص الاستثمار العقاري في دبي"
+      "ar": "فرص الاستثمار العقاري في دبي",
+      "sv": "Fastighetsinvesteringar i Dubai",
+      "fr": "Investissement immobilier à Dubaï",
+      "nl": "Vastgoedinvesteringen in Dubai"
     },
     "p2_l2": {
       "en": "Investment Opportunity Assessment",
-      "ar": "تقييم الفرص الاستثمارية"
+      "ar": "تقييم الفرص الاستثمارية",
+      "sv": "Analys av investeringsmöjligheter",
+      "fr": "Analyse d'opportunités d'investissement",
+      "nl": "Analyse van investeringsopportuniteiten"
     },
     "p2_l3": {
       "en": "Investor Introductions",
-      "ar": "التعريف بالمستثمرين"
+      "ar": "التعريف بالمستثمرين",
+      "sv": "Introduktioner till investerare",
+      "fr": "Mises en relation avec des investisseurs",
+      "nl": "Introducties bij investeerders"
     },
     "p2_l4": {
       "en": "Coordination with Licensed Professionals",
-      "ar": "التنسيق مع المختصين المرخّصين"
+      "ar": "التنسيق مع المختصين المرخّصين",
+      "sv": "Samordning med licensierade yrkespersoner",
+      "fr": "Coordination avec des professionnels agréés",
+      "nl": "Coördinatie met erkende professionals"
     },
     "p2_more": {
       "en": "Explore investment",
-      "ar": "استكشف فرص الاستثمار"
+      "ar": "استكشف فرص الاستثمار",
+      "sv": "Utforska investeringar",
+      "fr": "Découvrir l'investissement",
+      "nl": "Ontdek investeringen"
     },
     "p3_t": {
       "en": "Dubai Private Concierge",
-      "ar": "الكونسيرج الخاص في دبي"
+      "ar": "الكونسيرج الخاص في دبي",
+      "sv": "Privat concierge i Dubai",
+      "fr": "Conciergerie privée à Dubaï",
+      "nl": "Private concierge in Dubai"
     },
     "p3_d": {
       "en": "Personalized services with discretion and attention to detail for visitors, executives and private clients.",
-      "ar": "خدمات شخصية بخصوصية واهتمام بالتفاصيل للزوار والتنفيذيين والعملاء الخاصين."
+      "ar": "خدمات شخصية بخصوصية واهتمام بالتفاصيل للزوار والتنفيذيين والعملاء الخاصين.",
+      "sv": "Diskreta, skräddarsydda tjänster för besökare, chefer och privatkunder.",
+      "fr": "Des services sur mesure, discrets et soignés, pour visiteurs, dirigeants et clients privés.",
+      "nl": "Discrete diensten op maat voor bezoekers, leidinggevenden en privécliënten."
     },
     "p3_l1": {
       "en": "Medical & Aesthetic Services Coordination",
-      "ar": "تنسيق الخدمات الطبية والتجميلية"
+      "ar": "تنسيق الخدمات الطبية والتجميلية",
+      "sv": "Samordning av medicinska och estetiska tjänster",
+      "fr": "Coordination de soins médicaux et esthétiques",
+      "nl": "Coördinatie van medische en esthetische zorg"
     },
     "p3_l2": {
       "en": "Premium Accommodation Arrangements",
-      "ar": "ترتيب الإقامة الراقية"
+      "ar": "ترتيب الإقامة الراقية",
+      "sv": "Exklusivt boende",
+      "fr": "Hébergement haut de gamme",
+      "nl": "Exclusieve accommodatie"
     },
     "p3_l3": {
       "en": "Relocation & Settling-in Assistance",
-      "ar": "الانتقال والاستقرار في دبي"
+      "ar": "الانتقال والاستقرار في دبي",
+      "sv": "Hjälp med flytt och etablering",
+      "fr": "Aide à l'installation et à la relocalisation",
+      "nl": "Hulp bij verhuis en vestiging"
     },
     "p3_l4": {
       "en": "Luxury Lifestyle Experiences",
-      "ar": "تجارب أسلوب الحياة الفاخرة"
+      "ar": "تجارب أسلوب الحياة الفاخرة",
+      "sv": "Exklusiva livsstilsupplevelser",
+      "fr": "Expériences art de vivre exclusives",
+      "nl": "Exclusieve lifestyle-ervaringen"
     },
     "p3_more": {
       "en": "Explore concierge",
-      "ar": "استكشف الكونسيرج"
+      "ar": "استكشف الكونسيرج",
+      "sv": "Utforska concierge",
+      "fr": "Découvrir la conciergerie",
+      "nl": "Ontdek de concierge"
     }
   },
   "home_philosophy": {
     "t_eye": {
       "en": "Our philosophy",
-      "ar": "فلسفتنا"
+      "ar": "فلسفتنا",
+      "sv": "Vår filosofi",
+      "fr": "Notre philosophie",
+      "nl": "Onze filosofie"
     },
     "t_t": {
       "en": "Built on Expertise. Guided by Integrity. Focused on You.",
-      "ar": "خبرة نبني عليها. نزاهة تقودنا. وأنت محور اهتمامنا."
+      "ar": "خبرة نبني عليها. نزاهة تقودنا. وأنت محور اهتمامنا.",
+      "sv": "Expertis. Integritet. Du i fokus.",
+      "fr": "L'expertise. L'intégrité. Votre intérêt avant tout.",
+      "nl": "Expertise. Integriteit. U centraal."
     },
     "t_s": {
       "en": "We believe every business decision, investment consideration, and personal journey deserves informed guidance, discretion, and individual attention.",
-      "ar": "نؤمن بأن كل قرار في الأعمال، وكل خطوة استثمارية، وكل رحلة شخصية، تستحق إرشادًا مدروسًا وخصوصية واهتمامًا فرديًا."
+      "ar": "كل قرار تجاري أو استثماري أو شخصي يستحق إرشادًا مدروسًا وخصوصية واهتمامًا فرديًا.",
+      "sv": "Varje affärsbeslut, investering eller personlig plan förtjänar kunnig vägledning, diskretion och verklig uppmärksamhet.",
+      "fr": "Chaque décision, qu'elle soit professionnelle, financière ou personnelle, mérite un conseil éclairé, de la discrétion et une vraie écoute.",
+      "nl": "Elke zakelijke, financiële of persoonlijke beslissing verdient deskundig advies, discretie en echte aandacht."
     },
     "v1_t": {
       "en": "Professional Expertise",
-      "ar": "خبرة مهنية"
+      "ar": "خبرة مهنية",
+      "sv": "Professionell expertis",
+      "fr": "Expertise professionnelle",
+      "nl": "Professionele expertise"
     },
     "v1_d": {
       "en": "More than 15 years in financial management, tax, audit and governance, applied to your objectives.",
-      "ar": "أكثر من 15 عامًا في الإدارة المالية والضرائب والتدقيق والحوكمة، تُوظَّف لخدمة أهدافك."
+      "ar": "أكثر من 15 عامًا في الإدارة المالية والضرائب والتدقيق والحوكمة، في خدمة أهدافك.",
+      "sv": "Över 15 års erfarenhet av finans, skatt, revision och styrning – för dina mål.",
+      "fr": "Plus de 15 ans en finance, fiscalité, audit et gouvernance, au service de vos objectifs.",
+      "nl": "Meer dan 15 jaar ervaring in financiën, fiscaliteit, audit en governance, voor uw doelen."
     },
     "v2_t": {
       "en": "Independent Perspective",
-      "ar": "رؤية مستقلة"
+      "ar": "رؤية مستقلة",
+      "sv": "Oberoende perspektiv",
+      "fr": "Regard indépendant",
+      "nl": "Onafhankelijke blik"
     },
     "v2_d": {
       "en": "Candid, balanced guidance that puts your interests first — with full clarity about our role and its limits.",
-      "ar": "نصيحة صريحة ومتوازنة تضع مصلحتك أولًا، مع وضوح كامل في دورنا وحدوده."
+      "ar": "نصيحة صريحة ومتوازنة تضع مصلحتك أولًا، مع وضوح كامل في دورنا وحدوده.",
+      "sv": "Rak och balanserad rådgivning, med full öppenhet om vår roll.",
+      "fr": "Un conseil franc et équilibré, avec une totale transparence sur notre rôle.",
+      "nl": "Eerlijk en evenwichtig advies, met volledige transparantie over onze rol."
     },
     "v3_t": {
       "en": "Personalized Attention",
-      "ar": "اهتمام شخصي"
+      "ar": "اهتمام شخصي",
+      "sv": "Personlig uppmärksamhet",
+      "fr": "Attention personnalisée",
+      "nl": "Persoonlijke aandacht"
     },
     "v3_d": {
       "en": "One point of contact who knows your file and follows every step with complete confidentiality.",
-      "ar": "محاور واحد يعرف ملفك جيدًا، ويتابع معك كل خطوة بسرّية تامة."
+      "ar": "محاور واحد يعرف ملفك جيدًا، ويتابع معك كل خطوة بسرّية تامة.",
+      "sv": "En kontaktperson som känner ditt ärende och följer dig konfidentiellt.",
+      "fr": "Un interlocuteur unique, qui connaît votre dossier et vous suit en toute confidentialité.",
+      "nl": "Eén aanspreekpunt dat uw dossier kent en u vertrouwelijk opvolgt."
     }
   },
   "home_process": {
     "w_eye": {
       "en": "How we work",
-      "ar": "كيف نعمل"
+      "ar": "كيف نعمل",
+      "sv": "Så arbetar vi",
+      "fr": "Notre démarche",
+      "nl": "Onze werkwijze"
     },
     "w_t": {
       "en": "A simple, discreet journey",
-      "ar": "رحلة بسيطة وسرّية"
+      "ar": "رحلة بسيطة وسرّية",
+      "sv": "En enkel och diskret resa",
+      "fr": "Un parcours simple et discret",
+      "nl": "Een eenvoudig en discreet traject"
     },
     "w1_t": {
       "en": "Tell Us Your Goal",
-      "ar": "أخبرنا بهدفك"
+      "ar": "أخبرنا بهدفك",
+      "sv": "Berätta om ditt mål",
+      "fr": "Partagez votre objectif",
+      "nl": "Deel uw doel"
     },
     "w1_d": {
       "en": "Share your business objectives, investment interests, or personal requirements.",
-      "ar": "شاركنا أهدافك في الأعمال أو اهتماماتك الاستثمارية أو احتياجاتك الشخصية."
+      "ar": "شاركنا أهدافك في الأعمال أو اهتماماتك الاستثمارية أو احتياجاتك الشخصية.",
+      "sv": "Berätta om dina mål, investeringsplaner eller personliga behov.",
+      "fr": "Parlez-nous de vos objectifs, de vos projets d'investissement ou de vos besoins personnels.",
+      "nl": "Vertel ons over uw doelen, investeringsplannen of persoonlijke wensen."
     },
     "w2_t": {
       "en": "Receive Tailored Guidance",
-      "ar": "احصل على إرشاد مخصص"
+      "ar": "احصل على إرشاد مخصص",
+      "sv": "Få skräddarsydd vägledning",
+      "fr": "Recevez un accompagnement sur mesure",
+      "nl": "Ontvang begeleiding op maat"
     },
     "w2_d": {
       "en": "We assess your needs and identify suitable solutions, opportunities, and professional connections.",
-      "ar": "ندرس احتياجاتك ونحدد الحلول والفرص والتواصلات المهنية المناسبة."
+      "ar": "ندرس احتياجاتك ونحدد الحلول والفرص والتواصلات المهنية المناسبة.",
+      "sv": "Vi hittar rätt lösningar, möjligheter och kontakter.",
+      "fr": "Nous identifions les solutions, opportunités et contacts adaptés.",
+      "nl": "Wij zoeken de passende oplossingen, opportuniteiten en contacten."
     },
     "w3_t": {
       "en": "Move Forward with Confidence",
-      "ar": "تقدّم بثقة"
+      "ar": "تقدّم بثقة",
+      "sv": "Gå vidare med trygghet",
+      "fr": "Avancez en toute confiance",
+      "nl": "Ga met vertrouwen verder"
     },
     "w3_d": {
       "en": "Benefit from personalized coordination, professional guidance, and ongoing support appropriate to your requirements.",
-      "ar": "استفد من تنسيق شخصي وإرشاد مهني ومتابعة مستمرة تناسب احتياجاتك."
+      "ar": "تنسيق شخصي وإرشاد مهني ومتابعة مستمرة على مقاس احتياجاتك.",
+      "sv": "Samordning, rådgivning och löpande stöd – helt efter dina behov.",
+      "fr": "Coordination, conseil et suivi continu, selon vos besoins.",
+      "nl": "Coördinatie, advies en opvolging, helemaal op maat."
     }
   },
   "home_banner": {
     "bn": {
       "en": "Dubai — where business, investment and quality of life meet.",
-      "ar": "دبي… حيث تلتقي الأعمال والاستثمار وجودة الحياة."
+      "ar": "دبي… حيث تلتقي الأعمال والاستثمار وجودة الحياة.",
+      "sv": "Dubai – affärer, investeringar och livskvalitet.",
+      "fr": "Dubaï : affaires, investissement et art de vivre.",
+      "nl": "Dubai: zakendoen, investeren en levenskwaliteit."
     }
   },
   "home_about": {
     "a_eye": {
       "en": "About",
-      "ar": "من نحن"
+      "ar": "من نحن",
+      "sv": "Om oss",
+      "fr": "À propos",
+      "nl": "Over ons"
     },
     "a_t": {
       "en": "Professional Expertise. Personal Commitment.",
-      "ar": "خبرة مهنية. والتزام شخصي."
+      "ar": "خبرة مهنية. والتزام شخصي.",
+      "sv": "Professionell expertis. Personligt engagemang.",
+      "fr": "Expertise professionnelle. Engagement personnel.",
+      "nl": "Professionele expertise. Persoonlijk engagement."
     },
     "a_s": {
       "en": "Saida Afly Business Gateway brings together financial expertise, strategic business insight, and a personalized approach to helping clients navigate opportunities in Dubai.",
-      "ar": "تجمع Saida Afly Business Gateway بين الخبرة المالية والرؤية الاستراتيجية للأعمال والنهج الشخصي، لمساعدة العملاء على اغتنام الفرص في دبي."
+      "ar": "نجمع الخبرة المالية والرؤية الاستراتيجية والنهج الشخصي لنساعدك على اغتنام الفرص في دبي.",
+      "sv": "Finansiell expertis, strategisk insikt och ett personligt förhållningssätt – för att du ska kunna ta vara på möjligheterna i Dubai.",
+      "fr": "Expertise financière, vision stratégique et approche personnelle, pour vous aider à saisir les opportunités de Dubaï.",
+      "nl": "Financiële expertise, strategisch inzicht en een persoonlijke aanpak om kansen in Dubai te benutten."
     },
     "a_c1": {
       "en": "FTA Approved Tax Agent, United Arab Emirates",
-      "ar": "وكيلة ضرائب معتمدة لدى الهيئة الاتحادية للضرائب في الإمارات"
+      "ar": "وكيلة ضرائب معتمدة لدى الهيئة الاتحادية للضرائب في الإمارات",
+      "sv": "FTA-godkänd skatteombud, Förenade Arabemiraten",
+      "fr": "Agent fiscal agréé par la FTA, Émirats arabes unis",
+      "nl": "Door de FTA erkend belastingagent, Verenigde Arabische Emiraten"
     },
     "a_c2": {
       "en": "15+ years in financial management, taxation, external audit, financial control, governance and advisory",
-      "ar": "أكثر من 15 عامًا في الإدارة المالية والضرائب والتدقيق الخارجي والرقابة المالية والحوكمة والاستشارات"
+      "ar": "أكثر من 15 عامًا في الإدارة المالية والضرائب والتدقيق الخارجي والرقابة المالية والحوكمة والاستشارات",
+      "sv": "Över 15 år inom ekonomistyrning, skatt, extern revision, controlling, bolagsstyrning och rådgivning",
+      "fr": "Plus de 15 ans en gestion financière, fiscalité, audit externe, contrôle de gestion, gouvernance et conseil",
+      "nl": "Meer dan 15 jaar in financieel beheer, fiscaliteit, externe audit, controlling, governance en advies"
     },
     "a_c3": {
       "en": "Professional background at PwC",
-      "ar": "خلفية مهنية في PwC"
+      "ar": "خلفية مهنية في PwC",
+      "sv": "Professionell bakgrund från PwC",
+      "fr": "Parcours professionnel chez PwC",
+      "nl": "Professionele achtergrond bij PwC"
     },
     "a_c4": {
       "en": "Based in Dubai, serving local and international clients",
-      "ar": "مقيمة في دبي، وتخدم عملاء محليين ودوليين"
+      "ar": "مقيمة في دبي، وتخدم عملاء محليين ودوليين",
+      "sv": "Baserad i Dubai, med lokala och internationella kunder",
+      "fr": "Basée à Dubaï, au service de clients locaux et internationaux",
+      "nl": "Gevestigd in Dubai, voor lokale en internationale cliënten"
     },
     "a_photo": {
       "en": "Portrait photo placeholder",
-      "ar": "مكان الصورة الشخصية"
+      "ar": "مكان الصورة الشخصية",
+      "sv": "Plats för porträttfoto",
+      "fr": "Emplacement du portrait",
+      "nl": "Plaats voor portretfoto"
     },
     "a_role": {
       "en": "Founder",
-      "ar": "المؤسِّسة"
+      "ar": "المؤسِّسة",
+      "sv": "Grundare",
+      "fr": "Fondatrice",
+      "nl": "Oprichter"
     }
   },
   "home_insights": {
     "i_eye": {
       "en": "Insights",
-      "ar": "رؤى"
+      "ar": "رؤى",
+      "sv": "Insikter",
+      "fr": "Analyses",
+      "nl": "Inzichten"
     },
     "i_t": {
       "en": "Perspectives for informed decisions",
-      "ar": "رؤى تدعم قرارات مدروسة"
+      "ar": "رؤى تدعم قرارات مدروسة",
+      "sv": "Insikter för bättre beslut",
+      "fr": "Des clés pour mieux décider",
+      "nl": "Inzicht voor betere beslissingen"
     },
     "i_s": {
       "en": "Articles on finance, tax, governance and Dubai's investment landscape.",
-      "ar": "مقالات في المالية والضرائب والحوكمة ومشهد الاستثمار في دبي."
+      "ar": "مقالات في المالية والضرائب والحوكمة ومشهد الاستثمار في دبي.",
+      "sv": "Finans, skatt, bolagsstyrning och investeringar i Dubai.",
+      "fr": "Finance, fiscalité, gouvernance et investissement à Dubaï.",
+      "nl": "Financiën, fiscaliteit, governance en investeren in Dubai."
     },
     "i_all": {
       "en": "View all insights",
-      "ar": "جميع المقالات"
+      "ar": "جميع المقالات",
+      "sv": "Visa alla insikter",
+      "fr": "Voir toutes les analyses",
+      "nl": "Alle inzichten bekijken"
     }
   },
   "home_contact": {
     "c_eye": {
       "en": "Contact",
-      "ar": "تواصل معنا"
+      "ar": "تواصل معنا",
+      "sv": "Kontakt",
+      "fr": "Contact",
+      "nl": "Contact"
     },
     "c_t": {
       "en": "Begin a confidential conversation",
-      "ar": "ابدأ محادثة سرّية"
+      "ar": "ابدأ محادثة سرّية",
+      "sv": "Ett konfidentiellt samtal",
+      "fr": "Parlons-en, en toute confidentialité",
+      "nl": "Een vertrouwelijk gesprek"
     },
     "c_s": {
       "en": "Choose the path that fits your needs, or reach us directly.",
-      "ar": "اختر المسار المناسب لاحتياجاتك، أو تواصل معنا مباشرة."
+      "ar": "اختر المسار المناسب لاحتياجاتك، أو تواصل معنا مباشرة.",
+      "sv": "Välj det som passar dig, eller kontakta oss direkt.",
+      "fr": "Choisissez l'option qui vous correspond, ou contactez-nous directement.",
+      "nl": "Kies wat bij u past, of neem rechtstreeks contact op."
     },
     "path1": {
       "en": "Private consultation",
-      "ar": "استشارة خاصة"
+      "ar": "استشارة خاصة",
+      "sv": "Privat konsultation",
+      "fr": "Consultation privée",
+      "nl": "Privéconsultatie"
     },
     "path1d": {
       "en": "Business, financial and tax advisory",
-      "ar": "استشارات الأعمال والمالية والضرائب"
+      "ar": "استشارات الأعمال والمالية والضرائب",
+      "sv": "Affärs-, finans- och skatterådgivning",
+      "fr": "Conseil financier, fiscal et aux entreprises",
+      "nl": "Zakelijk, financieel en fiscaal advies"
     },
     "path2": {
       "en": "Investment inquiry",
-      "ar": "استفسار استثماري"
+      "ar": "استفسار استثماري",
+      "sv": "Investeringsförfrågan",
+      "fr": "Demande d'investissement",
+      "nl": "Investeringsaanvraag"
     },
     "path2d": {
       "en": "Real estate and business opportunities",
-      "ar": "فرص العقارات والأعمال"
+      "ar": "فرص العقارات والأعمال",
+      "sv": "Fastigheter och affärsmöjligheter",
+      "fr": "Immobilier et opportunités d'affaires",
+      "nl": "Vastgoed en zakelijke opportuniteiten"
     },
     "path3": {
       "en": "Concierge request",
-      "ar": "طلب كونسيرج"
+      "ar": "طلب كونسيرج",
+      "sv": "Concierge-förfrågan",
+      "fr": "Demande de conciergerie",
+      "nl": "Concierge-aanvraag"
     },
     "path3d": {
       "en": "Medical coordination, relocation and lifestyle",
-      "ar": "التنسيق الطبي والانتقال وأسلوب الحياة"
+      "ar": "التنسيق الطبي والانتقال وأسلوب الحياة",
+      "sv": "Medicinsk samordning, flytt och livsstil",
+      "fr": "Coordination médicale, installation et art de vivre",
+      "nl": "Medische coördinatie, verhuis en lifestyle"
     },
     "cc_t": {
       "en": "Direct contact",
-      "ar": "تواصل مباشر"
+      "ar": "تواصل مباشر",
+      "sv": "Direktkontakt",
+      "fr": "Contact direct",
+      "nl": "Rechtstreeks contact"
     },
     "cc_wa": {
       "en": "WhatsApp",
-      "ar": "واتساب"
+      "ar": "واتساب",
+      "sv": "WhatsApp",
+      "fr": "WhatsApp",
+      "nl": "WhatsApp"
     },
     "cc_em": {
       "en": "Email",
-      "ar": "البريد الإلكتروني"
+      "ar": "البريد الإلكتروني",
+      "sv": "E-post",
+      "fr": "E-mail",
+      "nl": "E-mail"
     },
     "cc_loc": {
       "en": "Location",
-      "ar": "الموقع"
+      "ar": "الموقع",
+      "sv": "Plats",
+      "fr": "Adresse",
+      "nl": "Locatie"
     }
   },
   "page_advisory": {
     "adv_eye": {
       "en": "Pillar 01",
-      "ar": "الركيزة الأولى"
+      "ar": "الركيزة الأولى",
+      "sv": "Pelare 01",
+      "fr": "Pilier 01",
+      "nl": "Pijler 01"
     },
     "adv_t": {
       "en": "Business & Financial Advisory",
-      "ar": "الاستشارات المالية والأعمال"
+      "ar": "الاستشارات المالية والأعمال",
+      "sv": "Affärs- och finansiell rådgivning",
+      "fr": "Conseil financier et aux entreprises",
+      "nl": "Zakelijk en financieel advies"
     },
     "adv_s": {
       "en": "The professional foundation of our brand — financial, tax and advisory expertise that helps you build with confidence and decide with clarity.",
-      "ar": "الأساس المهني لعلامتنا: خبرة مالية وضريبية واستشارية تساعدك على البناء بثقة واتخاذ القرار بوضوح."
+      "ar": "خبرة مالية وضريبية واستشارية تساعدك على البناء بثقة والقرار بوضوح.",
+      "sv": "Finansiell, skattemässig och strategisk expertis för att bygga tryggt och besluta klokt.",
+      "fr": "Une expertise financière, fiscale et stratégique pour bâtir avec confiance et décider avec clarté.",
+      "nl": "Financiële, fiscale en strategische expertise om met vertrouwen te bouwen en helder te beslissen."
     },
     "adv_cta": {
       "en": "Book a Private Consultation",
-      "ar": "احجز استشارة خاصة"
+      "ar": "احجز استشارة خاصة",
+      "sv": "Boka en privat konsultation",
+      "fr": "Réserver une consultation privée",
+      "nl": "Boek een privéconsultatie"
     },
     "adv_h_eye": {
       "en": "What we offer",
-      "ar": "ما نقدّمه"
+      "ar": "ما نقدّمه",
+      "sv": "Vad vi erbjuder",
+      "fr": "Ce que nous proposons",
+      "nl": "Wat we bieden"
     },
     "adv_h_t": {
       "en": "Expertise that translates into better decisions",
-      "ar": "خبرة تُترجم إلى قرارات أفضل"
+      "ar": "خبرة تُترجم إلى قرارات أفضل",
+      "sv": "Expertis för bättre beslut",
+      "fr": "L'expertise au service de vos décisions",
+      "nl": "Expertise voor betere beslissingen"
     },
     "adv_h_s": {
       "en": "From company setup to governance and transformation, we support businesses and founders with practical experience and strategic insight.",
-      "ar": "من التأسيس إلى الحوكمة والتحول، نرافق الشركات ورواد الأعمال بخبرة عملية ورؤية استراتيجية."
+      "ar": "من التأسيس إلى الحوكمة والتحول، نرافق الشركات ورواد الأعمال بخبرة عملية ورؤية استراتيجية.",
+      "sv": "Från etablering till styrning och omställning stöttar vi företag och grundare – praktiskt och strategiskt.",
+      "fr": "De la création à la gouvernance et à la transformation, nous accompagnons entreprises et fondateurs avec pragmatisme.",
+      "nl": "Van oprichting tot governance en transformatie: wij begeleiden ondernemingen en oprichters, praktisch en strategisch."
     },
     "adv_who_t": {
       "en": "Who we work with",
-      "ar": "لمن نقدّم هذه الخدمات"
+      "ar": "لمن نقدّم هذه الخدمات",
+      "sv": "Vilka vi arbetar med",
+      "fr": "Pour qui nous travaillons",
+      "nl": "Voor wie we werken"
     },
     "who1_t": {
       "en": "New founders",
-      "ar": "المؤسسون الجدد"
+      "ar": "المؤسسون الجدد",
+      "sv": "Nya grundare",
+      "fr": "Nouveaux entrepreneurs",
+      "nl": "Nieuwe ondernemers"
     },
     "who1_d": {
       "en": "Establishing their first company in the UAE.",
-      "ar": "يؤسسون شركتهم الأولى في الإمارات."
+      "ar": "يؤسسون شركتهم الأولى في الإمارات.",
+      "sv": "Som startar sitt första företag i Förenade Arabemiraten.",
+      "fr": "Qui créent leur première entreprise aux Émirats.",
+      "nl": "Die hun eerste onderneming in de VAE opstarten."
     },
     "who2_t": {
       "en": "SMEs",
-      "ar": "الشركات الصغيرة والمتوسطة"
+      "ar": "الشركات الصغيرة والمتوسطة",
+      "sv": "Små och medelstora företag",
+      "fr": "PME",
+      "nl": "Kmo's"
     },
     "who2_d": {
       "en": "Seeking financial discipline and tax compliance.",
-      "ar": "تبحث عن انضباط مالي وامتثال ضريبي."
+      "ar": "تبحث عن انضباط مالي وامتثال ضريبي.",
+      "sv": "Som söker ekonomisk ordning och skatteefterlevnad.",
+      "fr": "En quête de rigueur financière et de conformité fiscale.",
+      "nl": "Die financiële structuur en fiscale compliance zoeken."
     },
     "who3_t": {
       "en": "Family businesses",
-      "ar": "الشركات العائلية"
+      "ar": "الشركات العائلية",
+      "sv": "Familjeföretag",
+      "fr": "Entreprises familiales",
+      "nl": "Familiebedrijven"
     },
     "who3_d": {
       "en": "Strengthening governance and preparing for growth.",
-      "ar": "تعزز الحوكمة وتستعد للنمو."
+      "ar": "تعزز الحوكمة وتستعد للنمو.",
+      "sv": "Som stärker sin styrning och förbereder sig för tillväxt.",
+      "fr": "Qui renforcent leur gouvernance et préparent leur croissance.",
+      "nl": "Die hun governance versterken en zich voorbereiden op groei."
     },
     "who4_t": {
       "en": "International companies",
-      "ar": "الشركات الدولية"
+      "ar": "الشركات الدولية",
+      "sv": "Internationella företag",
+      "fr": "Entreprises internationales",
+      "nl": "Internationale ondernemingen"
     },
     "who4_d": {
       "en": "Entering or expanding in the UAE market.",
-      "ar": "تدخل السوق الإماراتية أو تتوسع فيها."
+      "ar": "تدخل السوق الإماراتية أو تتوسع فيها.",
+      "sv": "Som etablerar sig eller expanderar på marknaden i Förenade Arabemiraten.",
+      "fr": "Qui s'implantent ou se développent sur le marché émirien.",
+      "nl": "Die zich vestigen of uitbreiden op de markt van de VAE."
     },
     "adv_band": {
       "en": "Let’s discuss your company’s objectives — in complete confidence.",
-      "ar": "لنناقش أهداف شركتك بسرّية تامة."
+      "ar": "لنناقش أهداف شركتك بسرّية تامة.",
+      "sv": "Låt oss prata om dina mål – i förtroende.",
+      "fr": "Parlons de vos objectifs, en toute confidentialité.",
+      "nl": "Laten we uw doelen bespreken, in alle vertrouwen."
     }
   },
   "page_investment": {
     "inv_eye": {
       "en": "Pillar 02",
-      "ar": "الركيزة الثانية"
+      "ar": "الركيزة الثانية",
+      "sv": "Pelare 02",
+      "fr": "Pilier 02",
+      "nl": "Pijler 02"
     },
     "inv_t": {
       "en": "Investment & Real Estate",
-      "ar": "الاستثمار والعقارات"
+      "ar": "الاستثمار والعقارات",
+      "sv": "Investeringar och fastigheter",
+      "fr": "Investissement et immobilier",
+      "nl": "Investeringen en vastgoed"
     },
     "inv_s": {
       "en": "We help you navigate Dubai’s investment landscape through informed guidance and appropriate connections with licensed professionals.",
-      "ar": "نساعدك على فهم مشهد الاستثمار في دبي، عبر إرشاد مدروس وتواصل مع المختصين المرخّصين المناسبين."
+      "ar": "إرشاد مدروس في سوق الاستثمار بدبي، وتواصل مع المختصين المرخّصين المناسبين.",
+      "sv": "Kunnig vägledning på Dubais marknad och kontakter med licensierade yrkespersoner.",
+      "fr": "Un accompagnement éclairé sur le marché de Dubaï et des mises en relation avec des professionnels agréés.",
+      "nl": "Deskundige begeleiding op de markt van Dubai en contacten met erkende professionals."
     },
     "inv_cta": {
       "en": "Send an Investment Inquiry",
-      "ar": "أرسل استفسارًا استثماريًا"
+      "ar": "أرسل استفسارًا استثماريًا",
+      "sv": "Skicka en investeringsförfrågan",
+      "fr": "Envoyer une demande d'investissement",
+      "nl": "Verstuur een investeringsaanvraag"
     },
     "inv_h_eye": {
       "en": "How we help",
-      "ar": "كيف نساعدك"
+      "ar": "كيف نساعدك",
+      "sv": "Så hjälper vi dig",
+      "fr": "Notre accompagnement",
+      "nl": "Hoe we u helpen"
     },
     "inv_h_t": {
       "en": "Investment decisions built on understanding",
-      "ar": "قرارات استثمارية مبنية على المعرفة"
+      "ar": "قرارات استثمارية مبنية على المعرفة",
+      "sv": "Investera med insikt",
+      "fr": "Investir en connaissance de cause",
+      "nl": "Investeren met inzicht"
     },
     "inv_h_s": {
       "en": "For international investors and individuals exploring opportunities in Dubai — from real estate to business investment.",
-      "ar": "للمستثمرين الدوليين والأفراد الذين يستكشفون الفرص في دبي، من العقار إلى الاستثمار في الأعمال."
+      "ar": "للمستثمرين الدوليين والأفراد الذين يستكشفون الفرص في دبي، من العقار إلى الاستثمار في الأعمال.",
+      "sv": "För internationella investerare och privatpersoner: fastigheter, företag och möjligheter i Dubai.",
+      "fr": "Pour les investisseurs internationaux et les particuliers : immobilier, entreprises et opportunités à Dubaï.",
+      "nl": "Voor internationale investeerders en particulieren: vastgoed, ondernemingen en kansen in Dubai."
     },
     "inv_disc": {
       "en": "We are not a licensed investment manager or real estate broker. We provide financial guidance, introductions and coordination; transactions are completed through appropriately licensed brokers and professionals. We do not hold client funds and do not guarantee any return.",
-      "ar": "لسنا مدير استثمار مرخّصًا ولا وسيطًا عقاريًا مرخّصًا. نقدّم إرشادًا ماليًا وخدمات تعريف وتنسيق، وتُنفَّذ الصفقات عبر وسطاء ومختصين حاصلين على التراخيص المطلوبة. لا نتولى حفظ أموال العملاء، ولا نضمن أي عائد."
+      "ar": "لسنا مدير استثمار ولا وسيطًا عقاريًا مرخّصًا. نقدّم الإرشاد المالي والتعريف والتنسيق، وتُنفَّذ الصفقات عبر جهات مرخّصة. لا نحتفظ بأموال العملاء ولا نضمن أي عائد.",
+      "sv": "Vi är varken licensierad kapitalförvaltare eller fastighetsmäklare. Vi erbjuder finansiell vägledning, introduktioner och samordning; affärer genomförs via licensierade aktörer. Vi förvaltar inga kundmedel och garanterar ingen avkastning.",
+      "fr": "Nous ne sommes ni gestionnaire d'actifs ni agent immobilier agréé. Nous apportons conseil financier, mises en relation et coordination ; les transactions passent par des professionnels agréés. Nous ne détenons aucun fonds et ne garantissons aucun rendement.",
+      "nl": "Wij zijn geen erkende vermogensbeheerder of vastgoedmakelaar. Wij bieden financieel advies, introducties en coördinatie; transacties verlopen via erkende professionals. Wij beheren geen cliëntengelden en garanderen geen rendement."
     },
     "inv_band": {
       "en": "Exploring an investment opportunity in Dubai?",
-      "ar": "هل تستكشف فرصة استثمارية في دبي؟"
+      "ar": "هل تستكشف فرصة استثمارية في دبي؟",
+      "sv": "Funderar du på en investering i Dubai?",
+      "fr": "Un projet d'investissement à Dubaï ?",
+      "nl": "Een investering in Dubai in gedachten?"
     }
   },
   "page_concierge": {
     "con_eye": {
       "en": "Pillar 03",
-      "ar": "الركيزة الثالثة"
+      "ar": "الركيزة الثالثة",
+      "sv": "Pelare 03",
+      "fr": "Pilier 03",
+      "nl": "Pijler 03"
     },
     "con_t": {
       "en": "Dubai Private Concierge",
-      "ar": "الكونسيرج الخاص في دبي"
+      "ar": "الكونسيرج الخاص في دبي",
+      "sv": "Privat concierge i Dubai",
+      "fr": "Conciergerie privée à Dubaï",
+      "nl": "Private concierge in Dubai"
     },
     "con_s": {
       "en": "Personalized services for international visitors, executives, investors and private clients — with discretion and attention to every detail.",
-      "ar": "خدمات شخصية للزوار الدوليين والتنفيذيين والمستثمرين والعملاء الخاصين، بخصوصية ودقة في التفاصيل."
+      "ar": "خدمات شخصية للزوار الدوليين والتنفيذيين والمستثمرين والعملاء الخاصين، بخصوصية ودقة في التفاصيل.",
+      "sv": "Skräddarsydda tjänster för internationella besökare, chefer, investerare och privatkunder – diskret och omsorgsfullt.",
+      "fr": "Des services sur mesure pour visiteurs internationaux, dirigeants, investisseurs et clients privés, avec discrétion et minutie.",
+      "nl": "Diensten op maat voor internationale bezoekers, leidinggevenden, investeerders en privécliënten, discreet en tot in de puntjes."
     },
     "con_cta": {
       "en": "Send a Concierge Request",
-      "ar": "أرسل طلب كونسيرج"
+      "ar": "أرسل طلب كونسيرج",
+      "sv": "Skicka en concierge-förfrågan",
+      "fr": "Envoyer une demande de conciergerie",
+      "nl": "Verstuur een concierge-aanvraag"
     },
     "con_h_eye": {
       "en": "Our private services",
-      "ar": "خدماتنا الخاصة"
+      "ar": "خدماتنا الخاصة",
+      "sv": "Våra privata tjänster",
+      "fr": "Nos services privés",
+      "nl": "Onze privédiensten"
     },
     "con_h_t": {
       "en": "Your time in Dubai, thoughtfully arranged",
-      "ar": "إقامتك في دبي، منسّقة بعناية"
+      "ar": "إقامتك في دبي، منسّقة بعناية",
+      "sv": "Din tid i Dubai, omsorgsfullt planerad",
+      "fr": "Votre séjour à Dubaï, orchestré avec soin",
+      "nl": "Uw verblijf in Dubai, zorgvuldig geregeld"
     },
     "con_h_s": {
       "en": "A single point of contact coordinating with trusted, licensed providers, so you can focus on why you came.",
-      "ar": "محاور واحد يتولى التنسيق مع مزوّدين مرخّصين وموثوقين، لتتفرغ لما جئت من أجله."
+      "ar": "محاور واحد يتولى التنسيق مع مزوّدين مرخّصين وموثوقين، لتتفرغ لما جئت من أجله.",
+      "sv": "En kontaktperson som samarbetar med pålitliga, licensierade partner – så att du kan fokusera på det viktiga.",
+      "fr": "Un interlocuteur unique, en lien avec des prestataires agréés de confiance, pour que vous restiez concentré sur l'essentiel.",
+      "nl": "Eén aanspreekpunt dat samenwerkt met betrouwbare, erkende partners, zodat u zich op het essentiële kunt richten."
     },
     "con_disc": {
       "en": "We are not a medical clinic or a direct provider of regulated services. We coordinate and facilitate access to licensed providers; medical advice and decisions remain the responsibility of licensed practitioners.",
-      "ar": "لسنا عيادة طبية ولا مزوّدًا مباشرًا للخدمات الخاضعة للتنظيم. نقوم بالتنسيق وتسهيل الوصول إلى مزوّدين مرخّصين، وتبقى القرارات والاستشارات الطبية مسؤولية الممارسين المرخّصين."
+      "ar": "لسنا عيادة طبية ولا مزوّدًا مباشرًا لخدمات خاضعة للتنظيم. ننسّق الوصول إلى مزوّدين مرخّصين، وتبقى القرارات الطبية مسؤولية الأطباء المرخّصين.",
+      "sv": "Vi är ingen klinik eller leverantör av reglerade tjänster. Vi förmedlar kontakt med licensierade aktörer; medicinska beslut fattas av läkare.",
+      "fr": "Nous ne sommes ni une clinique ni un prestataire de services réglementés. Nous facilitons l'accès à des prestataires agréés ; les décisions médicales relèvent des praticiens.",
+      "nl": "Wij zijn geen kliniek of aanbieder van gereglementeerde diensten. Wij regelen toegang tot erkende dienstverleners; medische beslissingen liggen bij de artsen."
     },
     "con_band": {
       "en": "Tell us what you need during your stay in Dubai.",
-      "ar": "أخبرنا بما تحتاجه خلال إقامتك في دبي."
+      "ar": "أخبرنا بما تحتاجه خلال إقامتك في دبي.",
+      "sv": "Berätta vad du behöver i Dubai.",
+      "fr": "Dites-nous ce dont vous avez besoin à Dubaï.",
+      "nl": "Laat ons weten wat u nodig hebt in Dubai."
     }
   },
   "page_insights": {
     "ins_eye": {
       "en": "Insights",
-      "ar": "رؤى"
+      "ar": "رؤى",
+      "sv": "Insikter",
+      "fr": "Analyses",
+      "nl": "Inzichten"
     },
     "ins_t": {
       "en": "Insights & perspectives",
-      "ar": "رؤى ومقالات"
+      "ar": "رؤى ومقالات",
+      "sv": "Insikter och perspektiv",
+      "fr": "Analyses et perspectives",
+      "nl": "Inzichten en perspectieven"
     },
     "ins_s": {
       "en": "Concise reading on finance, tax, strategy, governance and Dubai's investment landscape — to support informed decisions.",
-      "ar": "قراءات مختصرة في المالية والضرائب والاستراتيجية والحوكمة ومشهد الاستثمار في دبي، لمساعدتك على اتخاذ قرارات مدروسة."
+      "ar": "قراءات مختصرة في المال والضرائب والاستراتيجية والحوكمة والاستثمار في دبي.",
+      "sv": "Korta texter om finans, skatt, strategi, bolagsstyrning och investeringar i Dubai.",
+      "fr": "Des lectures courtes sur la finance, la fiscalité, la stratégie, la gouvernance et l'investissement à Dubaï.",
+      "nl": "Korte artikels over financiën, fiscaliteit, strategie, governance en investeren in Dubai."
     },
     "cat_all": {
       "en": "All",
-      "ar": "الكل"
+      "ar": "الكل",
+      "sv": "Alla",
+      "fr": "Tout",
+      "nl": "Alle"
     },
     "cat_tax": {
       "en": "Finance & Tax",
-      "ar": "المالية والضرائب"
+      "ar": "المالية والضرائب",
+      "sv": "Finans och skatt",
+      "fr": "Finance et fiscalité",
+      "nl": "Financiën en fiscaliteit"
     },
     "cat_strategy": {
       "en": "Business Strategy",
-      "ar": "استراتيجية الأعمال"
+      "ar": "استراتيجية الأعمال",
+      "sv": "Affärsstrategi",
+      "fr": "Stratégie d'entreprise",
+      "nl": "Bedrijfsstrategie"
     },
     "cat_gov": {
       "en": "Corporate Governance",
-      "ar": "الحوكمة المؤسسية"
+      "ar": "الحوكمة المؤسسية",
+      "sv": "Bolagsstyrning",
+      "fr": "Gouvernance",
+      "nl": "Governance"
     },
     "cat_dubai": {
       "en": "Dubai Investment Landscape",
-      "ar": "مشهد الاستثمار في دبي"
+      "ar": "مشهد الاستثمار في دبي",
+      "sv": "Dubais investeringslandskap",
+      "fr": "Investir à Dubaï",
+      "nl": "Investeren in Dubai"
     },
     "cat_re": {
       "en": "Real Estate Insights",
-      "ar": "رؤى عقارية"
+      "ar": "رؤى عقارية",
+      "sv": "Fastighetsinsikter",
+      "fr": "Immobilier",
+      "nl": "Vastgoed"
     },
     "cat_trends": {
       "en": "Business & Economic Trends",
-      "ar": "اتجاهات الأعمال والاقتصاد"
+      "ar": "اتجاهات الأعمال والاقتصاد",
+      "sv": "Affärs- och ekonomiska trender",
+      "fr": "Tendances économiques",
+      "nl": "Economische trends"
     },
     "soon": {
       "en": "Coming soon",
-      "ar": "قريبًا"
+      "ar": "قريبًا",
+      "sv": "Kommer snart",
+      "fr": "Bientôt disponible",
+      "nl": "Binnenkort beschikbaar"
     },
     "min": {
       "en": "min read",
-      "ar": "دقائق قراءة"
+      "ar": "دقائق قراءة",
+      "sv": "min läsning",
+      "fr": "min de lecture",
+      "nl": "min leestijd"
     },
     "back": {
       "en": "Back to Insights",
-      "ar": "العودة إلى الرؤى"
+      "ar": "العودة إلى الرؤى",
+      "sv": "Tillbaka till insikter",
+      "fr": "Retour aux analyses",
+      "nl": "Terug naar inzichten"
     },
     "art_note": {
       "en": "This article provides general information only and does not constitute tax, legal or investment advice. For guidance on your situation, book a private consultation.",
-      "ar": "هذا المقال للمعلومات العامة فقط، ولا يُعد استشارة ضريبية أو قانونية أو استثمارية. للحصول على إرشاد يناسب حالتك، احجز استشارة خاصة."
+      "ar": "هذا المقال للمعلومات العامة فقط، وليس استشارة ضريبية أو قانونية أو استثمارية. لحالتك الخاصة، احجز استشارة.",
+      "sv": "Artikeln är endast allmän information och utgör inte skatte-, juridisk eller investeringsrådgivning. Boka en konsultation för din situation.",
+      "fr": "Article à titre informatif uniquement ; il ne constitue pas un conseil fiscal, juridique ou en investissement. Pour votre situation, réservez une consultation.",
+      "nl": "Dit artikel is louter informatief en geen fiscaal, juridisch of beleggingsadvies. Boek een consultatie voor uw situatie."
     }
   },
   "legal": {
     "priv_t": {
       "en": "Privacy Policy",
-      "ar": "سياسة الخصوصية"
+      "ar": "سياسة الخصوصية",
+      "sv": "Integritetspolicy",
+      "fr": "Politique de confidentialité",
+      "nl": "Privacybeleid"
     },
     "terms_t": {
       "en": "Terms & Conditions",
-      "ar": "الشروط والأحكام"
+      "ar": "الشروط والأحكام",
+      "sv": "Villkor",
+      "fr": "Conditions d'utilisation",
+      "nl": "Gebruiksvoorwaarden"
     },
     "updated": {
       "en": "Last updated: November 2026",
-      "ar": "آخر تحديث: نوفمبر 2026"
+      "ar": "آخر تحديث: نوفمبر 2026",
+      "sv": "Senast uppdaterad: november 2026",
+      "fr": "Dernière mise à jour : novembre 2026",
+      "nl": "Laatst bijgewerkt: november 2026"
     }
   }
 }

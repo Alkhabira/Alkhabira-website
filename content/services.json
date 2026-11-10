@@ -4,57 +4,105 @@
       "icon": "chart",
       "title_en": "Financial Advisory & Performance Optimization",
       "title_ar": "الاستشارات المالية وتحسين الأداء",
+      "title_sv": "Finansiell rådgivning och resultatoptimering",
+      "title_fr": "Conseil financier et amélioration de la performance",
+      "title_nl": "Financieel advies en prestatieverbetering",
       "desc_en": "Clear financial insight to strengthen profitability, cash flow and decision-making.",
-      "desc_ar": "رؤية مالية واضحة لتعزيز الربحية والتدفق النقدي وجودة القرار."
+      "desc_ar": "رؤية مالية واضحة لتعزيز الربحية والتدفق النقدي وجودة القرار.",
+      "desc_sv": "Tydlig finansiell insikt som stärker lönsamhet, kassaflöde och beslutsfattande.",
+      "desc_fr": "Une vision financière claire pour renforcer la rentabilité, la trésorerie et la prise de décision.",
+      "desc_nl": "Helder financieel inzicht dat rendabiliteit, kasstromen en besluitvorming versterkt."
     },
     {
       "icon": "tax",
       "title_en": "UAE Corporate Tax & VAT",
       "title_ar": "ضريبة الشركات وضريبة القيمة المضافة",
+      "title_sv": "Bolagsskatt och moms i Förenade Arabemiraten",
+      "title_fr": "Impôt sur les sociétés et TVA aux Émirats",
+      "title_nl": "Vennootschapsbelasting en btw in de VAE",
       "desc_en": "Registration, filings and advisory, supervised by an FTA Approved Tax Agent.",
-      "desc_ar": "التسجيل والإقرارات والاستشارات، بإشراف وكيلة ضرائب معتمدة لدى الهيئة الاتحادية للضرائب."
+      "desc_ar": "التسجيل والإقرارات والاستشارات، بإشراف وكيلة ضرائب معتمدة لدى الهيئة الاتحادية للضرائب.",
+      "desc_sv": "Registrering, deklarationer och rådgivning under ledning av ett FTA-godkänt skatteombud.",
+      "desc_fr": "Enregistrement, déclarations et conseil, sous la direction d'un agent fiscal agréé par la FTA.",
+      "desc_nl": "Registratie, aangiften en advies onder leiding van een door de FTA erkend belastingagent."
     },
     {
       "icon": "shield",
       "title_en": "Corporate Governance & Risk Management",
       "title_ar": "الحوكمة المؤسسية وإدارة المخاطر",
+      "title_sv": "Bolagsstyrning och riskhantering",
+      "title_fr": "Gouvernance d'entreprise et gestion des risques",
+      "title_nl": "Corporate governance en risicobeheer",
       "desc_en": "Policies, controls and oversight frameworks that protect and support growth.",
-      "desc_ar": "سياسات وضوابط وأطر رقابية تحمي أعمالك وتدعم نموها."
+      "desc_ar": "سياسات وضوابط وأطر رقابية تحمي أعمالك وتدعم نموها.",
+      "desc_sv": "Policyer, kontroller och tillsynsramverk som skyddar och stödjer tillväxt.",
+      "desc_fr": "Politiques, contrôles et cadres de supervision qui protègent et soutiennent la croissance.",
+      "desc_nl": "Beleid, controles en toezichtkaders die groei beschermen en ondersteunen."
     },
     {
       "icon": "doc",
       "title_en": "Financial Reporting & Compliance",
       "title_ar": "التقارير المالية والامتثال",
+      "title_sv": "Finansiell rapportering och regelefterlevnad",
+      "title_fr": "Reporting financier et conformité",
+      "title_nl": "Financiële rapportering en compliance",
       "desc_en": "Accurate reporting and bookkeeping aligned with UAE requirements and audit readiness.",
-      "desc_ar": "تقارير ومسك دفاتر دقيق، متوافق مع المتطلبات في الإمارات وجاهز للتدقيق."
+      "desc_ar": "تقارير ومسك دفاتر دقيق، متوافق مع المتطلبات في الإمارات وجاهز للتدقيق.",
+      "desc_sv": "Korrekt rapportering och bokföring i linje med kraven i Förenade Arabemiraten och redo för revision.",
+      "desc_fr": "Un reporting et une comptabilité rigoureux, conformes aux exigences émiriennes et prêts pour l'audit.",
+      "desc_nl": "Nauwkeurige rapportering en boekhouding volgens de vereisten van de VAE en klaar voor audit."
     },
     {
       "icon": "cycle",
       "title_en": "Business Restructuring & Transformation",
       "title_ar": "إعادة الهيكلة والتحول المؤسسي",
+      "title_sv": "Omstrukturering och omställning",
+      "title_fr": "Restructuration et transformation",
+      "title_nl": "Herstructurering en transformatie",
       "desc_en": "Reorganising structures and operations to improve efficiency and resilience.",
-      "desc_ar": "إعادة تنظيم الهياكل والعمليات لرفع الكفاءة والمرونة."
+      "desc_ar": "إعادة تنظيم الهياكل والعمليات لرفع الكفاءة والمرونة.",
+      "desc_sv": "Omorganisering av strukturer och verksamhet för ökad effektivitet och motståndskraft.",
+      "desc_fr": "Réorganisation des structures et des opérations pour gagner en efficacité et en résilience.",
+      "desc_nl": "Herschikking van structuren en activiteiten voor meer efficiëntie en veerkracht."
     },
     {
       "icon": "building",
       "title_en": "Business Setup & Corporate Services",
       "title_ar": "تأسيس الشركات والخدمات المؤسسية",
+      "title_sv": "Företagsetablering och företagstjänster",
+      "title_fr": "Création d'entreprise et services aux sociétés",
+      "title_nl": "Oprichting van vennootschappen en vennootschapsdiensten",
       "desc_en": "Free zone or mainland setup, licensing, residency coordination and banking support.",
-      "desc_ar": "التأسيس في المناطق الحرة أو البر الرئيسي، والتراخيص، وتنسيق الإقامات، ودعم فتح الحسابات البنكية."
+      "desc_ar": "التأسيس في المناطق الحرة أو البر الرئيسي، والتراخيص، وتنسيق الإقامات، ودعم فتح الحسابات البنكية.",
+      "desc_sv": "Etablering i frizon eller på fastlandet, licenser, samordning av uppehållstillstånd och bankstöd.",
+      "desc_fr": "Implantation en zone franche ou sur le continent, licences, coordination des visas de résidence et soutien bancaire.",
+      "desc_nl": "Vestiging in een vrije zone of op het vasteland, vergunningen, coördinatie van verblijfsvisa en bankondersteuning."
     },
     {
       "icon": "compass",
       "title_en": "Strategic Business Consulting",
       "title_ar": "الاستشارات الاستراتيجية للأعمال",
+      "title_sv": "Strategisk affärsrådgivning",
+      "title_fr": "Conseil stratégique aux entreprises",
+      "title_nl": "Strategisch zakelijk advies",
       "desc_en": "An independent perspective on market entry, growth plans and key decisions.",
-      "desc_ar": "رؤية مستقلة لدخول السوق وخطط النمو والقرارات المحورية."
+      "desc_ar": "رؤية مستقلة لدخول السوق وخطط النمو والقرارات المحورية.",
+      "desc_sv": "Ett oberoende perspektiv på marknadsinträde, tillväxtplaner och viktiga beslut.",
+      "desc_fr": "Un regard indépendant sur l'entrée sur le marché, les plans de croissance et les décisions clés.",
+      "desc_nl": "Een onafhankelijke blik op markttoegang, groeiplannen en belangrijke beslissingen."
     },
     {
       "icon": "gear",
       "title_en": "Finance Process Improvement & Digital Transformation",
       "title_ar": "تطوير العمليات المالية والتحول الرقمي",
+      "title_sv": "Förbättrade ekonomiprocesser och digital omställning",
+      "title_fr": "Amélioration des processus financiers et transformation numérique",
+      "title_nl": "Verbetering van financiële processen en digitale transformatie",
       "desc_en": "Streamlined finance processes, systems and reporting tools.",
-      "desc_ar": "عمليات مالية أكثر كفاءة، وأنظمة وأدوات تقارير حديثة."
+      "desc_ar": "عمليات مالية أكثر كفاءة، وأنظمة وأدوات تقارير حديثة.",
+      "desc_sv": "Effektiviserade ekonomiprocesser, system och rapporteringsverktyg.",
+      "desc_fr": "Des processus, systèmes et outils de reporting financiers simplifiés.",
+      "desc_nl": "Gestroomlijnde financiële processen, systemen en rapporteringstools."
     }
   ],
   "investment": [
@@ -62,50 +110,92 @@
       "icon": "tower",
       "title_en": "Dubai Real Estate Investment Opportunities",
       "title_ar": "فرص الاستثمار العقاري في دبي",
+      "title_sv": "Fastighetsinvesteringar i Dubai",
+      "title_fr": "Investissement immobilier à Dubaï",
+      "title_nl": "Vastgoedinvesteringen in Dubai",
       "desc_en": "Curated access to residential and commercial opportunities through licensed brokers.",
-      "desc_ar": "وصول منتقى إلى فرص سكنية وتجارية عبر وسطاء مرخّصين."
+      "desc_ar": "وصول منتقى إلى فرص سكنية وتجارية عبر وسطاء مرخّصين.",
+      "desc_sv": "Utvald tillgång till bostads- och kommersiella möjligheter via licensierade mäklare.",
+      "desc_fr": "Un accès sélectif à des opportunités résidentielles et commerciales via des agents agréés.",
+      "desc_nl": "Geselecteerde toegang tot residentiële en commerciële opportuniteiten via erkende makelaars."
     },
     {
       "icon": "key",
       "title_en": "Property Investment Support",
       "title_ar": "دعم الاستثمار العقاري",
+      "title_sv": "Stöd vid fastighetsinvesteringar",
+      "title_fr": "Accompagnement en investissement immobilier",
+      "title_nl": "Begeleiding bij vastgoedinvesteringen",
       "desc_en": "Guidance through the purchase journey, from shortlisting to completion with licensed parties.",
-      "desc_ar": "مرافقة في رحلة الشراء، من المفاضلة حتى إتمام الصفقة مع الجهات المرخّصة."
+      "desc_ar": "مرافقة في رحلة الشراء، من المفاضلة حتى إتمام الصفقة مع الجهات المرخّصة.",
+      "desc_sv": "Vägledning genom hela köpprocessen, från urval till tillträde, tillsammans med licensierade parter.",
+      "desc_fr": "Un accompagnement tout au long de l'achat, de la sélection à la remise des clés, aux côtés de parties agréées.",
+      "desc_nl": "Begeleiding doorheen het volledige aankooptraject, van selectie tot overdracht, samen met erkende partijen."
     },
     {
       "icon": "search",
       "title_en": "Investment Opportunity Assessment",
       "title_ar": "تقييم الفرص الاستثمارية",
+      "title_sv": "Analys av investeringsmöjligheter",
+      "title_fr": "Analyse d'opportunités d'investissement",
+      "title_nl": "Analyse van investeringsopportuniteiten",
       "desc_en": "A financial review of opportunities to support informed decisions.",
-      "desc_ar": "مراجعة مالية للفرص لدعم قرارات مدروسة."
+      "desc_ar": "مراجعة مالية للفرص لدعم قرارات مدروسة.",
+      "desc_sv": "En finansiell genomgång av möjligheter som stöd för välgrundade beslut.",
+      "desc_fr": "Un examen financier des opportunités pour éclairer vos décisions.",
+      "desc_nl": "Een financiële doorlichting van opportuniteiten ter ondersteuning van onderbouwde beslissingen."
     },
     {
       "icon": "users",
       "title_en": "Investor Introductions",
       "title_ar": "التعريف بالمستثمرين",
+      "title_sv": "Introduktioner till investerare",
+      "title_fr": "Mises en relation avec des investisseurs",
+      "title_nl": "Introducties bij investeerders",
       "desc_en": "Thoughtful introductions between investors, founders and businesses.",
-      "desc_ar": "تعريف مدروس بين المستثمرين ورواد الأعمال والشركات."
+      "desc_ar": "تعريف مدروس بين المستثمرين ورواد الأعمال والشركات.",
+      "desc_sv": "Genomtänkta introduktioner mellan investerare, grundare och företag.",
+      "desc_fr": "Des mises en relation réfléchies entre investisseurs, fondateurs et entreprises.",
+      "desc_nl": "Doordachte introducties tussen investeerders, oprichters en ondernemingen."
     },
     {
       "icon": "briefcase",
       "title_en": "Business Investment Opportunities",
       "title_ar": "فرص الاستثمار في الأعمال",
+      "title_sv": "Möjligheter till företagsinvesteringar",
+      "title_fr": "Opportunités d'investissement dans des entreprises",
+      "title_nl": "Investeringsmogelijkheden in ondernemingen",
       "desc_en": "Exploring acquisitions, partnerships and growing businesses in the UAE.",
-      "desc_ar": "استكشاف فرص الاستحواذ والشراكات والشركات النامية في الإمارات."
+      "desc_ar": "استكشاف فرص الاستحواذ والشراكات والشركات النامية في الإمارات.",
+      "desc_sv": "Utforskning av förvärv, partnerskap och växande företag i Förenade Arabemiraten.",
+      "desc_fr": "Exploration d'acquisitions, de partenariats et d'entreprises en croissance aux Émirats.",
+      "desc_nl": "Verkenning van overnames, partnerschappen en groeiende ondernemingen in de VAE."
     },
     {
       "icon": "globe",
       "title_en": "Market Research & Strategic Insights",
       "title_ar": "أبحاث السوق والرؤى الاستراتيجية",
+      "title_sv": "Marknadsanalys och strategiska insikter",
+      "title_fr": "Analyse de marché et éclairage stratégique",
+      "title_nl": "Marktanalyse en strategische inzichten",
       "desc_en": "Market context to help you understand sectors, areas and trends.",
-      "desc_ar": "قراءة للسوق تساعدك على فهم القطاعات والمناطق والاتجاهات."
+      "desc_ar": "قراءة للسوق تساعدك على فهم القطاعات والمناطق والاتجاهات.",
+      "desc_sv": "Marknadskontext som hjälper dig att förstå branscher, områden och trender.",
+      "desc_fr": "Un contexte de marché pour comprendre les secteurs, les quartiers et les tendances.",
+      "desc_nl": "Marktcontext om sectoren, wijken en trends te begrijpen."
     },
     {
       "icon": "link",
       "title_en": "Coordination with Licensed Professionals",
       "title_ar": "التنسيق مع المختصين المرخّصين",
+      "title_sv": "Samordning med licensierade yrkespersoner",
+      "title_fr": "Coordination avec des professionnels agréés",
+      "title_nl": "Coördinatie met erkende professionals",
       "desc_en": "We connect you with appropriately licensed real estate, investment and legal professionals.",
-      "desc_ar": "نربطك بمختصين مرخّصين في العقار والاستثمار والقانون."
+      "desc_ar": "نربطك بمختصين مرخّصين في العقار والاستثمار والقانون.",
+      "desc_sv": "Vi kopplar dig till yrkespersoner inom fastigheter, investeringar och juridik med lämpliga tillstånd.",
+      "desc_fr": "Nous vous mettons en relation avec des professionnels agréés de l'immobilier, de l'investissement et du droit.",
+      "desc_nl": "We brengen u in contact met erkende professionals in vastgoed, investeringen en recht."
     }
   ],
   "concierge": [
@@ -113,50 +203,92 @@
       "icon": "med",
       "title_en": "Medical & Aesthetic Services Coordination",
       "title_ar": "تنسيق الخدمات الطبية والتجميلية",
+      "title_sv": "Samordning av medicinska och estetiska tjänster",
+      "title_fr": "Coordination de soins médicaux et esthétiques",
+      "title_nl": "Coördinatie van medische en esthetische zorg",
       "desc_en": "Coordinating appointments with licensed clinics and practitioners in Dubai.",
-      "desc_ar": "تنسيق المواعيد لدى عيادات وممارسين مرخّصين في دبي."
+      "desc_ar": "تنسيق المواعيد لدى عيادات وممارسين مرخّصين في دبي.",
+      "desc_sv": "Samordning av besök hos licensierade kliniker och yrkesutövare i Dubai.",
+      "desc_fr": "Organisation de rendez-vous auprès de cliniques et de praticiens agréés à Dubaï.",
+      "desc_nl": "Coördinatie van afspraken bij erkende klinieken en zorgverleners in Dubai."
     },
     {
       "icon": "plane",
       "title_en": "Cosmetic Treatment Travel Assistance",
       "title_ar": "المساعدة في رحلات العلاج التجميلي",
+      "title_sv": "Reseassistans för kosmetiska behandlingar",
+      "title_fr": "Accompagnement pour le tourisme esthétique",
+      "title_nl": "Reisbegeleiding voor esthetische behandelingen",
       "desc_en": "Travel, scheduling and accompaniment for international visitors.",
-      "desc_ar": "ترتيب السفر والمواعيد والمرافقة للزوار الدوليين."
+      "desc_ar": "ترتيب السفر والمواعيد والمرافقة للزوار الدوليين.",
+      "desc_sv": "Resor, schemaläggning och sällskap för internationella besökare.",
+      "desc_fr": "Voyage, planification et accompagnement pour les visiteurs internationaux.",
+      "desc_nl": "Reis, planning en begeleiding voor internationale bezoekers."
     },
     {
       "icon": "bed",
       "title_en": "Premium Accommodation Arrangements",
       "title_ar": "ترتيب الإقامة الراقية",
+      "title_sv": "Exklusivt boende",
+      "title_fr": "Hébergement haut de gamme",
+      "title_nl": "Exclusieve accommodatie",
       "desc_en": "Hotels, serviced apartments and private residences suited to your stay.",
-      "desc_ar": "فنادق وشقق فندقية ومساكن خاصة تناسب إقامتك."
+      "desc_ar": "فنادق وشقق فندقية ومساكن خاصة تناسب إقامتك.",
+      "desc_sv": "Hotell, servicelägenheter och privata bostäder anpassade efter din vistelse.",
+      "desc_fr": "Hôtels, appartements avec services et résidences privées adaptés à votre séjour.",
+      "desc_nl": "Hotels, serviceappartementen en privéwoningen afgestemd op uw verblijf."
     },
     {
       "icon": "car",
       "title_en": "Airport Transfers & Private Transportation",
       "title_ar": "الاستقبال من المطار والتنقل الخاص",
+      "title_sv": "Flygplatstransfer och privat transport",
+      "title_fr": "Transferts aéroport et transport privé",
+      "title_nl": "Luchthaventransfers en privévervoer",
       "desc_en": "Discreet chauffeured transport from arrival to departure.",
-      "desc_ar": "تنقل خاص بسائق، بخصوصية تامة من الوصول حتى المغادرة."
+      "desc_ar": "تنقل خاص بسائق، بخصوصية تامة من الوصول حتى المغادرة.",
+      "desc_sv": "Diskret transport med chaufför från ankomst till avresa.",
+      "desc_fr": "Un transport discret avec chauffeur, de votre arrivée à votre départ.",
+      "desc_nl": "Discreet vervoer met chauffeur, van aankomst tot vertrek."
     },
     {
       "icon": "home",
       "title_en": "Relocation & Settling-in Assistance",
       "title_ar": "الانتقال والاستقرار في دبي",
+      "title_sv": "Hjälp med flytt och etablering",
+      "title_fr": "Aide à l'installation et à la relocalisation",
+      "title_nl": "Hulp bij verhuis en vestiging",
       "desc_en": "Practical support with housing, school search and settling in.",
-      "desc_ar": "دعم عملي في السكن والبحث عن المدارس والاستقرار."
+      "desc_ar": "دعم عملي في السكن والبحث عن المدارس والاستقرار.",
+      "desc_sv": "Praktiskt stöd med bostad, skolsökning och etablering.",
+      "desc_fr": "Un soutien pratique pour le logement, la recherche d'écoles et l'installation.",
+      "desc_nl": "Praktische ondersteuning bij huisvesting, schoolkeuze en vestiging."
     },
     {
       "icon": "star",
       "title_en": "Luxury Lifestyle Experiences",
       "title_ar": "تجارب أسلوب الحياة الفاخرة",
+      "title_sv": "Exklusiva livsstilsupplevelser",
+      "title_fr": "Expériences art de vivre exclusives",
+      "title_nl": "Exclusieve lifestyle-ervaringen",
       "desc_en": "Private dining, yachts, desert and cultural experiences.",
-      "desc_ar": "عشاء خاص ويخوت وتجارب صحراوية وثقافية."
+      "desc_ar": "عشاء خاص ويخوت وتجارب صحراوية وثقافية.",
+      "desc_sv": "Privata middagar, yachter samt öken- och kulturupplevelser.",
+      "desc_fr": "Dîners privés, yachts, expériences dans le désert et découvertes culturelles.",
+      "desc_nl": "Privédiners, jachten, woestijn- en culturele ervaringen."
     },
     {
       "icon": "hand",
       "title_en": "Personalized Assistance for International Visitors",
       "title_ar": "مساعدة شخصية للزوار الدوليين",
+      "title_sv": "Personlig assistans för internationella besökare",
+      "title_fr": "Assistance personnelle aux visiteurs internationaux",
+      "title_nl": "Persoonlijke assistentie voor internationale bezoekers",
       "desc_en": "A single point of contact throughout your time in Dubai.",
-      "desc_ar": "محاور واحد يرافقك طوال وجودك في دبي."
+      "desc_ar": "محاور واحد يرافقك طوال وجودك في دبي.",
+      "desc_sv": "En enda kontaktperson under hela din tid i Dubai.",
+      "desc_fr": "Un interlocuteur unique pendant toute la durée de votre séjour à Dubaï.",
+      "desc_nl": "Eén aanspreekpunt tijdens uw volledige verblijf in Dubai."
     }
   ]
 }

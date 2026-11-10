@@ -8,7 +8,7 @@ const CONFIG = {
   whatsappDisplay: "+971 54 706 5800",
   email: "saidaafly1@gmail.com",
   linkedin: "",               // e.g. "https://www.linkedin.com/in/your-profile"
-  liveHosts: ["alkhabira.com", "www.alkhabira.com", "netlify.app"] // where the form submits online (Netlify Forms)
+  liveHosts: ["alkhabira.com", "www.alkhabira.com", "saidaafly.com", "www.saidaafly.com", "netlify.app"] // where the form submits online (Netlify Forms)
 };
 
 const ICONS = {
@@ -70,24 +70,24 @@ const SERVICES = {
     ["hand","Personalized Assistance for International Visitors","مساعدة شخصية للزوار الدوليين","A single point of contact throughout your time in Dubai.","محاور واحد يرافقك طوال وجودك في دبي."]
   ]
 };
-const PILLAR_NAMES={p1:["Business & Financial Advisory","الاستشارات المالية والأعمال"],p2:["Investment & Real Estate","الاستثمار والعقارات"],p3:["Dubai Private Concierge","الكونسيرج الخاص في دبي"]};
+const PILLAR_NAMES={p1:["Business & Financial Advisory","الاستشارات المالية والأعمال","Affärs- och finansiell rådgivning","Conseil financier et aux entreprises","Zakelijk en financieel advies"],p2:["Investment & Real Estate","الاستثمار والعقارات","Investeringar och fastigheter","Investissement et immobilier","Investeringen en vastgoed"],p3:["Dubai Private Concierge","الكونسيرج الخاص في دبي","Privat concierge i Dubai","Conciergerie privée à Dubaï","Private concierge in Dubai"]};
 
 /* ---------- Arabic dictionary (English is the HTML source text) ---------- */
 const AR = {
 /* header & footer */
-nav_home:"الرئيسية",nav_about:"من نحن",nav_services:"الخدمات",nav_invest:"فرص الاستثمار",nav_concierge:"الكونسيرج الخاص",nav_insights:"رؤى",nav_contact:"تواصل معنا",
+nav_home:"الرئيسية",nav_about:"من نحن",nav_services:"خدمات الأعمال والخدمات المالية",nav_invest:"فرص الاستثمار",nav_concierge:"الكونسيرج الخاص",nav_insights:"رؤى",nav_contact:"تواصل معنا",
 dd_p1:"الاستشارات المالية والأعمال",dd_p1d:"الضرائب والحوكمة والتقارير والخدمات المؤسسية",dd_p2:"الاستثمار والعقارات",dd_p2d:"الفرص والتقييم والتواصل مع المختصين المرخّصين",dd_p3:"الكونسيرج الخاص في دبي",dd_p3d:"التنسيق الطبي والانتقال وأسلوب الحياة",
 hd_cta:"احجز استشارة خاصة",wa_label:"واتساب",
-ft_sig1:"نربط الطموح",ft_sig2:"بالفرص.",ft_desc:"منصة استشارات مالية وأعمال وخدمات خاصة في دبي، تجمع بين الخبرة المهنية والاهتمام الشخصي بكل عميل.",
+ft_sig1:"نربط الطموح",ft_sig2:"بالفرص.",ft_desc:"استشارات مالية وأعمال وخدمات خاصة في دبي، بخبرة مهنية واهتمام شخصي.",
 ft_nav:"تصفّح",ft_services:"الخدمات",ft_contact:"تواصل",ft_privacy:"سياسة الخصوصية",ft_terms:"الشروط والأحكام",ft_rights:"© 2026 Saida Afly Business Gateway. جميع الحقوق محفوظة.",
-ft_disc:"تقدّم Saida Afly Business Gateway خدمات استشارية وخدمات تعريف وتنسيق. أما الخدمات الخاضعة للتنظيم، كالوساطة العقارية وإدارة الاستثمارات والخدمات الطبية، فيقدّمها مزوّدون حاصلون على التراخيص المطلوبة. لا يشكّل محتوى هذا الموقع نصيحة استثمارية أو ضمانًا لأي عائد.",
+ft_disc:"نقدّم الاستشارات والتعريف والتنسيق فقط. الخدمات الخاضعة للتنظيم، كالوساطة العقارية وإدارة الاستثمار والخدمات الطبية، يقدّمها مزوّدون مرخّصون. لا يُعد محتوى الموقع نصيحة استثمارية ولا ضمانًا لأي عائد.",
 city:"دبي، الإمارات العربية المتحدة",
 /* modal */
 m_eyebrow:"خاص وسرّي",m_title:"طلب استشارة خاصة",m_sub:"شاركنا بعض التفاصيل، وسنتواصل معك شخصيًا.",
 tab_c:"استشارة",tab_i:"استفسار استثماري",tab_r:"طلب كونسيرج",
 f_name:"الاسم الكامل",f_email:"البريد الإلكتروني",f_phone:"الهاتف / واتساب",f_country:"بلد الإقامة",f_service:"الخدمة المطلوبة",f_choose:"اختر خدمة",f_desc:"وصف موجز لاحتياجاتك",f_date:"التاريخ المفضل للاستشارة",f_method:"وسيلة التواصل المفضلة",
 m_email:"البريد الإلكتروني",m_phone:"الهاتف",m_wa:"واتساب",
-f_privacy:"تُستخدم معلوماتك فقط للرد على طلبك، ولا تُباع ولا تُشارك لأغراض تسويقية. يمكنك طلب حذفها في أي وقت.",
+f_privacy:"نستخدم بياناتك للرد على طلبك فقط، ولا نبيعها ولا نشاركها للتسويق، ويمكنك طلب حذفها متى شئت.",
 f_consent_a:"أوافق على أن تستخدم Saida Afly Business Gateway المعلومات التي أقدّمها للرد على طلبي، وفق",f_consent_b:"سياسة الخصوصية",
 f_submit:"إرسال الطلب",f_err:"يرجى استكمال الحقول المطلوبة وتأكيد الموافقة.",
 r_ok_t:"شكرًا لك، استلمنا طلبك.",r_ok_d:"سنتواصل معك عبر وسيلة التواصل التي اخترتها.",
@@ -97,22 +97,22 @@ r_wa:"إرسال عبر واتساب",r_mail:"إرسال بالبريد",r_close
 pg_home:"الرئيسية",learn:"اعرف المزيد",
 /* home */
 h_eye:"استشارات أعمال متميزة · دبي",h_t1:"طموحاتك.",h_t2:"خبرتنا.",h_t3:"دبي.",
-h_lead:"من الاستشارات المالية والضريبية إلى فرص الاستثمار وخدمات الكونسيرج الحصرية، بوابتك الموثوقة إلى الأعمال والاستثمار والتجارب الاستثنائية في دبي.",
+h_lead:"استشارات مالية وضريبية، وفرص استثمار، وخدمات كونسيرج حصرية: بوابتك الموثوقة إلى الأعمال والحياة في دبي.",
 h_cta1:"احجز استشارة خاصة",h_cta2:"استكشف خدماتنا",h_sig:"ثروتك. أولويتنا. راحة بالك.",
-p_eye:"خدماتنا",p_t:"ثلاث ركائز، وبوابة واحدة موثوقة.",p_s:"الخبرة المالية هي أساسنا، وتكمّلها خدمات تيسير الاستثمار والكونسيرج الخاص في تجربة واحدة متكاملة.",
+p_eye:"خدماتنا",p_t:"ثلاث ركائز، وبوابة واحدة موثوقة.",p_s:"الخبرة المالية أساسنا، ويكمّلها الاستثمار والكونسيرج الخاص في تجربة واحدة متكاملة.",
 p1_t:"الاستشارات المالية والأعمال",p1_d:"الأساس المهني لعلامتنا: خبرة مالية وضريبية ورؤية استراتيجية لشركتك.",p1_l1:"ضريبة الشركات وضريبة القيمة المضافة",p1_l2:"الحوكمة المؤسسية وإدارة المخاطر",p1_l3:"التقارير المالية والامتثال",p1_l4:"تأسيس الشركات والخدمات المؤسسية",p1_more:"استكشف الاستشارات",
 p2_t:"الاستثمار والعقارات",p2_d:"إرشاد مدروس في مشهد الاستثمار بدبي، وتواصل مع المختصين المناسبين.",p2_l1:"فرص الاستثمار العقاري في دبي",p2_l2:"تقييم الفرص الاستثمارية",p2_l3:"التعريف بالمستثمرين",p2_l4:"التنسيق مع المختصين المرخّصين",p2_more:"استكشف فرص الاستثمار",
 p3_t:"الكونسيرج الخاص في دبي",p3_d:"خدمات شخصية بخصوصية واهتمام بالتفاصيل للزوار والتنفيذيين والعملاء الخاصين.",p3_l1:"تنسيق الخدمات الطبية والتجميلية",p3_l2:"ترتيب الإقامة الراقية",p3_l3:"الانتقال والاستقرار في دبي",p3_l4:"تجارب أسلوب الحياة الفاخرة",p3_more:"استكشف الكونسيرج",
-t_eye:"فلسفتنا",t_t:"خبرة نبني عليها. نزاهة تقودنا. وأنت محور اهتمامنا.",t_s:"نؤمن بأن كل قرار في الأعمال، وكل خطوة استثمارية، وكل رحلة شخصية، تستحق إرشادًا مدروسًا وخصوصية واهتمامًا فرديًا.",
-v1_t:"خبرة مهنية",v1_d:"أكثر من 15 عامًا في الإدارة المالية والضرائب والتدقيق والحوكمة، تُوظَّف لخدمة أهدافك.",
+t_eye:"فلسفتنا",t_t:"خبرة نبني عليها. نزاهة تقودنا. وأنت محور اهتمامنا.",t_s:"كل قرار تجاري أو استثماري أو شخصي يستحق إرشادًا مدروسًا وخصوصية واهتمامًا فرديًا.",
+v1_t:"خبرة مهنية",v1_d:"أكثر من 15 عامًا في الإدارة المالية والضرائب والتدقيق والحوكمة، في خدمة أهدافك.",
 v2_t:"رؤية مستقلة",v2_d:"نصيحة صريحة ومتوازنة تضع مصلحتك أولًا، مع وضوح كامل في دورنا وحدوده.",
 v3_t:"اهتمام شخصي",v3_d:"محاور واحد يعرف ملفك جيدًا، ويتابع معك كل خطوة بسرّية تامة.",
 w_eye:"كيف نعمل",w_t:"رحلة بسيطة وسرّية",
 w1_t:"أخبرنا بهدفك",w1_d:"شاركنا أهدافك في الأعمال أو اهتماماتك الاستثمارية أو احتياجاتك الشخصية.",
 w2_t:"احصل على إرشاد مخصص",w2_d:"ندرس احتياجاتك ونحدد الحلول والفرص والتواصلات المهنية المناسبة.",
-w3_t:"تقدّم بثقة",w3_d:"استفد من تنسيق شخصي وإرشاد مهني ومتابعة مستمرة تناسب احتياجاتك.",
+w3_t:"تقدّم بثقة",w3_d:"تنسيق شخصي وإرشاد مهني ومتابعة مستمرة على مقاس احتياجاتك.",
 bn:"دبي… حيث تلتقي الأعمال والاستثمار وجودة الحياة.",
-a_eye:"من نحن",a_t:"خبرة مهنية. والتزام شخصي.",a_s:"تجمع Saida Afly Business Gateway بين الخبرة المالية والرؤية الاستراتيجية للأعمال والنهج الشخصي، لمساعدة العملاء على اغتنام الفرص في دبي.",
+a_eye:"من نحن",a_t:"خبرة مهنية. والتزام شخصي.",a_s:"نجمع الخبرة المالية والرؤية الاستراتيجية والنهج الشخصي لنساعدك على اغتنام الفرص في دبي.",
 a_c1:"وكيلة ضرائب معتمدة لدى الهيئة الاتحادية للضرائب في الإمارات",a_c2:"أكثر من 15 عامًا في الإدارة المالية والضرائب والتدقيق الخارجي والرقابة المالية والحوكمة والاستشارات",a_c3:"خلفية مهنية في PwC",a_c4:"مقيمة في دبي، وتخدم عملاء محليين ودوليين",
 a_photo:"مكان الصورة الشخصية",a_name:"سعيدة أفلي",a_role:"المؤسِّسة",
 i_eye:"رؤى",i_t:"رؤى تدعم قرارات مدروسة",i_s:"مقالات في المالية والضرائب والحوكمة ومشهد الاستثمار في دبي.",i_all:"جميع المقالات",
@@ -120,22 +120,22 @@ c_eye:"تواصل معنا",c_t:"ابدأ محادثة سرّية",c_s:"اختر
 path1:"استشارة خاصة",path1d:"استشارات الأعمال والمالية والضرائب",path2:"استفسار استثماري",path2d:"فرص العقارات والأعمال",path3:"طلب كونسيرج",path3d:"التنسيق الطبي والانتقال وأسلوب الحياة",
 cc_t:"تواصل مباشر",cc_wa:"واتساب",cc_em:"البريد الإلكتروني",cc_loc:"الموقع",
 /* pillar pages */
-adv_eye:"الركيزة الأولى",adv_t:"الاستشارات المالية والأعمال",adv_s:"الأساس المهني لعلامتنا: خبرة مالية وضريبية واستشارية تساعدك على البناء بثقة واتخاذ القرار بوضوح.",adv_cta:"احجز استشارة خاصة",
+adv_eye:"الركيزة الأولى",adv_t:"الاستشارات المالية والأعمال",adv_s:"خبرة مالية وضريبية واستشارية تساعدك على البناء بثقة والقرار بوضوح.",adv_cta:"احجز استشارة خاصة",
 adv_h_eye:"ما نقدّمه",adv_h_t:"خبرة تُترجم إلى قرارات أفضل",adv_h_s:"من التأسيس إلى الحوكمة والتحول، نرافق الشركات ورواد الأعمال بخبرة عملية ورؤية استراتيجية.",
 adv_who_t:"لمن نقدّم هذه الخدمات",who1_t:"المؤسسون الجدد",who1_d:"يؤسسون شركتهم الأولى في الإمارات.",who2_t:"الشركات الصغيرة والمتوسطة",who2_d:"تبحث عن انضباط مالي وامتثال ضريبي.",who3_t:"الشركات العائلية",who3_d:"تعزز الحوكمة وتستعد للنمو.",who4_t:"الشركات الدولية",who4_d:"تدخل السوق الإماراتية أو تتوسع فيها.",
 adv_band:"لنناقش أهداف شركتك بسرّية تامة.",
-inv_eye:"الركيزة الثانية",inv_t:"الاستثمار والعقارات",inv_s:"نساعدك على فهم مشهد الاستثمار في دبي، عبر إرشاد مدروس وتواصل مع المختصين المرخّصين المناسبين.",inv_cta:"أرسل استفسارًا استثماريًا",
+inv_eye:"الركيزة الثانية",inv_t:"الاستثمار والعقارات",inv_s:"إرشاد مدروس في سوق الاستثمار بدبي، وتواصل مع المختصين المرخّصين المناسبين.",inv_cta:"أرسل استفسارًا استثماريًا",
 inv_h_eye:"كيف نساعدك",inv_h_t:"قرارات استثمارية مبنية على المعرفة",inv_h_s:"للمستثمرين الدوليين والأفراد الذين يستكشفون الفرص في دبي، من العقار إلى الاستثمار في الأعمال.",
-inv_disc:"لسنا مدير استثمار مرخّصًا ولا وسيطًا عقاريًا مرخّصًا. نقدّم إرشادًا ماليًا وخدمات تعريف وتنسيق، وتُنفَّذ الصفقات عبر وسطاء ومختصين حاصلين على التراخيص المطلوبة. لا نتولى حفظ أموال العملاء، ولا نضمن أي عائد.",
+inv_disc:"لسنا مدير استثمار ولا وسيطًا عقاريًا مرخّصًا. نقدّم الإرشاد المالي والتعريف والتنسيق، وتُنفَّذ الصفقات عبر جهات مرخّصة. لا نحتفظ بأموال العملاء ولا نضمن أي عائد.",
 inv_band:"هل تستكشف فرصة استثمارية في دبي؟",
 con_eye:"الركيزة الثالثة",con_t:"الكونسيرج الخاص في دبي",con_s:"خدمات شخصية للزوار الدوليين والتنفيذيين والمستثمرين والعملاء الخاصين، بخصوصية ودقة في التفاصيل.",con_cta:"أرسل طلب كونسيرج",
 con_h_eye:"خدماتنا الخاصة",con_h_t:"إقامتك في دبي، منسّقة بعناية",con_h_s:"محاور واحد يتولى التنسيق مع مزوّدين مرخّصين وموثوقين، لتتفرغ لما جئت من أجله.",
-con_disc:"لسنا عيادة طبية ولا مزوّدًا مباشرًا للخدمات الخاضعة للتنظيم. نقوم بالتنسيق وتسهيل الوصول إلى مزوّدين مرخّصين، وتبقى القرارات والاستشارات الطبية مسؤولية الممارسين المرخّصين.",
+con_disc:"لسنا عيادة طبية ولا مزوّدًا مباشرًا لخدمات خاضعة للتنظيم. ننسّق الوصول إلى مزوّدين مرخّصين، وتبقى القرارات الطبية مسؤولية الأطباء المرخّصين.",
 con_band:"أخبرنا بما تحتاجه خلال إقامتك في دبي.",
 /* insights */
-ins_eye:"رؤى",ins_t:"رؤى ومقالات",ins_s:"قراءات مختصرة في المالية والضرائب والاستراتيجية والحوكمة ومشهد الاستثمار في دبي، لمساعدتك على اتخاذ قرارات مدروسة.",
+ins_eye:"رؤى",ins_t:"رؤى ومقالات",ins_s:"قراءات مختصرة في المال والضرائب والاستراتيجية والحوكمة والاستثمار في دبي.",
 cat_all:"الكل",cat_tax:"المالية والضرائب",cat_strategy:"استراتيجية الأعمال",cat_gov:"الحوكمة المؤسسية",cat_dubai:"مشهد الاستثمار في دبي",cat_re:"رؤى عقارية",cat_trends:"اتجاهات الأعمال والاقتصاد",
-soon:"قريبًا",min:"دقائق قراءة",back:"العودة إلى الرؤى",art_note:"هذا المقال للمعلومات العامة فقط، ولا يُعد استشارة ضريبية أو قانونية أو استثمارية. للحصول على إرشاد يناسب حالتك، احجز استشارة خاصة.",
+soon:"قريبًا",min:"دقائق قراءة",back:"العودة إلى الرؤى",art_note:"هذا المقال للمعلومات العامة فقط، وليس استشارة ضريبية أو قانونية أو استثمارية. لحالتك الخاصة، احجز استشارة.",
 /* legal */
 priv_t:"سياسة الخصوصية",terms_t:"الشروط والأحكام",updated:"آخر تحديث: نوفمبر 2026"
 };
@@ -143,18 +143,28 @@ priv_t:"سياسة الخصوصية",terms_t:"الشروط والأحكام",upd
 /* ---------- language ---------- */
 let LANG="en";
 function T(k,en){const t=TEXT[k];if(t&&t[LANG])return t[LANG];return LANG==="ar"&&AR[k]!==undefined?AR[k]:en}
+const LANGS=["en","ar","fr","nl","sv"];
+const SVI={sv:5,fr:7,nl:9};
+function svcT(x){return LANG==="ar"?x[2]:(SVI[LANG]&&x[SVI[LANG]])||x[1]}
+function svcD(x){return LANG==="ar"?x[4]:(SVI[LANG]&&x[SVI[LANG]+1])||x[3]}
+function fitNav(){const hd=document.getElementById("hd");if(!hd)return;const n=hd.querySelector(".nav"),r=hd.querySelector(".hd-r"),lg=hd.querySelector(".logo");
+  const bad=()=>{if(!n||getComputedStyle(n).display==="none")return false;const nr=n.getBoundingClientRect(),rr=r.getBoundingClientRect(),lr=lg.getBoundingClientRect(),ov=(x,y)=>x.left<y.right+12&&y.left<x.right+12;return ov(nr,rr)||ov(nr,lr)||rr.right>innerWidth+1||rr.left<-1||lr.left<-1||lr.right>innerWidth+1||n.scrollWidth>n.clientWidth+2};
+  hd.classList.remove("nav-collapse","no-cta");if(!bad())return;hd.classList.add("no-cta");if(!bad())return;hd.classList.add("nav-collapse")}
+addEventListener("resize",()=>fitNav());
 function applyLang(l){
   LANG=l;
-  document.documentElement.lang=l;
+  document.documentElement.lang=l==="nl"?"nl-BE":l;
   document.documentElement.dir=l==="ar"?"rtl":"ltr";
   document.querySelectorAll("[data-i]").forEach(el=>{
     if(el.dataset.en===undefined)el.dataset.en=el.textContent;
     el.textContent=T(el.dataset.i,el.dataset.en);
   });
-  document.querySelectorAll(".lang button").forEach(b=>b.setAttribute("aria-pressed",b.dataset.lang===l));
-  if(document.body.dataset.titleAr){if(!document.body.dataset.titleEn)document.body.dataset.titleEn=document.title;document.title=l==="ar"?document.body.dataset.titleAr:document.body.dataset.titleEn}
+  document.querySelectorAll(".lang-menu button").forEach(b=>b.setAttribute("aria-checked",b.dataset.lang===l));{const c=document.getElementById("langCur");if(c)c.textContent=l.toUpperCase()}
+  {const ds=document.body.dataset;if(!ds.titleEn)ds.titleEn=document.title;document.title=(l!=="en"&&ds["title"+l[0].toUpperCase()+l.slice(1)])||ds.titleEn}
   buildServiceSelect();renderPillar();renderInsights();renderArticle();
+  if(typeof fitNav==="function")fitNav();
   try{localStorage.setItem("sab_lang",l)}catch(e){}
+  document.dispatchEvent(new Event("sab:lang"));
 }
 
 /* ---------- shell: header, footer, modal, whatsapp ---------- */
@@ -164,30 +174,24 @@ function shell(){
   const home=page==="home"?"":"index.html";
   const hd=document.createElement("header");hd.className="hd";hd.id="hd";
   hd.innerHTML=`<div class="wrap"><div class="hd-in">
-    <a href="index.html" class="logo" aria-label="Saida Afly Business Gateway"><span class="mono">SA</span><span class="logo-t"><b>SAIDA AFLY</b><span>BUSINESS GATEWAY</span></span></a>
+    <a href="index.html" class="logo" aria-label="Saida Afly Business Gateway"><img class="mark" src="img/logo-mark.png" alt="" width="96" height="48"><span class="logo-t"><b>SAIDA AFLY</b><span>BUSINESS GATEWAY</span></span></a>
     <nav class="nav" aria-label="Main">
       <a href="index.html"${cur("home")} data-i="nav_home">Home</a>
       <a href="${home}#about" data-i="nav_about">About</a>
-      <div class="dd" id="dd"><button type="button" aria-expanded="false" aria-haspopup="true"><span data-i="nav_services">Services</span><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></button>
-        <div class="dd-menu" role="menu">
-          <a href="advisory.html" role="menuitem">${ico("chart",20)}<span><b data-i="dd_p1">Business & Financial Advisory</b><small data-i="dd_p1d">Tax, governance, reporting & corporate services</small></span></a>
-          <a href="investment.html" role="menuitem">${ico("tower",20)}<span><b data-i="dd_p2">Investment & Real Estate</b><small data-i="dd_p2d">Opportunities, assessment & licensed connections</small></span></a>
-          <a href="concierge.html" role="menuitem">${ico("star",20)}<span><b data-i="dd_p3">Dubai Private Concierge</b><small data-i="dd_p3d">Medical coordination, relocation & lifestyle</small></span></a>
-        </div></div>
+      <a href="advisory.html"${cur("advisory")} data-i="nav_services">Business & Financial Services</a>
       <a href="investment.html"${cur("investment")} data-i="nav_invest">Investment Opportunities</a>
       <a href="concierge.html"${cur("concierge")} data-i="nav_concierge">Private Concierge</a>
       <a href="insights.html"${cur("insights")} data-i="nav_insights">Insights</a>
       <a href="${home}#contact" data-i="nav_contact">Contact</a>
     </nav>
     <div class="hd-r">
-      <div class="lang" role="group" aria-label="Language"><button type="button" data-lang="en" aria-pressed="true">EN</button><button type="button" data-lang="ar" aria-pressed="false" lang="ar">عربي</button></div>
+      <div class="lang" id="lang"><button type="button" class="lang-btn" aria-haspopup="true" aria-expanded="false" aria-label="Language"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.6 3.8 5.6 3.8 9s-1.3 6.4-3.8 9c-2.5-2.6-3.8-5.6-3.8-9S9.5 5.6 12 3z"/></svg><span id="langCur">EN</span><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></button><div class="lang-menu" role="menu"><button type="button" role="menuitemradio" data-lang="en" lang="en"><b>EN</b>English</button><button type="button" role="menuitemradio" data-lang="ar" lang="ar"><b>AR</b>العربية</button><button type="button" role="menuitemradio" data-lang="fr" lang="fr"><b>FR</b>Français</button><button type="button" role="menuitemradio" data-lang="nl" lang="nl-BE"><b>NL</b>Nederlands (Vlaams)</button><button type="button" role="menuitemradio" data-lang="sv" lang="sv"><b>SV</b>Svenska</button></div></div>
       <button type="button" class="btn btn-blush btn-sm" data-open="consultation" data-i="hd_cta">Book a Private Consultation</button>
       <button type="button" class="burger" id="burger" aria-label="Menu" aria-expanded="false"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
     </div></div>
     <div class="mnav" id="mnav">
       <a href="index.html" data-i="nav_home">Home</a><a href="${home}#about" data-i="nav_about">About</a>
-      <a href="${home}#services" data-i="nav_services">Services</a>
-      <a class="sub" href="advisory.html" data-i="dd_p1">Business & Financial Advisory</a><a class="sub" href="investment.html" data-i="dd_p2">Investment & Real Estate</a><a class="sub" href="concierge.html" data-i="dd_p3">Dubai Private Concierge</a>
+      <a href="advisory.html" data-i="nav_services">Business & Financial Services</a><a href="investment.html" data-i="nav_invest">Investment Opportunities</a><a href="concierge.html" data-i="nav_concierge">Private Concierge</a>
       <a href="insights.html" data-i="nav_insights">Insights</a><a href="${home}#contact" data-i="nav_contact">Contact</a>
       <button type="button" class="btn btn-blush" style="margin-top:10px" data-open="consultation" data-i="hd_cta">Book a Private Consultation</button>
     </div></div>`;
@@ -200,7 +204,7 @@ function shell(){
     <div class="ft-top"><p class="sig"><span data-i="ft_sig1">Connecting Ambition</span> <em data-i="ft_sig2">with Opportunity.</em></p>
       <button type="button" class="btn btn-blush" data-open="consultation" data-i="hd_cta">Book a Private Consultation</button></div>
     <div class="ft-grid">
-      <div><a href="index.html" class="logo"><span class="mono">SA</span><span class="logo-t"><b>SAIDA AFLY</b><span>BUSINESS GATEWAY</span></span></a>
+      <div><a href="index.html" class="ft-logo" aria-label="Saida Afly Business Gateway"><img src="img/logo-full.png" alt="Saida Afly Business Gateway" width="210" height="105"></a>
         <p style="margin:20px 0 0;max-width:340px" data-i="ft_desc">Premium business advisory and private client services in Dubai, combining professional expertise with personal attention.</p>
         <div class="social"><a href="https://wa.me/${CONFIG.whatsapp}" target="_blank" rel="noopener" aria-label="WhatsApp">${WA_SVG}</a>${li}<a href="mailto:${CONFIG.email}" aria-label="Email">${ico("doc",18)}</a></div></div>
       <div><h4 data-i="ft_nav">Navigate</h4><ul><li><a href="index.html" data-i="nav_home">Home</a></li><li><a href="${home}#about" data-i="nav_about">About</a></li><li><a href="insights.html" data-i="nav_insights">Insights</a></li><li><a href="${home}#contact" data-i="nav_contact">Contact</a></li></ul></div>
@@ -250,9 +254,9 @@ function shell(){
 let QTYPE="consultation";
 function buildServiceSelect(){
   const s=document.getElementById("qService");if(!s)return;
-  const keep=s.value;const i=LANG==="ar"?1:0;
+  const keep=s.value;const i={ar:1,sv:2,fr:3,nl:4}[LANG]||0;
   const order=QTYPE==="investment"?["p2","p1","p3"]:QTYPE==="concierge"?["p3","p1","p2"]:["p1","p2","p3"];
-  s.innerHTML=`<option value="">${T("f_choose","Select a service")}</option>`+order.map(p=>`<optgroup label="${PILLAR_NAMES[p][i]}">`+SERVICES[p].map(x=>`<option value="${x[1]}">${LANG==="ar"?x[2]:x[1]}</option>`).join("")+`</optgroup>`).join("");
+  s.innerHTML=`<option value="">${T("f_choose","Select a service")}</option>`+order.map(p=>`<optgroup label="${PILLAR_NAMES[p][i]}">`+SERVICES[p].map(x=>`<option value="${x[1]}">${svcT(x)}</option>`).join("")+`</optgroup>`).join("");
   if(keep)s.value=keep;
 }
 function setType(t){
@@ -269,6 +273,7 @@ function openModal(t){
 function closeModal(){document.getElementById("modal").classList.remove("open");document.body.style.overflow=""}
 
 /* ---------- submit ---------- */
+window.SAB_isLive=()=>isLive();Object.defineProperty(window,"SAB_CONFIG",{get:()=>CONFIG});
 function isLive(){const h=location.hostname;return CONFIG.liveHosts.some(x=>h===x||h.endsWith("."+x))}
 async function submitForm(e){
   e.preventDefault();
@@ -295,14 +300,14 @@ async function submitForm(e){
 function renderPillar(){
   const g=document.getElementById("svcGrid");if(!g)return;
   const p=g.dataset.pillar;
-  g.innerHTML=SERVICES[p].map(x=>`<div class="svc-item rv in"><span class="ic">${ico(x[0],24)}</span><div><h3>${LANG==="ar"?x[2]:x[1]}</h3><p>${LANG==="ar"?x[4]:x[3]}</p></div></div>`).join("");
+  g.innerHTML=SERVICES[p].map(x=>`<div class="svc-item rv in"><span class="ic">${ico(x[0],24)}</span><div><h3>${svcT(x)}</h3><p>${svcD(x)}</p></div></div>`).join("");
 }
 
 /* ---------- insights ---------- */
 let CAT="all";
 const CATS={tax:["Finance & Tax","cat_tax"],strategy:["Business Strategy","cat_strategy"],gov:["Corporate Governance","cat_gov"],dubai:["Dubai Investment Landscape","cat_dubai"],re:["Real Estate Insights","cat_re"],trends:["Business & Economic Trends","cat_trends"]};
 function insCard(a){
-  const L=LANG==="ar"?a.ar:a.en;const c=CATS[a.cat];
+  const L=a[LANG]||a.en;const c=CATS[a.cat];
   const meta=a.body?`<span>${a.minutes} ${T("min","min read")}</span>`:`<span class="soon">${T("soon","Coming soon")}</span>`;
   const inner=`<span class="cat">${T(c[1],c[0])}</span><h3>${L.title}</h3><p>${L.excerpt}</p><span class="meta">${meta}${a.body?ARR:""}</span>`;
   return a.body?`<a class="ins rv in" href="article.html#${a.id}">${inner}</a>`:`<div class="ins rv in" aria-disabled="true">${inner}</div>`;
@@ -320,11 +325,11 @@ function renderInsights(){
 function renderArticle(){
   const box=document.getElementById("article");if(!box||typeof INSIGHTS==="undefined")return;
   const id=location.hash.slice(1);const a=INSIGHTS.find(x=>x.id===id&&x.body)||INSIGHTS.find(x=>x.body);if(!a)return;
-  const L=LANG==="ar"?a.ar:a.en;const c=CATS[a.cat];
+  const L=a[LANG]||a.en;const c=CATS[a.cat];
   document.title=L.title+" · Saida Afly Business Gateway";
   box.innerHTML=`<a class="link" href="insights.html" style="border:0">${ARR.replace('class="arr"','class="arr" style="transform:scaleX(-1)"')} ${T("back","Back to Insights")}</a>
     <div style="margin-top:34px"><span class="eyebrow">${T(c[1],c[0])}</span><h1>${L.title}</h1><p class="lead">${L.excerpt}</p><p class="small">${a.minutes} ${T("min","min read")}</p></div>
-    <div class="prose" style="margin-top:36px">${LANG==="ar"?a.body.ar:a.body.en}</div>
+    <div class="prose" style="margin-top:36px">${a.body[LANG]||a.body.en}</div>
     <div class="note-box">${T("art_note","This article provides general information only and does not constitute tax, legal or investment advice. For guidance on your situation, book a private consultation.")}</div>
     <div style="margin-top:34px"><button type="button" class="btn btn-primary" data-open="consultation">${T("hd_cta","Book a Private Consultation")}${ARR}</button></div>`;
 }
@@ -337,12 +342,12 @@ async function loadContent(){
   if(settings)["whatsapp","whatsappDisplay","email","linkedin"].forEach(k=>{if(settings[k]!==undefined)CONFIG[k]=String(settings[k]).trim()});
   CONFIG.whatsapp=CONFIG.whatsapp.replace(/\D/g,"");
   if(images)IMAGES=images;
-  if(services){const m={advisory:"p1",investment:"p2",concierge:"p3"};Object.entries(m).forEach(([k,p])=>{if(Array.isArray(services[k])&&services[k].length)SERVICES[p]=services[k].map(x=>[x.icon||"star",x.title_en||"",x.title_ar||x.title_en||"",x.desc_en||"",x.desc_ar||x.desc_en||""])})}
-  if(ins&&Array.isArray(ins.articles))INSIGHTS=ins.articles.map(a=>({id:a.slug,cat:a.category,minutes:a.minutes||3,en:{title:a.title_en,excerpt:a.excerpt_en||""},ar:{title:a.title_ar||a.title_en,excerpt:a.excerpt_ar||a.excerpt_en||""},body:a.published&&a.body_en?{en:a.body_en,ar:a.body_ar||a.body_en}:null}));
+  if(services){const m={advisory:"p1",investment:"p2",concierge:"p3"};Object.entries(m).forEach(([k,p])=>{if(Array.isArray(services[k])&&services[k].length)SERVICES[p]=services[k].map(x=>[x.icon||"star",x.title_en||"",x.title_ar||x.title_en||"",x.desc_en||"",x.desc_ar||x.desc_en||"",x.title_sv||x.title_en||"",x.desc_sv||x.desc_en||"",x.title_fr||x.title_en||"",x.desc_fr||x.desc_en||"",x.title_nl||x.title_en||"",x.desc_nl||x.desc_en||""])})}
+  if(ins&&Array.isArray(ins.articles))INSIGHTS=ins.articles.map(a=>({id:a.slug,cat:a.category,minutes:a.minutes||3,en:{title:a.title_en,excerpt:a.excerpt_en||""},ar:{title:a.title_ar||a.title_en,excerpt:a.excerpt_ar||a.excerpt_en||""},sv:{title:a.title_sv||a.title_en,excerpt:a.excerpt_sv||a.excerpt_en||""},fr:{title:a.title_fr||a.title_en,excerpt:a.excerpt_fr||a.excerpt_en||""},nl:{title:a.title_nl||a.title_en,excerpt:a.excerpt_nl||a.excerpt_en||""},body:a.published&&a.body_en?{en:a.body_en,ar:a.body_ar||a.body_en,sv:a.body_sv||a.body_en,fr:a.body_fr||a.body_en,nl:a.body_nl||a.body_en}:null}));
 }
 function applyImages(){
   document.querySelectorAll("[data-img]").forEach(el=>{const v=IMAGES[el.dataset.img];if(v)el.src=v});
-  if(IMAGES.hero)document.querySelectorAll(".phero").forEach(el=>el.style.setProperty("--phero-img",`url("${IMAGES.hero}")`));
+  if(IMAGES.hero)document.querySelectorAll(".phero").forEach(el=>el.style.setProperty("--phero-img",`url("${new URL(IMAGES.hero,location.href).href}")`));
   const p=document.querySelector(".portrait");
   if(p&&IMAGES.portrait&&!p.querySelector("img")){const i=document.createElement("img");i.src=IMAGES.portrait;i.alt="Saida Afly";i.style.cssText="position:absolute;inset:0;width:100%;height:100%;object-fit:cover";p.prepend(i);p.querySelectorAll(".ini,.note").forEach(x=>x.remove())}
 }
@@ -352,18 +357,18 @@ async function init(){
   await loadContent();
   shell();applyImages();
   let saved=null;try{saved=localStorage.getItem("sab_lang")}catch(e){}
-  applyLang(saved==="ar"?"ar":"en");
-  document.querySelectorAll(".lang button").forEach(b=>b.addEventListener("click",()=>applyLang(b.dataset.lang)));
+  applyLang(LANGS.includes(saved)?saved:"en");
+  const lg=document.getElementById("lang"),lgb=lg.querySelector(".lang-btn");
+  lgb.addEventListener("click",e=>{e.stopPropagation();const o=lg.classList.toggle("open");lgb.setAttribute("aria-expanded",o)});
+  document.addEventListener("click",e=>{if(!e.target.closest("#lang")){lg.classList.remove("open");lgb.setAttribute("aria-expanded",false)}});
+  document.addEventListener("keydown",e=>{if(e.key==="Escape"){lg.classList.remove("open");lgb.setAttribute("aria-expanded",false)}});
+  document.querySelectorAll(".lang-menu button").forEach(b=>b.addEventListener("click",()=>{applyLang(b.dataset.lang);lg.classList.remove("open");lgb.setAttribute("aria-expanded",false)}));
+  try{document.fonts.ready.then(()=>fitNav())}catch(e){}
   const hd=document.getElementById("hd");const solid=()=>hd.classList.toggle("solid",scrollY>40);solid();addEventListener("scroll",solid,{passive:true});
   const bg=document.getElementById("burger"),mn=document.getElementById("mnav");
   bg.addEventListener("click",()=>{const o=mn.classList.toggle("open");bg.setAttribute("aria-expanded",o)});
   mn.querySelectorAll("a").forEach(a=>a.addEventListener("click",()=>{mn.classList.remove("open");bg.setAttribute("aria-expanded",false)}));
-  const dd=document.getElementById("dd"),ddb=dd.querySelector("button");
-  ddb.addEventListener("click",e=>{e.stopPropagation();const o=dd.classList.toggle("open");ddb.setAttribute("aria-expanded",o)});
-  dd.addEventListener("mouseenter",()=>{dd.classList.add("open");ddb.setAttribute("aria-expanded",true)});
-  dd.addEventListener("mouseleave",()=>{dd.classList.remove("open");ddb.setAttribute("aria-expanded",false)});
-  document.addEventListener("click",()=>{dd.classList.remove("open");ddb.setAttribute("aria-expanded",false)});
-  document.addEventListener("click",e=>{const o=e.target.closest("[data-open]");if(o){e.preventDefault();mn.classList.remove("open");openModal(o.dataset.open)}if(e.target.closest("[data-close]"))closeModal()});
+  document.addEventListener("click",e=>{const o=e.target.closest("[data-open]");if(o){e.preventDefault();mn.classList.remove("open");const pg=document.body.dataset.page,tp=o.dataset.open;const sv=tp==="investment"?"realestate":(tp==="consultation"&&pg==="advisory")?"advisory":"";location.href="private-consultation.html"+(sv?"?s="+sv:"");return}if(e.target.closest("[data-close]"))closeModal()});
   document.getElementById("mClose").addEventListener("click",closeModal);
   document.getElementById("modal").addEventListener("click",e=>{if(e.target.id==="modal")closeModal()});
   document.addEventListener("keydown",e=>{if(e.key==="Escape")closeModal()});
@@ -373,5 +378,6 @@ async function init(){
   const io=new IntersectionObserver(es=>es.forEach(x=>{if(x.isIntersecting){x.target.classList.add("in");io.unobserve(x.target)}}),{threshold:.12});
   document.querySelectorAll(".rv").forEach(el=>io.observe(el));
   const d=document.getElementById("qDate");if(d){const t=new Date();t.setDate(t.getDate()+1);d.min=t.toISOString().slice(0,10)}
+  window.SAB_READY=true;document.dispatchEvent(new Event("sab:ready"));
 }
 document.addEventListener("DOMContentLoaded",init);
