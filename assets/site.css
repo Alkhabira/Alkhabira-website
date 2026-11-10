@@ -390,7 +390,7 @@ html:not([lang=en]) [data-block=en],html:not([lang=ar]) [data-block=ar],html:not
 .hd .wrap{width:min(1480px,100% - 48px)}
 .hd.no-cta .hd-r .btn{display:none}
 
-.logo .mark{height:46px;width:auto;display:block;filter:drop-shadow(0 2px 8px rgba(8,29,51,.5))}
+.logo .mark{height:46px;width:92px;object-fit:contain;display:block;filter:drop-shadow(0 2px 8px rgba(8,29,51,.5))}
 .hd.solid .logo .mark{height:40px}
 .ft-logo{display:inline-block}.ft-logo img{width:210px;height:auto;display:block}
 @media (max-width:720px){.logo .mark{height:40px}}
@@ -487,3 +487,8 @@ html[lang=ar] .pc-done h2{font-family:"IBM Plex Sans Arabic",sans-serif}
 }
 body[data-page=consult] .ft-top .btn{display:none}
 .pc-nav:empty{display:none}
+
+.hd.no-logo-t .logo-t{display:none}
+.hd.nav-collapse .logo-t{display:block}
+@media (max-width:720px){.hd.nav-collapse .logo-t{display:none}}
+.hd.solid .logo .mark{width:80px}

@@ -149,8 +149,8 @@ function svcT(x){return LANG==="ar"?x[2]:(SVI[LANG]&&x[SVI[LANG]])||x[1]}
 function svcD(x){return LANG==="ar"?x[4]:(SVI[LANG]&&x[SVI[LANG]+1])||x[3]}
 function fitNav(){const hd=document.getElementById("hd");if(!hd)return;const n=hd.querySelector(".nav"),r=hd.querySelector(".hd-r"),lg=hd.querySelector(".logo");
   const bad=()=>{if(!n||getComputedStyle(n).display==="none")return false;const nr=n.getBoundingClientRect(),rr=r.getBoundingClientRect(),lr=lg.getBoundingClientRect(),ov=(x,y)=>x.left<y.right+12&&y.left<x.right+12;return ov(nr,rr)||ov(nr,lr)||rr.right>innerWidth+1||rr.left<-1||lr.left<-1||lr.right>innerWidth+1||n.scrollWidth>n.clientWidth+2};
-  hd.classList.remove("nav-collapse","no-cta");if(!bad())return;hd.classList.add("no-cta");if(!bad())return;hd.classList.add("nav-collapse")}
-addEventListener("resize",()=>fitNav());
+  hd.classList.remove("nav-collapse","no-cta","no-logo-t");if(!bad())return;hd.classList.add("no-cta");if(!bad())return;hd.classList.add("no-logo-t");if(!bad())return;hd.classList.add("nav-collapse")}
+addEventListener("resize",()=>fitNav());addEventListener("load",()=>fitNav());
 function applyLang(l){
   LANG=l;
   document.documentElement.lang=l==="nl"?"nl-BE":l;
@@ -174,7 +174,7 @@ function shell(){
   const home=page==="home"?"":"index.html";
   const hd=document.createElement("header");hd.className="hd";hd.id="hd";
   hd.innerHTML=`<div class="wrap"><div class="hd-in">
-    <a href="index.html" class="logo" aria-label="Saida Afly Business Gateway"><img class="mark" src="img/logo-mark.png" alt="" width="96" height="48"><span class="logo-t"><b>SAIDA AFLY</b><span>BUSINESS GATEWAY</span></span></a>
+    <a href="index.html" class="logo" aria-label="Saida Afly Business Gateway"><img class="mark" src="img/logo-mark.png" alt="" width="92" height="46" onload="window.fitNav&&fitNav()"><span class="logo-t"><b>SAIDA AFLY</b><span>BUSINESS GATEWAY</span></span></a>
     <nav class="nav" aria-label="Main">
       <a href="index.html"${cur("home")} data-i="nav_home">Home</a>
       <a href="${home}#about" data-i="nav_about">About</a>
