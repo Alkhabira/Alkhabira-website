@@ -1,0 +1,76 @@
+{
+  "articles": [
+    {
+      "slug": "uae-corporate-tax-basics",
+      "category": "tax",
+      "minutes": 5,
+      "published": true,
+      "title_en": "UAE Corporate Tax: what new business owners should know",
+      "title_ar": "ضريبة الشركات في الإمارات: ما يجب أن يعرفه أصحاب الأعمال الجدد",
+      "excerpt_en": "The essentials of the UAE Corporate Tax regime — rates, registration and the reliefs worth understanding before your first filing.",
+      "excerpt_ar": "أساسيات نظام ضريبة الشركات في الإمارات: النسب والتسجيل والإعفاءات التي ينبغي فهمها قبل أول إقرار ضريبي.",
+      "body_en": "<p>The UAE introduced a federal Corporate Tax for financial years starting on or after 1 June 2023. For many founders, it is the first time tax planning has become part of everyday business decisions in the UAE.</p>\n<h2>The headline rates</h2><p>Taxable income up to AED 375,000 is taxed at 0%. Income above that threshold is generally taxed at 9%. Different rules apply to certain large multinational groups and to qualifying free zone businesses.</p>\n<h2>Registration is required</h2><p>Companies and other juridical persons are required to register with the Federal Tax Authority, even if they expect no tax to be payable. Late registration can result in penalties, so it should be planned as part of company setup.</p>\n<h2>Reliefs worth understanding</h2><ul><li><strong>Small Business Relief</strong> — eligible resident businesses with revenue at or below AED 3 million may elect to be treated as having no taxable income, for tax periods ending on or before 31 December 2026.</li><li><strong>Qualifying Free Zone Persons</strong> — may benefit from 0% on qualifying income, provided specific conditions are met and maintained.</li></ul>\n<h2>Good records make everything easier</h2><p>Returns are generally due within nine months of the end of the tax period. Accurate bookkeeping, clear financial statements and documented transactions are the foundation of a smooth filing — and of confident conversations with banks and investors.</p>",
+      "body_ar": "<p>طبّقت دولة الإمارات ضريبة اتحادية على الشركات اعتبارًا من السنوات المالية التي تبدأ في 1 يونيو 2023 أو بعده، وأصبح التخطيط الضريبي جزءًا من القرارات اليومية لكثير من أصحاب الأعمال.</p>\n<h2>النسب الأساسية</h2><p>يخضع الدخل الخاضع للضريبة حتى 375,000 درهم لنسبة 0%، وما يزيد على ذلك يخضع عمومًا لنسبة 9%. وتنطبق قواعد مختلفة على بعض المجموعات متعددة الجنسيات الكبرى وعلى الشركات المؤهلة في المناطق الحرة.</p>\n<h2>التسجيل إلزامي</h2><p>يجب على الشركات وسائر الأشخاص الاعتباريين التسجيل لدى الهيئة الاتحادية للضرائب، حتى لو لم يتوقعوا استحقاق أي ضريبة. وقد يترتب على التأخر في التسجيل غرامات، لذا يُستحسن إدراجه ضمن خطوات تأسيس الشركة.</p>\n<h2>إعفاءات يجدر فهمها</h2><ul><li><strong>إعفاء الأعمال الصغيرة:</strong> يجوز للأعمال المقيمة المؤهلة التي لا تتجاوز إيراداتها 3 ملايين درهم أن تختار معاملتها كأنها لم تحقق دخلًا خاضعًا للضريبة، وذلك للفترات الضريبية المنتهية في 31 ديسمبر 2026 أو قبله.</li><li><strong>الشخص المؤهل في المنطقة الحرة:</strong> قد يستفيد من نسبة 0% على الدخل المؤهل، بشرط استيفاء شروط محددة والمحافظة عليها.</li></ul>\n<h2>السجلات الجيدة تسهّل كل شيء</h2><p>يُستحق الإقرار عمومًا خلال تسعة أشهر من نهاية الفترة الضريبية. ومسك الدفاتر بدقة، والقوائم المالية الواضحة، وتوثيق المعاملات، هي أساس إقرار سلس، وأساس الثقة في التعامل مع البنوك والمستثمرين.</p>"
+    },
+    {
+      "slug": "free-zone-or-mainland",
+      "category": "strategy",
+      "minutes": 4,
+      "published": true,
+      "title_en": "Free zone or mainland? Choosing the right structure in Dubai",
+      "title_ar": "منطقة حرة أم بر رئيسي؟ اختيار الهيكل المناسب في دبي",
+      "excerpt_en": "The decision shapes where you can trade, how you hire and how you are taxed. Here are the questions to answer first.",
+      "excerpt_ar": "هذا القرار يحدد أين تستطيع ممارسة نشاطك، وكيف توظّف، وكيف تُعامل ضريبيًا. هذه هي الأسئلة التي يجب الإجابة عنها أولًا.",
+      "body_en": "<p>One of the first decisions when setting up in Dubai is whether to establish in a free zone or on the mainland. Both can be the right answer — it depends on how and where you intend to do business.</p>\n<h2>Who are your clients?</h2><p>Mainland companies can trade directly across the UAE market. Free zone companies typically serve clients within their zone and internationally, with additional steps when trading directly onshore.</p>\n<h2>What is your activity?</h2><p>Each jurisdiction licenses specific activities. Some activities are only available in particular free zones or require approvals from sector regulators.</p>\n<h2>Office, visas and cost</h2><p>Office requirements, the number of residence visas available and total setup and renewal costs vary considerably between jurisdictions. Comparing the full cost over several years is more useful than comparing the first-year price.</p>\n<h2>Tax considerations</h2><p>Qualifying free zone businesses may benefit from a 0% Corporate Tax rate on qualifying income, subject to conditions. Whether that benefit is realistic depends on your activity and where your revenue comes from.</p>\n<p>The right structure is the one that fits your business model today and leaves room to grow tomorrow.</p>",
+      "body_ar": "<p>من أوائل القرارات عند التأسيس في دبي: هل تؤسس شركتك في منطقة حرة أم في البر الرئيسي؟ كلا الخيارين قد يكون صحيحًا، والأمر يعتمد على طريقة ممارسة نشاطك ومكانه.</p>\n<h2>من هم عملاؤك؟</h2><p>تستطيع شركات البر الرئيسي التعامل مباشرة مع السوق الإماراتية كلها، أما شركات المناطق الحرة فتخدم عادةً العملاء داخل منطقتها وخارج الدولة، مع خطوات إضافية عند التعامل المباشر داخل الدولة.</p>\n<h2>ما طبيعة نشاطك؟</h2><p>كل جهة ترخيص تمنح أنشطة محددة، وبعض الأنشطة لا تتوفر إلا في مناطق حرة بعينها، أو تحتاج إلى موافقات من الجهات التنظيمية للقطاع.</p>\n<h2>المكتب والتأشيرات والتكلفة</h2><p>تختلف متطلبات المكتب، وعدد تأشيرات الإقامة المتاحة، وتكاليف التأسيس والتجديد اختلافًا كبيرًا بين الجهات. ومقارنة التكلفة الكاملة على عدة سنوات أجدى من مقارنة سعر السنة الأولى.</p>\n<h2>الاعتبارات الضريبية</h2><p>قد تستفيد الشركات المؤهلة في المناطق الحرة من نسبة 0% من ضريبة الشركات على الدخل المؤهل، وفق شروط محددة. ومدى واقعية هذه الميزة يعتمد على نشاطك ومصادر إيراداتك.</p>\n<p>الهيكل الصحيح هو الذي يناسب نموذج عملك اليوم، ويترك لك مجالًا للنمو غدًا.</p>"
+    },
+    {
+      "slug": "dubai-property-international-investors",
+      "category": "re",
+      "minutes": 4,
+      "published": true,
+      "title_en": "Dubai real estate for international investors: a clear starting point",
+      "title_ar": "العقار في دبي للمستثمرين الدوليين: نقطة انطلاق واضحة",
+      "excerpt_en": "Freehold areas, regulators, off-plan versus ready — the fundamentals to understand before you commit.",
+      "excerpt_ar": "مناطق التملك الحر، والجهات التنظيمية، والفرق بين العقار على الخريطة والجاهز: أساسيات يجب فهمها قبل الالتزام.",
+      "body_en": "<p>Dubai's property market attracts investors from around the world. Understanding how it is structured helps you ask better questions and work with the right people.</p>\n<h2>Where foreigners can buy</h2><p>International buyers can purchase freehold property in designated areas of Dubai. Ownership is registered with the Dubai Land Department.</p>\n<h2>Who regulates the market</h2><p>The Dubai Land Department oversees property registration, while the Real Estate Regulatory Agency (RERA) regulates brokers, developers and related activities. Working with RERA-registered brokers is an important safeguard.</p>\n<h2>Off-plan or ready?</h2><ul><li><strong>Off-plan</strong> purchases are paid in stages during construction. Payments for registered projects are made into regulated escrow accounts.</li><li><strong>Ready</strong> properties can be occupied or rented immediately, with costs and yields that are easier to assess.</li></ul>\n<h2>Look beyond the price</h2><p>Registration fees, service charges, financing costs, expected rental demand and exit options all shape the real return. A disciplined financial review before committing is time well spent.</p>",
+      "body_ar": "<p>يجذب سوق العقار في دبي مستثمرين من أنحاء العالم، وفهم طريقة تنظيمه يساعدك على طرح الأسئلة الصحيحة والتعامل مع الأشخاص المناسبين.</p>\n<h2>أين يستطيع الأجانب التملك؟</h2><p>يستطيع المشترون الدوليون تملّك العقارات بنظام التملك الحر في مناطق محددة من دبي، وتُسجَّل الملكية لدى دائرة الأراضي والأملاك.</p>\n<h2>من ينظّم السوق؟</h2><p>تشرف دائرة الأراضي والأملاك على تسجيل العقارات، بينما تنظّم مؤسسة التنظيم العقاري (RERA) عمل الوسطاء والمطورين والأنشطة المرتبطة. والتعامل مع وسطاء مسجّلين لدى المؤسسة ضمانة مهمة.</p>\n<h2>على الخريطة أم جاهز؟</h2><ul><li><strong>العقار على الخريطة:</strong> يُدفع ثمنه على مراحل أثناء البناء، وتُودع الدفعات للمشاريع المسجّلة في حسابات ضمان خاضعة للتنظيم.</li><li><strong>العقار الجاهز:</strong> يمكن السكن فيه أو تأجيره فورًا، وتقدير تكاليفه وعوائده أسهل.</li></ul>\n<h2>انظر إلى ما هو أبعد من السعر</h2><p>رسوم التسجيل، ورسوم الخدمات، وتكاليف التمويل، والطلب المتوقع على الإيجار، وخيارات الخروج، كلها تحدد العائد الحقيقي. ومراجعة مالية منضبطة قبل الالتزام وقتٌ مستثمر بحكمة.</p>"
+    },
+    {
+      "slug": "governance-family-business",
+      "category": "gov",
+      "minutes": 0,
+      "published": false,
+      "title_en": "Governance essentials for growing family businesses",
+      "title_ar": "أساسيات الحوكمة للشركات العائلية النامية",
+      "excerpt_en": "How clear roles, controls and reporting prepare a family business for its next stage.",
+      "excerpt_ar": "كيف تهيّئ الأدوار الواضحة والضوابط والتقارير الشركة العائلية لمرحلتها التالية.",
+      "body_en": "",
+      "body_ar": ""
+    },
+    {
+      "slug": "dubai-investment-framework",
+      "category": "dubai",
+      "minutes": 0,
+      "published": false,
+      "title_en": "Navigating Dubai's investment landscape: a practical framework",
+      "title_ar": "التنقل في مشهد الاستثمار بدبي: إطار عملي",
+      "excerpt_en": "A structured way to assess opportunities across sectors, from first conversation to decision.",
+      "excerpt_ar": "طريقة منظمة لتقييم الفرص عبر القطاعات، من أول محادثة حتى اتخاذ القرار.",
+      "body_en": "",
+      "body_ar": ""
+    },
+    {
+      "slug": "uae-business-trends",
+      "category": "trends",
+      "minutes": 0,
+      "published": false,
+      "title_en": "Trends shaping business in the UAE",
+      "title_ar": "اتجاهات تشكّل بيئة الأعمال في الإمارات",
+      "excerpt_en": "The economic and regulatory shifts business owners are watching closely.",
+      "excerpt_ar": "التحولات الاقتصادية والتنظيمية التي يتابعها أصحاب الأعمال عن كثب.",
+      "body_en": "",
+      "body_ar": ""
+    }
+  ]
+}

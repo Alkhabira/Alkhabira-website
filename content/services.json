@@ -1,0 +1,162 @@
+{
+  "advisory": [
+    {
+      "icon": "chart",
+      "title_en": "Financial Advisory & Performance Optimization",
+      "title_ar": "الاستشارات المالية وتحسين الأداء",
+      "desc_en": "Clear financial insight to strengthen profitability, cash flow and decision-making.",
+      "desc_ar": "رؤية مالية واضحة لتعزيز الربحية والتدفق النقدي وجودة القرار."
+    },
+    {
+      "icon": "tax",
+      "title_en": "UAE Corporate Tax & VAT",
+      "title_ar": "ضريبة الشركات وضريبة القيمة المضافة",
+      "desc_en": "Registration, filings and advisory, supervised by an FTA Approved Tax Agent.",
+      "desc_ar": "التسجيل والإقرارات والاستشارات، بإشراف وكيلة ضرائب معتمدة لدى الهيئة الاتحادية للضرائب."
+    },
+    {
+      "icon": "shield",
+      "title_en": "Corporate Governance & Risk Management",
+      "title_ar": "الحوكمة المؤسسية وإدارة المخاطر",
+      "desc_en": "Policies, controls and oversight frameworks that protect and support growth.",
+      "desc_ar": "سياسات وضوابط وأطر رقابية تحمي أعمالك وتدعم نموها."
+    },
+    {
+      "icon": "doc",
+      "title_en": "Financial Reporting & Compliance",
+      "title_ar": "التقارير المالية والامتثال",
+      "desc_en": "Accurate reporting and bookkeeping aligned with UAE requirements and audit readiness.",
+      "desc_ar": "تقارير ومسك دفاتر دقيق، متوافق مع المتطلبات في الإمارات وجاهز للتدقيق."
+    },
+    {
+      "icon": "cycle",
+      "title_en": "Business Restructuring & Transformation",
+      "title_ar": "إعادة الهيكلة والتحول المؤسسي",
+      "desc_en": "Reorganising structures and operations to improve efficiency and resilience.",
+      "desc_ar": "إعادة تنظيم الهياكل والعمليات لرفع الكفاءة والمرونة."
+    },
+    {
+      "icon": "building",
+      "title_en": "Business Setup & Corporate Services",
+      "title_ar": "تأسيس الشركات والخدمات المؤسسية",
+      "desc_en": "Free zone or mainland setup, licensing, residency coordination and banking support.",
+      "desc_ar": "التأسيس في المناطق الحرة أو البر الرئيسي، والتراخيص، وتنسيق الإقامات، ودعم فتح الحسابات البنكية."
+    },
+    {
+      "icon": "compass",
+      "title_en": "Strategic Business Consulting",
+      "title_ar": "الاستشارات الاستراتيجية للأعمال",
+      "desc_en": "An independent perspective on market entry, growth plans and key decisions.",
+      "desc_ar": "رؤية مستقلة لدخول السوق وخطط النمو والقرارات المحورية."
+    },
+    {
+      "icon": "gear",
+      "title_en": "Finance Process Improvement & Digital Transformation",
+      "title_ar": "تطوير العمليات المالية والتحول الرقمي",
+      "desc_en": "Streamlined finance processes, systems and reporting tools.",
+      "desc_ar": "عمليات مالية أكثر كفاءة، وأنظمة وأدوات تقارير حديثة."
+    }
+  ],
+  "investment": [
+    {
+      "icon": "tower",
+      "title_en": "Dubai Real Estate Investment Opportunities",
+      "title_ar": "فرص الاستثمار العقاري في دبي",
+      "desc_en": "Curated access to residential and commercial opportunities through licensed brokers.",
+      "desc_ar": "وصول منتقى إلى فرص سكنية وتجارية عبر وسطاء مرخّصين."
+    },
+    {
+      "icon": "key",
+      "title_en": "Property Investment Support",
+      "title_ar": "دعم الاستثمار العقاري",
+      "desc_en": "Guidance through the purchase journey, from shortlisting to completion with licensed parties.",
+      "desc_ar": "مرافقة في رحلة الشراء، من المفاضلة حتى إتمام الصفقة مع الجهات المرخّصة."
+    },
+    {
+      "icon": "search",
+      "title_en": "Investment Opportunity Assessment",
+      "title_ar": "تقييم الفرص الاستثمارية",
+      "desc_en": "A financial review of opportunities to support informed decisions.",
+      "desc_ar": "مراجعة مالية للفرص لدعم قرارات مدروسة."
+    },
+    {
+      "icon": "users",
+      "title_en": "Investor Introductions",
+      "title_ar": "التعريف بالمستثمرين",
+      "desc_en": "Thoughtful introductions between investors, founders and businesses.",
+      "desc_ar": "تعريف مدروس بين المستثمرين ورواد الأعمال والشركات."
+    },
+    {
+      "icon": "briefcase",
+      "title_en": "Business Investment Opportunities",
+      "title_ar": "فرص الاستثمار في الأعمال",
+      "desc_en": "Exploring acquisitions, partnerships and growing businesses in the UAE.",
+      "desc_ar": "استكشاف فرص الاستحواذ والشراكات والشركات النامية في الإمارات."
+    },
+    {
+      "icon": "globe",
+      "title_en": "Market Research & Strategic Insights",
+      "title_ar": "أبحاث السوق والرؤى الاستراتيجية",
+      "desc_en": "Market context to help you understand sectors, areas and trends.",
+      "desc_ar": "قراءة للسوق تساعدك على فهم القطاعات والمناطق والاتجاهات."
+    },
+    {
+      "icon": "link",
+      "title_en": "Coordination with Licensed Professionals",
+      "title_ar": "التنسيق مع المختصين المرخّصين",
+      "desc_en": "We connect you with appropriately licensed real estate, investment and legal professionals.",
+      "desc_ar": "نربطك بمختصين مرخّصين في العقار والاستثمار والقانون."
+    }
+  ],
+  "concierge": [
+    {
+      "icon": "med",
+      "title_en": "Medical & Aesthetic Services Coordination",
+      "title_ar": "تنسيق الخدمات الطبية والتجميلية",
+      "desc_en": "Coordinating appointments with licensed clinics and practitioners in Dubai.",
+      "desc_ar": "تنسيق المواعيد لدى عيادات وممارسين مرخّصين في دبي."
+    },
+    {
+      "icon": "plane",
+      "title_en": "Cosmetic Treatment Travel Assistance",
+      "title_ar": "المساعدة في رحلات العلاج التجميلي",
+      "desc_en": "Travel, scheduling and accompaniment for international visitors.",
+      "desc_ar": "ترتيب السفر والمواعيد والمرافقة للزوار الدوليين."
+    },
+    {
+      "icon": "bed",
+      "title_en": "Premium Accommodation Arrangements",
+      "title_ar": "ترتيب الإقامة الراقية",
+      "desc_en": "Hotels, serviced apartments and private residences suited to your stay.",
+      "desc_ar": "فنادق وشقق فندقية ومساكن خاصة تناسب إقامتك."
+    },
+    {
+      "icon": "car",
+      "title_en": "Airport Transfers & Private Transportation",
+      "title_ar": "الاستقبال من المطار والتنقل الخاص",
+      "desc_en": "Discreet chauffeured transport from arrival to departure.",
+      "desc_ar": "تنقل خاص بسائق، بخصوصية تامة من الوصول حتى المغادرة."
+    },
+    {
+      "icon": "home",
+      "title_en": "Relocation & Settling-in Assistance",
+      "title_ar": "الانتقال والاستقرار في دبي",
+      "desc_en": "Practical support with housing, school search and settling in.",
+      "desc_ar": "دعم عملي في السكن والبحث عن المدارس والاستقرار."
+    },
+    {
+      "icon": "star",
+      "title_en": "Luxury Lifestyle Experiences",
+      "title_ar": "تجارب أسلوب الحياة الفاخرة",
+      "desc_en": "Private dining, yachts, desert and cultural experiences.",
+      "desc_ar": "عشاء خاص ويخوت وتجارب صحراوية وثقافية."
+    },
+    {
+      "icon": "hand",
+      "title_en": "Personalized Assistance for International Visitors",
+      "title_ar": "مساعدة شخصية للزوار الدوليين",
+      "desc_en": "A single point of contact throughout your time in Dubai.",
+      "desc_ar": "محاور واحد يرافقك طوال وجودك في دبي."
+    }
+  ]
+}

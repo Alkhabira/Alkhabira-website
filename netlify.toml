@@ -1,0 +1,3 @@
+# Static site — no build step. Netlify Forms collects the "inquiry" form.
+[build]
+  publish = "."

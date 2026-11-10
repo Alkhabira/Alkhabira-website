@@ -1,0 +1,774 @@
+{
+  "header": {
+    "nav_home": {
+      "en": "Home",
+      "ar": "الرئيسية"
+    },
+    "nav_about": {
+      "en": "About",
+      "ar": "من نحن"
+    },
+    "nav_services": {
+      "en": "Services",
+      "ar": "الخدمات"
+    },
+    "nav_invest": {
+      "en": "Investment Opportunities",
+      "ar": "فرص الاستثمار"
+    },
+    "nav_concierge": {
+      "en": "Private Concierge",
+      "ar": "الكونسيرج الخاص"
+    },
+    "nav_insights": {
+      "en": "Insights",
+      "ar": "رؤى"
+    },
+    "nav_contact": {
+      "en": "Contact",
+      "ar": "تواصل معنا"
+    },
+    "dd_p1": {
+      "en": "Business & Financial Advisory",
+      "ar": "الاستشارات المالية والأعمال"
+    },
+    "dd_p1d": {
+      "en": "Tax, governance, reporting & corporate services",
+      "ar": "الضرائب والحوكمة والتقارير والخدمات المؤسسية"
+    },
+    "dd_p2": {
+      "en": "Investment & Real Estate",
+      "ar": "الاستثمار والعقارات"
+    },
+    "dd_p2d": {
+      "en": "Opportunities, assessment & licensed connections",
+      "ar": "الفرص والتقييم والتواصل مع المختصين المرخّصين"
+    },
+    "dd_p3": {
+      "en": "Dubai Private Concierge",
+      "ar": "الكونسيرج الخاص في دبي"
+    },
+    "dd_p3d": {
+      "en": "Medical coordination, relocation & lifestyle",
+      "ar": "التنسيق الطبي والانتقال وأسلوب الحياة"
+    },
+    "hd_cta": {
+      "en": "Book a Private Consultation",
+      "ar": "احجز استشارة خاصة"
+    },
+    "wa_label": {
+      "en": "WhatsApp",
+      "ar": "واتساب"
+    },
+    "pg_home": {
+      "en": "Home",
+      "ar": "الرئيسية"
+    }
+  },
+  "footer": {
+    "ft_sig1": {
+      "en": "Connecting Ambition",
+      "ar": "نربط الطموح"
+    },
+    "ft_sig2": {
+      "en": "with Opportunity.",
+      "ar": "بالفرص."
+    },
+    "ft_desc": {
+      "en": "Premium business advisory and private client services in Dubai, combining professional expertise with personal attention.",
+      "ar": "منصة استشارات مالية وأعمال وخدمات خاصة في دبي، تجمع بين الخبرة المهنية والاهتمام الشخصي بكل عميل."
+    },
+    "ft_nav": {
+      "en": "Navigate",
+      "ar": "تصفّح"
+    },
+    "ft_services": {
+      "en": "Services",
+      "ar": "الخدمات"
+    },
+    "ft_contact": {
+      "en": "Contact",
+      "ar": "تواصل"
+    },
+    "ft_privacy": {
+      "en": "Privacy Policy",
+      "ar": "سياسة الخصوصية"
+    },
+    "ft_terms": {
+      "en": "Terms & Conditions",
+      "ar": "الشروط والأحكام"
+    },
+    "ft_rights": {
+      "en": "© 2026 Saida Afly Business Gateway. All rights reserved.",
+      "ar": "© 2026 Saida Afly Business Gateway. جميع الحقوق محفوظة."
+    },
+    "ft_disc": {
+      "en": "Saida Afly Business Gateway provides advisory, introduction and coordination services. Regulated activities — including real estate brokerage, investment management and medical services — are carried out by appropriately licensed providers. Nothing on this website constitutes investment advice or a guarantee of any return.",
+      "ar": "تقدّم Saida Afly Business Gateway خدمات استشارية وخدمات تعريف وتنسيق. أما الخدمات الخاضعة للتنظيم، كالوساطة العقارية وإدارة الاستثمارات والخدمات الطبية، فيقدّمها مزوّدون حاصلون على التراخيص المطلوبة. لا يشكّل محتوى هذا الموقع نصيحة استثمارية أو ضمانًا لأي عائد."
+    },
+    "city": {
+      "en": "Dubai, United Arab Emirates",
+      "ar": "دبي، الإمارات العربية المتحدة"
+    }
+  },
+  "form": {
+    "m_eyebrow": {
+      "en": "Private & confidential",
+      "ar": "خاص وسرّي"
+    },
+    "m_title": {
+      "en": "Request a Private Consultation",
+      "ar": "طلب استشارة خاصة"
+    },
+    "m_sub": {
+      "en": "Share a few details and we will respond to you personally.",
+      "ar": "شاركنا بعض التفاصيل، وسنتواصل معك شخصيًا."
+    },
+    "tab_c": {
+      "en": "Consultation",
+      "ar": "استشارة"
+    },
+    "tab_i": {
+      "en": "Investment inquiry",
+      "ar": "استفسار استثماري"
+    },
+    "tab_r": {
+      "en": "Concierge request",
+      "ar": "طلب كونسيرج"
+    },
+    "f_name": {
+      "en": "Full name",
+      "ar": "الاسم الكامل"
+    },
+    "f_email": {
+      "en": "Email address",
+      "ar": "البريد الإلكتروني"
+    },
+    "f_phone": {
+      "en": "Phone / WhatsApp",
+      "ar": "الهاتف / واتساب"
+    },
+    "f_country": {
+      "en": "Country of residence",
+      "ar": "بلد الإقامة"
+    },
+    "f_service": {
+      "en": "Service of interest",
+      "ar": "الخدمة المطلوبة"
+    },
+    "f_choose": {
+      "en": "Select a service",
+      "ar": "اختر خدمة"
+    },
+    "f_desc": {
+      "en": "Brief description of your requirements",
+      "ar": "وصف موجز لاحتياجاتك"
+    },
+    "f_date": {
+      "en": "Preferred consultation date",
+      "ar": "التاريخ المفضل للاستشارة"
+    },
+    "f_method": {
+      "en": "Preferred contact method",
+      "ar": "وسيلة التواصل المفضلة"
+    },
+    "m_email": {
+      "en": "Email",
+      "ar": "البريد الإلكتروني"
+    },
+    "m_phone": {
+      "en": "Phone",
+      "ar": "الهاتف"
+    },
+    "m_wa": {
+      "en": "WhatsApp",
+      "ar": "واتساب"
+    },
+    "f_privacy": {
+      "en": "Your information is used only to respond to your inquiry. It is never sold or shared for marketing. You may request its deletion at any time.",
+      "ar": "تُستخدم معلوماتك فقط للرد على طلبك، ولا تُباع ولا تُشارك لأغراض تسويقية. يمكنك طلب حذفها في أي وقت."
+    },
+    "f_consent_a": {
+      "en": "I agree that Saida Afly Business Gateway may use the information I provide to respond to my inquiry, as described in the",
+      "ar": "أوافق على أن تستخدم Saida Afly Business Gateway المعلومات التي أقدّمها للرد على طلبي، وفق"
+    },
+    "f_consent_b": {
+      "en": "Privacy Policy",
+      "ar": "سياسة الخصوصية"
+    },
+    "f_submit": {
+      "en": "Submit request",
+      "ar": "إرسال الطلب"
+    },
+    "f_err": {
+      "en": "Please complete the required fields and confirm your consent.",
+      "ar": "يرجى استكمال الحقول المطلوبة وتأكيد الموافقة."
+    },
+    "r_ok_t": {
+      "en": "Thank you — your request has been received.",
+      "ar": "شكرًا لك، استلمنا طلبك."
+    },
+    "r_ok_d": {
+      "en": "We will contact you using your preferred method.",
+      "ar": "سنتواصل معك عبر وسيلة التواصل التي اخترتها."
+    },
+    "r_fb_t": {
+      "en": "Your request is ready",
+      "ar": "طلبك جاهز"
+    },
+    "r_fb_d": {
+      "en": "Online submission isn't available in this preview. Send your request directly — it's already written for you:",
+      "ar": "الإرسال الإلكتروني غير متاح في هذه النسخة التجريبية. أرسل طلبك مباشرة، فقد كتبناه لك:"
+    },
+    "r_wa": {
+      "en": "Send via WhatsApp",
+      "ar": "إرسال عبر واتساب"
+    },
+    "r_mail": {
+      "en": "Send by email",
+      "ar": "إرسال بالبريد"
+    },
+    "r_close": {
+      "en": "Close",
+      "ar": "إغلاق"
+    }
+  },
+  "home_hero": {
+    "h_eye": {
+      "en": "Premium Business Advisory · Dubai",
+      "ar": "استشارات أعمال متميزة · دبي"
+    },
+    "h_t1": {
+      "en": "Your Ambitions.",
+      "ar": "طموحاتك."
+    },
+    "h_t2": {
+      "en": "Our Expertise.",
+      "ar": "خبرتنا."
+    },
+    "h_t3": {
+      "en": "Dubai.",
+      "ar": "دبي."
+    },
+    "h_lead": {
+      "en": "From financial and tax advisory to investment opportunities and exclusive concierge services — your trusted gateway to business, investment, and exceptional experiences in Dubai.",
+      "ar": "من الاستشارات المالية والضريبية إلى فرص الاستثمار وخدمات الكونسيرج الحصرية، بوابتك الموثوقة إلى الأعمال والاستثمار والتجارب الاستثنائية في دبي."
+    },
+    "h_cta1": {
+      "en": "Book a Private Consultation",
+      "ar": "احجز استشارة خاصة"
+    },
+    "h_cta2": {
+      "en": "Explore Our Services",
+      "ar": "استكشف خدماتنا"
+    },
+    "h_sig": {
+      "en": "Your Wealth. Our Priority. Your Peace of Mind.",
+      "ar": "ثروتك. أولويتنا. راحة بالك."
+    }
+  },
+  "home_services": {
+    "p_eye": {
+      "en": "Our Services",
+      "ar": "خدماتنا"
+    },
+    "p_t": {
+      "en": "Three pillars. One trusted gateway.",
+      "ar": "ثلاث ركائز، وبوابة واحدة موثوقة."
+    },
+    "p_s": {
+      "en": "Financial expertise is our foundation. Investment facilitation and private concierge services complete a single, coordinated experience.",
+      "ar": "الخبرة المالية هي أساسنا، وتكمّلها خدمات تيسير الاستثمار والكونسيرج الخاص في تجربة واحدة متكاملة."
+    },
+    "p1_t": {
+      "en": "Business & Financial Advisory",
+      "ar": "الاستشارات المالية والأعمال"
+    },
+    "p1_d": {
+      "en": "The professional foundation of our brand: financial and tax expertise with strategic insight for your company.",
+      "ar": "الأساس المهني لعلامتنا: خبرة مالية وضريبية ورؤية استراتيجية لشركتك."
+    },
+    "p1_l1": {
+      "en": "UAE Corporate Tax & VAT",
+      "ar": "ضريبة الشركات وضريبة القيمة المضافة"
+    },
+    "p1_l2": {
+      "en": "Corporate Governance & Risk Management",
+      "ar": "الحوكمة المؤسسية وإدارة المخاطر"
+    },
+    "p1_l3": {
+      "en": "Financial Reporting & Compliance",
+      "ar": "التقارير المالية والامتثال"
+    },
+    "p1_l4": {
+      "en": "Business Setup & Corporate Services",
+      "ar": "تأسيس الشركات والخدمات المؤسسية"
+    },
+    "p1_more": {
+      "en": "Explore advisory",
+      "ar": "استكشف الاستشارات"
+    },
+    "p2_t": {
+      "en": "Investment & Real Estate",
+      "ar": "الاستثمار والعقارات"
+    },
+    "p2_d": {
+      "en": "Informed guidance through Dubai's investment landscape, with the right professional connections.",
+      "ar": "إرشاد مدروس في مشهد الاستثمار بدبي، وتواصل مع المختصين المناسبين."
+    },
+    "p2_l1": {
+      "en": "Dubai Real Estate Investment Opportunities",
+      "ar": "فرص الاستثمار العقاري في دبي"
+    },
+    "p2_l2": {
+      "en": "Investment Opportunity Assessment",
+      "ar": "تقييم الفرص الاستثمارية"
+    },
+    "p2_l3": {
+      "en": "Investor Introductions",
+      "ar": "التعريف بالمستثمرين"
+    },
+    "p2_l4": {
+      "en": "Coordination with Licensed Professionals",
+      "ar": "التنسيق مع المختصين المرخّصين"
+    },
+    "p2_more": {
+      "en": "Explore investment",
+      "ar": "استكشف فرص الاستثمار"
+    },
+    "p3_t": {
+      "en": "Dubai Private Concierge",
+      "ar": "الكونسيرج الخاص في دبي"
+    },
+    "p3_d": {
+      "en": "Personalized services with discretion and attention to detail for visitors, executives and private clients.",
+      "ar": "خدمات شخصية بخصوصية واهتمام بالتفاصيل للزوار والتنفيذيين والعملاء الخاصين."
+    },
+    "p3_l1": {
+      "en": "Medical & Aesthetic Services Coordination",
+      "ar": "تنسيق الخدمات الطبية والتجميلية"
+    },
+    "p3_l2": {
+      "en": "Premium Accommodation Arrangements",
+      "ar": "ترتيب الإقامة الراقية"
+    },
+    "p3_l3": {
+      "en": "Relocation & Settling-in Assistance",
+      "ar": "الانتقال والاستقرار في دبي"
+    },
+    "p3_l4": {
+      "en": "Luxury Lifestyle Experiences",
+      "ar": "تجارب أسلوب الحياة الفاخرة"
+    },
+    "p3_more": {
+      "en": "Explore concierge",
+      "ar": "استكشف الكونسيرج"
+    }
+  },
+  "home_philosophy": {
+    "t_eye": {
+      "en": "Our philosophy",
+      "ar": "فلسفتنا"
+    },
+    "t_t": {
+      "en": "Built on Expertise. Guided by Integrity. Focused on You.",
+      "ar": "خبرة نبني عليها. نزاهة تقودنا. وأنت محور اهتمامنا."
+    },
+    "t_s": {
+      "en": "We believe every business decision, investment consideration, and personal journey deserves informed guidance, discretion, and individual attention.",
+      "ar": "نؤمن بأن كل قرار في الأعمال، وكل خطوة استثمارية، وكل رحلة شخصية، تستحق إرشادًا مدروسًا وخصوصية واهتمامًا فرديًا."
+    },
+    "v1_t": {
+      "en": "Professional Expertise",
+      "ar": "خبرة مهنية"
+    },
+    "v1_d": {
+      "en": "More than 15 years in financial management, tax, audit and governance, applied to your objectives.",
+      "ar": "أكثر من 15 عامًا في الإدارة المالية والضرائب والتدقيق والحوكمة، تُوظَّف لخدمة أهدافك."
+    },
+    "v2_t": {
+      "en": "Independent Perspective",
+      "ar": "رؤية مستقلة"
+    },
+    "v2_d": {
+      "en": "Candid, balanced guidance that puts your interests first — with full clarity about our role and its limits.",
+      "ar": "نصيحة صريحة ومتوازنة تضع مصلحتك أولًا، مع وضوح كامل في دورنا وحدوده."
+    },
+    "v3_t": {
+      "en": "Personalized Attention",
+      "ar": "اهتمام شخصي"
+    },
+    "v3_d": {
+      "en": "One point of contact who knows your file and follows every step with complete confidentiality.",
+      "ar": "محاور واحد يعرف ملفك جيدًا، ويتابع معك كل خطوة بسرّية تامة."
+    }
+  },
+  "home_process": {
+    "w_eye": {
+      "en": "How we work",
+      "ar": "كيف نعمل"
+    },
+    "w_t": {
+      "en": "A simple, discreet journey",
+      "ar": "رحلة بسيطة وسرّية"
+    },
+    "w1_t": {
+      "en": "Tell Us Your Goal",
+      "ar": "أخبرنا بهدفك"
+    },
+    "w1_d": {
+      "en": "Share your business objectives, investment interests, or personal requirements.",
+      "ar": "شاركنا أهدافك في الأعمال أو اهتماماتك الاستثمارية أو احتياجاتك الشخصية."
+    },
+    "w2_t": {
+      "en": "Receive Tailored Guidance",
+      "ar": "احصل على إرشاد مخصص"
+    },
+    "w2_d": {
+      "en": "We assess your needs and identify suitable solutions, opportunities, and professional connections.",
+      "ar": "ندرس احتياجاتك ونحدد الحلول والفرص والتواصلات المهنية المناسبة."
+    },
+    "w3_t": {
+      "en": "Move Forward with Confidence",
+      "ar": "تقدّم بثقة"
+    },
+    "w3_d": {
+      "en": "Benefit from personalized coordination, professional guidance, and ongoing support appropriate to your requirements.",
+      "ar": "استفد من تنسيق شخصي وإرشاد مهني ومتابعة مستمرة تناسب احتياجاتك."
+    }
+  },
+  "home_banner": {
+    "bn": {
+      "en": "Dubai — where business, investment and quality of life meet.",
+      "ar": "دبي… حيث تلتقي الأعمال والاستثمار وجودة الحياة."
+    }
+  },
+  "home_about": {
+    "a_eye": {
+      "en": "About",
+      "ar": "من نحن"
+    },
+    "a_t": {
+      "en": "Professional Expertise. Personal Commitment.",
+      "ar": "خبرة مهنية. والتزام شخصي."
+    },
+    "a_s": {
+      "en": "Saida Afly Business Gateway brings together financial expertise, strategic business insight, and a personalized approach to helping clients navigate opportunities in Dubai.",
+      "ar": "تجمع Saida Afly Business Gateway بين الخبرة المالية والرؤية الاستراتيجية للأعمال والنهج الشخصي، لمساعدة العملاء على اغتنام الفرص في دبي."
+    },
+    "a_c1": {
+      "en": "FTA Approved Tax Agent, United Arab Emirates",
+      "ar": "وكيلة ضرائب معتمدة لدى الهيئة الاتحادية للضرائب في الإمارات"
+    },
+    "a_c2": {
+      "en": "15+ years in financial management, taxation, external audit, financial control, governance and advisory",
+      "ar": "أكثر من 15 عامًا في الإدارة المالية والضرائب والتدقيق الخارجي والرقابة المالية والحوكمة والاستشارات"
+    },
+    "a_c3": {
+      "en": "Professional background at PwC",
+      "ar": "خلفية مهنية في PwC"
+    },
+    "a_c4": {
+      "en": "Based in Dubai, serving local and international clients",
+      "ar": "مقيمة في دبي، وتخدم عملاء محليين ودوليين"
+    },
+    "a_photo": {
+      "en": "Portrait photo placeholder",
+      "ar": "مكان الصورة الشخصية"
+    },
+    "a_role": {
+      "en": "Founder",
+      "ar": "المؤسِّسة"
+    }
+  },
+  "home_insights": {
+    "i_eye": {
+      "en": "Insights",
+      "ar": "رؤى"
+    },
+    "i_t": {
+      "en": "Perspectives for informed decisions",
+      "ar": "رؤى تدعم قرارات مدروسة"
+    },
+    "i_s": {
+      "en": "Articles on finance, tax, governance and Dubai's investment landscape.",
+      "ar": "مقالات في المالية والضرائب والحوكمة ومشهد الاستثمار في دبي."
+    },
+    "i_all": {
+      "en": "View all insights",
+      "ar": "جميع المقالات"
+    }
+  },
+  "home_contact": {
+    "c_eye": {
+      "en": "Contact",
+      "ar": "تواصل معنا"
+    },
+    "c_t": {
+      "en": "Begin a confidential conversation",
+      "ar": "ابدأ محادثة سرّية"
+    },
+    "c_s": {
+      "en": "Choose the path that fits your needs, or reach us directly.",
+      "ar": "اختر المسار المناسب لاحتياجاتك، أو تواصل معنا مباشرة."
+    },
+    "path1": {
+      "en": "Private consultation",
+      "ar": "استشارة خاصة"
+    },
+    "path1d": {
+      "en": "Business, financial and tax advisory",
+      "ar": "استشارات الأعمال والمالية والضرائب"
+    },
+    "path2": {
+      "en": "Investment inquiry",
+      "ar": "استفسار استثماري"
+    },
+    "path2d": {
+      "en": "Real estate and business opportunities",
+      "ar": "فرص العقارات والأعمال"
+    },
+    "path3": {
+      "en": "Concierge request",
+      "ar": "طلب كونسيرج"
+    },
+    "path3d": {
+      "en": "Medical coordination, relocation and lifestyle",
+      "ar": "التنسيق الطبي والانتقال وأسلوب الحياة"
+    },
+    "cc_t": {
+      "en": "Direct contact",
+      "ar": "تواصل مباشر"
+    },
+    "cc_wa": {
+      "en": "WhatsApp",
+      "ar": "واتساب"
+    },
+    "cc_em": {
+      "en": "Email",
+      "ar": "البريد الإلكتروني"
+    },
+    "cc_loc": {
+      "en": "Location",
+      "ar": "الموقع"
+    }
+  },
+  "page_advisory": {
+    "adv_eye": {
+      "en": "Pillar 01",
+      "ar": "الركيزة الأولى"
+    },
+    "adv_t": {
+      "en": "Business & Financial Advisory",
+      "ar": "الاستشارات المالية والأعمال"
+    },
+    "adv_s": {
+      "en": "The professional foundation of our brand — financial, tax and advisory expertise that helps you build with confidence and decide with clarity.",
+      "ar": "الأساس المهني لعلامتنا: خبرة مالية وضريبية واستشارية تساعدك على البناء بثقة واتخاذ القرار بوضوح."
+    },
+    "adv_cta": {
+      "en": "Book a Private Consultation",
+      "ar": "احجز استشارة خاصة"
+    },
+    "adv_h_eye": {
+      "en": "What we offer",
+      "ar": "ما نقدّمه"
+    },
+    "adv_h_t": {
+      "en": "Expertise that translates into better decisions",
+      "ar": "خبرة تُترجم إلى قرارات أفضل"
+    },
+    "adv_h_s": {
+      "en": "From company setup to governance and transformation, we support businesses and founders with practical experience and strategic insight.",
+      "ar": "من التأسيس إلى الحوكمة والتحول، نرافق الشركات ورواد الأعمال بخبرة عملية ورؤية استراتيجية."
+    },
+    "adv_who_t": {
+      "en": "Who we work with",
+      "ar": "لمن نقدّم هذه الخدمات"
+    },
+    "who1_t": {
+      "en": "New founders",
+      "ar": "المؤسسون الجدد"
+    },
+    "who1_d": {
+      "en": "Establishing their first company in the UAE.",
+      "ar": "يؤسسون شركتهم الأولى في الإمارات."
+    },
+    "who2_t": {
+      "en": "SMEs",
+      "ar": "الشركات الصغيرة والمتوسطة"
+    },
+    "who2_d": {
+      "en": "Seeking financial discipline and tax compliance.",
+      "ar": "تبحث عن انضباط مالي وامتثال ضريبي."
+    },
+    "who3_t": {
+      "en": "Family businesses",
+      "ar": "الشركات العائلية"
+    },
+    "who3_d": {
+      "en": "Strengthening governance and preparing for growth.",
+      "ar": "تعزز الحوكمة وتستعد للنمو."
+    },
+    "who4_t": {
+      "en": "International companies",
+      "ar": "الشركات الدولية"
+    },
+    "who4_d": {
+      "en": "Entering or expanding in the UAE market.",
+      "ar": "تدخل السوق الإماراتية أو تتوسع فيها."
+    },
+    "adv_band": {
+      "en": "Let’s discuss your company’s objectives — in complete confidence.",
+      "ar": "لنناقش أهداف شركتك بسرّية تامة."
+    }
+  },
+  "page_investment": {
+    "inv_eye": {
+      "en": "Pillar 02",
+      "ar": "الركيزة الثانية"
+    },
+    "inv_t": {
+      "en": "Investment & Real Estate",
+      "ar": "الاستثمار والعقارات"
+    },
+    "inv_s": {
+      "en": "We help you navigate Dubai’s investment landscape through informed guidance and appropriate connections with licensed professionals.",
+      "ar": "نساعدك على فهم مشهد الاستثمار في دبي، عبر إرشاد مدروس وتواصل مع المختصين المرخّصين المناسبين."
+    },
+    "inv_cta": {
+      "en": "Send an Investment Inquiry",
+      "ar": "أرسل استفسارًا استثماريًا"
+    },
+    "inv_h_eye": {
+      "en": "How we help",
+      "ar": "كيف نساعدك"
+    },
+    "inv_h_t": {
+      "en": "Investment decisions built on understanding",
+      "ar": "قرارات استثمارية مبنية على المعرفة"
+    },
+    "inv_h_s": {
+      "en": "For international investors and individuals exploring opportunities in Dubai — from real estate to business investment.",
+      "ar": "للمستثمرين الدوليين والأفراد الذين يستكشفون الفرص في دبي، من العقار إلى الاستثمار في الأعمال."
+    },
+    "inv_disc": {
+      "en": "We are not a licensed investment manager or real estate broker. We provide financial guidance, introductions and coordination; transactions are completed through appropriately licensed brokers and professionals. We do not hold client funds and do not guarantee any return.",
+      "ar": "لسنا مدير استثمار مرخّصًا ولا وسيطًا عقاريًا مرخّصًا. نقدّم إرشادًا ماليًا وخدمات تعريف وتنسيق، وتُنفَّذ الصفقات عبر وسطاء ومختصين حاصلين على التراخيص المطلوبة. لا نتولى حفظ أموال العملاء، ولا نضمن أي عائد."
+    },
+    "inv_band": {
+      "en": "Exploring an investment opportunity in Dubai?",
+      "ar": "هل تستكشف فرصة استثمارية في دبي؟"
+    }
+  },
+  "page_concierge": {
+    "con_eye": {
+      "en": "Pillar 03",
+      "ar": "الركيزة الثالثة"
+    },
+    "con_t": {
+      "en": "Dubai Private Concierge",
+      "ar": "الكونسيرج الخاص في دبي"
+    },
+    "con_s": {
+      "en": "Personalized services for international visitors, executives, investors and private clients — with discretion and attention to every detail.",
+      "ar": "خدمات شخصية للزوار الدوليين والتنفيذيين والمستثمرين والعملاء الخاصين، بخصوصية ودقة في التفاصيل."
+    },
+    "con_cta": {
+      "en": "Send a Concierge Request",
+      "ar": "أرسل طلب كونسيرج"
+    },
+    "con_h_eye": {
+      "en": "Our private services",
+      "ar": "خدماتنا الخاصة"
+    },
+    "con_h_t": {
+      "en": "Your time in Dubai, thoughtfully arranged",
+      "ar": "إقامتك في دبي، منسّقة بعناية"
+    },
+    "con_h_s": {
+      "en": "A single point of contact coordinating with trusted, licensed providers, so you can focus on why you came.",
+      "ar": "محاور واحد يتولى التنسيق مع مزوّدين مرخّصين وموثوقين، لتتفرغ لما جئت من أجله."
+    },
+    "con_disc": {
+      "en": "We are not a medical clinic or a direct provider of regulated services. We coordinate and facilitate access to licensed providers; medical advice and decisions remain the responsibility of licensed practitioners.",
+      "ar": "لسنا عيادة طبية ولا مزوّدًا مباشرًا للخدمات الخاضعة للتنظيم. نقوم بالتنسيق وتسهيل الوصول إلى مزوّدين مرخّصين، وتبقى القرارات والاستشارات الطبية مسؤولية الممارسين المرخّصين."
+    },
+    "con_band": {
+      "en": "Tell us what you need during your stay in Dubai.",
+      "ar": "أخبرنا بما تحتاجه خلال إقامتك في دبي."
+    }
+  },
+  "page_insights": {
+    "ins_eye": {
+      "en": "Insights",
+      "ar": "رؤى"
+    },
+    "ins_t": {
+      "en": "Insights & perspectives",
+      "ar": "رؤى ومقالات"
+    },
+    "ins_s": {
+      "en": "Concise reading on finance, tax, strategy, governance and Dubai's investment landscape — to support informed decisions.",
+      "ar": "قراءات مختصرة في المالية والضرائب والاستراتيجية والحوكمة ومشهد الاستثمار في دبي، لمساعدتك على اتخاذ قرارات مدروسة."
+    },
+    "cat_all": {
+      "en": "All",
+      "ar": "الكل"
+    },
+    "cat_tax": {
+      "en": "Finance & Tax",
+      "ar": "المالية والضرائب"
+    },
+    "cat_strategy": {
+      "en": "Business Strategy",
+      "ar": "استراتيجية الأعمال"
+    },
+    "cat_gov": {
+      "en": "Corporate Governance",
+      "ar": "الحوكمة المؤسسية"
+    },
+    "cat_dubai": {
+      "en": "Dubai Investment Landscape",
+      "ar": "مشهد الاستثمار في دبي"
+    },
+    "cat_re": {
+      "en": "Real Estate Insights",
+      "ar": "رؤى عقارية"
+    },
+    "cat_trends": {
+      "en": "Business & Economic Trends",
+      "ar": "اتجاهات الأعمال والاقتصاد"
+    },
+    "soon": {
+      "en": "Coming soon",
+      "ar": "قريبًا"
+    },
+    "min": {
+      "en": "min read",
+      "ar": "دقائق قراءة"
+    },
+    "back": {
+      "en": "Back to Insights",
+      "ar": "العودة إلى الرؤى"
+    },
+    "art_note": {
+      "en": "This article provides general information only and does not constitute tax, legal or investment advice. For guidance on your situation, book a private consultation.",
+      "ar": "هذا المقال للمعلومات العامة فقط، ولا يُعد استشارة ضريبية أو قانونية أو استثمارية. للحصول على إرشاد يناسب حالتك، احجز استشارة خاصة."
+    }
+  },
+  "legal": {
+    "priv_t": {
+      "en": "Privacy Policy",
+      "ar": "سياسة الخصوصية"
+    },
+    "terms_t": {
+      "en": "Terms & Conditions",
+      "ar": "الشروط والأحكام"
+    },
+    "updated": {
+      "en": "Last updated: November 2026",
+      "ar": "آخر تحديث: نوفمبر 2026"
+    }
+  }
+}
