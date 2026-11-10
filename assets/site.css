@@ -492,3 +492,6 @@ body[data-page=consult] .ft-top .btn{display:none}
 .hd.nav-collapse .logo-t{display:block}
 @media (max-width:720px){.hd.nav-collapse .logo-t{display:none}}
 .hd.solid .logo .mark{width:80px}
+
+.hd-in>.logo,.hd-in>.hd-r{flex-shrink:0}
+.nav{min-width:0}

@@ -148,7 +148,7 @@ const SVI={sv:5,fr:7,nl:9};
 function svcT(x){return LANG==="ar"?x[2]:(SVI[LANG]&&x[SVI[LANG]])||x[1]}
 function svcD(x){return LANG==="ar"?x[4]:(SVI[LANG]&&x[SVI[LANG]+1])||x[3]}
 function fitNav(){const hd=document.getElementById("hd");if(!hd)return;const n=hd.querySelector(".nav"),r=hd.querySelector(".hd-r"),lg=hd.querySelector(".logo");
-  const bad=()=>{if(!n||getComputedStyle(n).display==="none")return false;const nr=n.getBoundingClientRect(),rr=r.getBoundingClientRect(),lr=lg.getBoundingClientRect(),ov=(x,y)=>x.left<y.right+12&&y.left<x.right+12;return ov(nr,rr)||ov(nr,lr)||rr.right>innerWidth+1||rr.left<-1||lr.left<-1||lr.right>innerWidth+1||n.scrollWidth>n.clientWidth+2};
+  const bad=()=>{if(!n||getComputedStyle(n).display==="none")return false;const box=el=>{const b=el.getBoundingClientRect();let l=b.left,R=b.right;[...el.children].forEach(c=>{if(getComputedStyle(c).display==="none")return;const x=c.getBoundingClientRect();if(x.width){l=Math.min(l,x.left);R=Math.max(R,x.right)}});return{left:l,right:R}};const nr=box(n),rr=box(r),lr=box(lg),ov=(x,y)=>x.left<y.right+12&&y.left<x.right+12;return ov(nr,rr)||ov(nr,lr)||rr.right>innerWidth+1||rr.left<-1||lr.left<-1||lr.right>innerWidth+1||n.scrollWidth>n.clientWidth+2};
   hd.classList.remove("nav-collapse","no-cta","no-logo-t");if(!bad())return;hd.classList.add("no-cta");if(!bad())return;hd.classList.add("no-logo-t");if(!bad())return;hd.classList.add("nav-collapse")}
 addEventListener("resize",()=>fitNav());addEventListener("load",()=>fitNav());
 function applyLang(l){
