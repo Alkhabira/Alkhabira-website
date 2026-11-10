@@ -495,3 +495,20 @@ body[data-page=consult] .ft-top .btn{display:none}
 
 .hd-in>.logo,.hd-in>.hd-r{flex-shrink:0}
 .nav{min-width:0}
+
+/* ---- Vivid imagery update ---- */
+.hero-img{width:100%;height:100%;object-fit:cover;object-position:62% 50%;left:0;right:0;-webkit-mask-image:none;mask-image:none}
+.hero::after{background:linear-gradient(90deg,rgba(8,29,51,.9) 0%,rgba(8,29,51,.72) 34%,rgba(8,29,51,.25) 58%,rgba(8,29,51,0) 78%),linear-gradient(0deg,rgba(8,29,51,.6),transparent 35%),linear-gradient(180deg,rgba(8,29,51,.55),transparent 20%)}
+html[dir=rtl] .hero::after{background:linear-gradient(270deg,rgba(8,29,51,.9) 0%,rgba(8,29,51,.72) 34%,rgba(8,29,51,.25) 58%,rgba(8,29,51,0) 78%),linear-gradient(0deg,rgba(8,29,51,.6),transparent 35%),linear-gradient(180deg,rgba(8,29,51,.55),transparent 20%)}
+html[dir=rtl] .hero::before{content:none}
+.banner{height:300px}
+.banner .bl{left:0;width:100%;height:100%;object-fit:cover;object-position:50% 60%;-webkit-mask-image:none;mask-image:none}
+.banner .br{display:none}
+.banner::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(8,29,51,.55),rgba(8,29,51,.25) 50%,rgba(8,29,51,.55))}
+.banner p{z-index:1;text-shadow:0 2px 24px rgba(8,29,51,.8)}
+.pillar img,.pcard img,[data-img^=pillar]{filter:saturate(1.05) contrast(1.03)}
+@media (max-width:1120px){
+  .hero-img{opacity:.6;transform:none;object-position:70% 50%;left:0;width:100%}
+
+  .hero::after{background:linear-gradient(0deg,rgba(8,29,51,.9),rgba(8,29,51,.45))}
+}
