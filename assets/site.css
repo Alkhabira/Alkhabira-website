@@ -526,10 +526,17 @@ html[lang=ar] .hc-get h3{font-family:"IBM Plex Sans Arabic",sans-serif;font-size
 .hc-who li{padding:16px 20px;border:1px solid var(--line2);border-radius:14px;background:#fff;font-weight:500;border-inline-start:3px solid var(--rose)}
 @media (max-width:900px){.hc-two{grid-template-columns:1fr;gap:50px}}
 
-/* ---- Soft blush backgrounds (between navy and pink) ---- */
-:root{--ivory:#F5E6EA;--blush-bg:#FAF1F3}
-body{background:var(--blush-bg)}
-.sec.ivory{background:linear-gradient(180deg,#F6E5EA 0%,#F1DCE2 100%)}
-.svc-item:hover{background:rgba(255,255,255,.55)}
-.pillar,.who div,.path,.hc-who li,.step .ic,.svc-item .ic{background:#fff}
-.portrait{background:linear-gradient(160deg,#F3DDE3,#E9C9D2)!important}
+
+/* ---- White backgrounds (keep navy & pink accents) ---- */
+:root{--ivory:#FFFFFF}
+body,.sec,.sec.ivory,.strip{background:#fff}
+.sec.ivory{border-top:1px solid #EEF0F3;border-bottom:1px solid #EEF0F3}
+.portrait{background:#F5F6F8!important}
+/* banner: sunset photo with clear white text */
+.banner{height:340px}
+.banner .bl{object-position:50% 55%}
+.banner::after{background:linear-gradient(90deg,rgba(8,29,51,.4),rgba(8,29,51,.15) 50%,rgba(8,29,51,.4))!important}
+.banner p{color:#fff!important;text-shadow:0 2px 18px rgba(0,0,0,.55),0 1px 3px rgba(0,0,0,.5)!important}
+.portrait img{object-position:50% 20%}
+.portrait .ini,.portrait .note{display:none}
+@media (max-width:720px){.banner{height:260px}}

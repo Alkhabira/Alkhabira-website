@@ -208,8 +208,8 @@ function shell(){if(!document.getElementById("ftBrandCss")){const st=document.cr
       <div><a href="index.html" class="logo ft-brand" aria-label="Saida Afly Business Gateway"><img class="mark" src="img/logo-mark.png" alt="" width="92" height="46"><span class="logo-t"><b>SAIDA AFLY</b><span>BUSINESS GATEWAY</span></span></a>
         <p style="margin:20px 0 0;max-width:340px" data-i="ft_desc">Premium business advisory and private client services in Dubai, combining professional expertise with personal attention.</p>
         <div class="social"><a href="https://wa.me/${CONFIG.whatsapp}" target="_blank" rel="noopener" aria-label="WhatsApp">${WA_SVG}</a>${li}<a href="mailto:${CONFIG.email}" aria-label="Email">${ico("doc",18)}</a></div></div>
-      <div><h4 data-i="ft_nav">Navigate</h4><ul><li><a href="index.html" data-i="nav_home">Home</a></li><li><a href="business-health-check.html" data-i="nav_health">Business Health Check</a></li><li><a href="insights.html" data-i="nav_insights">Insights</a></li><li><a href="${home}#contact" data-i="nav_contact">Contact</a></li></ul></div>
-      <div><h4 data-i="ft_services">Services</h4><ul><li><a href="advisory.html" data-i="dd_p1">Business & Financial Advisory</a></li><li><a href="investment.html" data-i="dd_p2">Investment & Real Estate</a></li><li><a href="concierge.html" data-i="dd_p3">Dubai Private Concierge</a></li></ul></div>
+      <div><h4 data-i="ft_nav">Navigate</h4><ul><li><a href="index.html" data-i="nav_home">Home</a></li><li><a href="insights.html" data-i="nav_insights">Insights</a></li><li><a href="${home}#contact" data-i="nav_contact">Contact</a></li></ul></div>
+      <div><h4 data-i="ft_services">Services</h4><ul><li><a href="advisory.html" data-i="dd_p1">Business & Financial Advisory</a></li><li><a href="business-health-check.html" data-i="nav_health">Business Health Check</a></li><li><a href="investment.html" data-i="dd_p2">Investment & Real Estate</a></li><li><a href="concierge.html" data-i="dd_p3">Dubai Private Concierge</a></li></ul></div>
       <div><h4 data-i="ft_contact">Contact</h4><ul><li><a href="https://wa.me/${CONFIG.whatsapp}" target="_blank" rel="noopener" dir="ltr">${CONFIG.whatsappDisplay}</a></li><li><a href="mailto:${CONFIG.email}">${CONFIG.email}</a></li><li data-i="city">Dubai, United Arab Emirates</li></ul></div>
     </div>
     <p class="ft-disc" data-i="ft_disc">Saida Afly Business Gateway provides advisory, introduction and coordination services. Regulated activities — including real estate brokerage, investment management and medical services — are carried out by appropriately licensed providers. Nothing on this website constitutes investment advice or a guarantee of any return.</p>
@@ -350,7 +350,7 @@ function applyImages(){document.querySelectorAll("[data-ico]").forEach(e=>{e.inn
   document.querySelectorAll("[data-img]").forEach(el=>{const v=IMAGES[el.dataset.img];if(v)el.src=v});
   if(IMAGES.hero)document.querySelectorAll(".phero").forEach(el=>el.style.setProperty("--phero-img",`url("${new URL(IMAGES.hero,location.href).href}")`));
   const p=document.querySelector(".portrait");
-  if(p&&IMAGES.portrait&&!p.querySelector("img")){const i=document.createElement("img");i.src=IMAGES.portrait;i.alt="Saida Afly";i.style.cssText="position:absolute;inset:0;width:100%;height:100%;object-fit:cover";p.prepend(i);p.querySelectorAll(".ini,.note").forEach(x=>x.remove())}
+  if(p&&!IMAGES.portrait)IMAGES.portrait="img/portrait.jpg";if(p&&IMAGES.portrait&&!p.querySelector("img")){const i=document.createElement("img");i.src=IMAGES.portrait;i.alt="Saida Afly";i.style.cssText="position:absolute;inset:0;width:100%;height:100%;object-fit:cover";p.prepend(i);p.querySelectorAll(".ini,.note").forEach(x=>x.remove())}
 }
 
 /* ---------- init ---------- */
