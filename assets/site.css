@@ -613,3 +613,22 @@ body .cta-band{background:#081D33}
   .step .ic{width:52px!important;height:52px!important}
   .steps{gap:8px!important}
 }
+
+/* ---- Hero: clear photo, light shade behind text only ---- */
+.hero::after{background:linear-gradient(90deg,rgba(8,29,51,.92) 0%,rgba(8,29,51,.75) 30%,rgba(8,29,51,0) 55%)!important}
+.hero-img{left:0!important;right:0!important;width:100%!important;opacity:1!important;-webkit-mask-image:none!important;mask-image:none!important;filter:none!important;animation:none!important;transform:none!important}
+html[dir=rtl] .hero::after{background:linear-gradient(270deg,rgba(8,29,51,.92) 0%,rgba(8,29,51,.75) 30%,rgba(8,29,51,0) 55%)!important}
+@media (max-width:1120px){.hero::after{background:linear-gradient(0deg,rgba(8,29,51,.85),rgba(8,29,51,.55))!important}}
+
+/* ---- Footer: equal columns with fine dividers ---- */
+.ft-grid{grid-template-columns:repeat(4,minmax(0,1fr))!important;gap:0!important;align-items:stretch}
+.ft-grid>div{padding:6px 32px}
+.ft-grid>div+div{border-inline-start:1px solid rgba(232,180,196,.25)}
+.ft-grid>div:first-child{padding-inline-start:0}
+.ft-grid>div p{text-align:left!important}
+.ft-grid ul{gap:14px!important}
+.ft-grid h4{margin-bottom:20px!important}
+.ft-brand .mark{height:42px!important}
+html[dir=rtl] .ft-grid>div:first-child{padding-inline-start:0}
+@media (max-width:1120px){.ft-grid{grid-template-columns:1fr 1fr!important;gap:30px 0!important}.ft-grid>div:nth-child(3){border-inline-start:0!important;padding-inline-start:0!important}}
+@media (max-width:720px){.ft-grid{grid-template-columns:1fr!important;gap:0!important}.ft-grid>div{padding:22px 0!important;border-inline-start:0!important}.ft-grid>div+div{border-top:1px solid rgba(232,180,196,.25)}}
