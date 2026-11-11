@@ -848,3 +848,7 @@ html[lang=ar] .hd .nav a,html[lang=ar] .hd .mnav a{letter-spacing:0!important;fo
 /* hero title on one line */
 @media (min-width:1121px){.hero .hero-txt{max-width:700px!important}}
 .hero .display{white-space:nowrap}
+/* mobile menu floats over the page (header keeps its height) */
+@media (max-width:1120px){
+  .mnav.open,.hd.nav-collapse .mnav.open{position:absolute!important;top:calc(100% + 6px)!important;inset-inline-end:16px!important;inset-inline-start:auto!important;margin:0!important;z-index:80}
+}
