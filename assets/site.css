@@ -540,3 +540,76 @@ body,.sec,.sec.ivory,.strip{background:#fff}
 .portrait img{object-position:50% 20%}
 .portrait .ini,.portrait .note{display:none}
 @media (max-width:720px){.banner{height:260px}}
+
+/* ---- Stronger, more readable text ---- */
+body{color:#0F1E33}
+p,.lead,li,.creds li,.svc-item p,.step p,.pillar p,.pillar li,.who p,.hc-get p,.head p,.c-sub,small{color:#2A3A52!important;font-weight:400!important}
+.lead{color:#1E2D44!important}
+.display,.h2,.h3,h1,h2,h3{font-weight:600!important;color:#081D33}
+.sec.dark p,.sec.dark .lead,.hero p,.hero .lead,.phero p,.phero .lead,.c-card p,.c-card small,.ft p,.ft li,.ft small,.banner p{color:rgba(255,255,255,.92)!important}
+.sec.dark .h2,.sec.dark h3,.hero .display,.phero .display,.cta-band .h2{color:#fff}
+.eyebrow{font-weight:700!important}
+/* eyebrow labels: stronger colour */
+.eyebrow{color:#8A4A5E!important}
+.eyebrow::before,.eyebrow::after{background:#8A4A5E!important;opacity:1!important}
+.sec.dark .eyebrow,.hero .eyebrow,.phero .eyebrow,.cta-band .eyebrow{color:#E8B4C4!important}
+.sec.dark .eyebrow::before,.hero .eyebrow::before,.phero .eyebrow::before{background:#E8B4C4!important}
+/* deeper pink accents everywhere */
+:root{--blush:#E28AA6;--rose:#D2738F}
+.sec.dark .eyebrow,.hero .eyebrow,.phero .eyebrow,.cta-band .eyebrow{color:#E28AA6!important}
+.sec.dark .eyebrow::before,.hero .eyebrow::before,.phero .eyebrow::before{background:#E28AA6!important}
+.hero .display em,.display em,.ft .sig em{color:#E28AA6!important}
+.logo-t span{color:#E28AA6!important}
+.btn-blush{background:#E28AA6!important;border-color:#E28AA6!important;color:#081D33!important}
+.btn-blush:hover{background:#D2738F!important;border-color:#D2738F!important}
+.nav a[aria-current]::after,.nav a.on::after{background:#E28AA6!important}
+.ft h4{color:#E28AA6!important}
+/* full logo mark, never cropped */
+.logo .mark{width:auto!important;height:48px!important;object-fit:contain!important;max-width:none!important}
+.hd.solid .logo .mark{height:42px!important}
+.ft-brand .mark{height:52px!important}
+@media (max-width:720px){.logo .mark{height:38px!important}}
+/* justified paragraphs */
+main p,.ft p{text-align:justify;text-justify:inter-word;hyphens:auto;-webkit-hyphens:auto}
+.head p,.sec .head p,.cta-band p{text-align:justify;text-align-last:center}
+.banner p,.crumbs,.pc-err,.pc-stepof,.hero .signature,.ft .sig,.sigline,.btn,.eyebrow{text-align:inherit;text-align-last:auto;hyphens:manual}
+html[dir=rtl] main p{hyphens:manual}
+main p,.ft p,.head p{hyphens:manual!important;-webkit-hyphens:manual!important}
+
+/* ===== Fix: dark sections must stay navy (white text) ===== */
+body .sec.dark{background:linear-gradient(160deg,#081D33,#0E2A47)!important}
+body .cta-band{background:#081D33}
+
+/* ===== Mobile polish ===== */
+@media (max-width:720px){
+  .sec{padding:60px 0!important}
+  .head{margin-bottom:30px!important}
+  .display{font-size:38px!important;line-height:1.1!important}
+  .h2{font-size:30px!important;line-height:1.18!important}
+  .h3{font-size:22px!important}
+  .lead{font-size:16px!important;line-height:1.65!important}
+  p{font-size:15.5px;line-height:1.65}
+  .hero{min-height:auto!important;padding:120px 0 60px!important}
+  .hero .btn{width:100%;justify-content:center}
+  .hero-btns,.hero .actions{flex-direction:column;gap:12px}
+  .phero{padding:120px 0 50px!important}
+  .pillars,.svc-grid,.values,.steps,.paths,.ins-grid,.who{gap:18px!important}
+  .pillar,.svc-item,.step,.who div,.path{margin:0!important}
+  .step{padding:18px 0!important}
+  .banner{height:220px!important}
+  .banner p{font-size:21px!important;padding:0 20px}
+  .about{gap:30px!important}
+  .portrait{aspect-ratio:4/4.4!important}
+  .ft{padding-top:50px!important}
+  .ft-grid,.ft .grid{gap:28px!important}
+  .cta-band{padding:50px 0!important}
+  /* show content immediately on phones — no blank gaps while scrolling */
+  .rv{opacity:1!important;transform:none!important;transition:none!important}
+  .wrap{width:calc(100% - 36px)!important}
+}
+@media (max-width:720px){
+  .hero{padding:100px 0 50px!important}
+  .head p,.sec .head p{text-align:center!important;text-align-last:center}
+  .step .ic{width:52px!important;height:52px!important}
+  .steps{gap:8px!important}
+}
