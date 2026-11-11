@@ -882,11 +882,11 @@
       "nl": "Begin een vertrouwelijk gesprek"
     },
     "c_s": {
-      "en": "Choose Financial & Tax Services, Investment Inquiry or Private Concierge.",
-      "ar": "اختر الخدمات المالية والضريبية، أو الاستفسار الاستثماري، أو الكونسيرج الخاص.",
-      "sv": "Välj Finansiella tjänster och skattetjänster, Investeringsförfrågan eller Privat concierge.",
-      "fr": "Choisissez Services financiers et fiscaux, Demande d'investissement ou Conciergerie privée.",
-      "nl": "Kies Financiële en fiscale diensten, Investeringsaanvraag of Private concierge."
+      "en": "Choose Financial & Tax Services, Business Health Check, Investment Inquiry or Private Concierge.",
+      "ar": "اختر الخدمات المالية والضريبية، أو الفحص الشامل للأعمال، أو الاستفسار الاستثماري، أو الكونسيرج الخاص.",
+      "sv": "Välj Finansiella tjänster och skattetjänster, Företagshälsokontroll, Investeringsförfrågan eller Privat concierge.",
+      "fr": "Choisissez Services financiers et fiscaux, Bilan d'entreprise, Demande d'investissement ou Conciergerie privée.",
+      "nl": "Kies Financiële en fiscale diensten, Bedrijfsdoorlichting, Investeringsaanvraag of Private concierge."
     },
     "path1": {
       "en": "Financial & Tax Services",
