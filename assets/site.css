@@ -828,7 +828,7 @@ html[dir=rtl] .mnav a[aria-current]{box-shadow:inset -3px 0 0 #C9A23A}
 .mnav a:hover,.hd.nav-collapse .mnav a:hover{background:#F7F2F9!important;color:#5A0F6E!important}
 .mnav .btn{margin-top:12px!important}
 /* thin short line instead of dots in headings */
-.tl{display:inline-block;width:26px;height:1.5px;background:#C9A23A;vertical-align:middle;margin:0 .1em;position:relative;top:-.08em}
+.tl{display:inline-block;width:30px;height:1.5px;background:#C9A23A;vertical-align:middle;margin:0 .05em 0 .15em;position:relative;top:-.08em}
 .eyebrow .tl{width:16px;height:1px;margin:0 .2em}
 .hero .signature .tl,.ft .sig .tl{width:20px;height:1px}
 @media (max-width:720px){.tl{width:18px}.eyebrow .tl{width:12px}}
@@ -838,3 +838,13 @@ html[dir=rtl] .mnav a[aria-current]{box-shadow:inset -3px 0 0 #C9A23A}
 html[lang=ar] .hd .nav a,html[lang=ar] .hd .mnav a{letter-spacing:0!important;font-family:"IBM Plex Sans Arabic",sans-serif!important;font-size:14px!important;text-transform:none}
 .hd .nav{gap:24px!important}
 @media (max-width:1400px){.hd .nav{gap:18px!important}.hd .nav a{letter-spacing:1.5px!important;font-size:11px!important}}
+/* compact mobile menu */
+@media (max-width:1120px){
+  .mnav.open,.hd.nav-collapse .mnav.open{width:270px!important;max-width:calc(100% - 8px);margin-inline-start:auto!important;margin-top:8px!important;padding:6px 10px 10px!important;border-radius:16px!important}
+  .mnav a,.hd.nav-collapse .mnav a,.hd .mnav a{padding:10px 8px!important;font-size:11px!important;letter-spacing:1.6px!important}
+  html[lang=ar] .hd .mnav a{font-size:13.5px!important}
+  .mnav .btn{padding:11px 14px!important;font-size:12.5px!important;margin-top:10px!important}
+}
+/* hero title on one line */
+@media (min-width:1121px){.hero .hero-txt{max-width:700px!important}}
+.hero .display{white-space:nowrap}

@@ -152,18 +152,23 @@ function fitNav(){const hd=document.getElementById("hd");if(!hd)return;const n=h
   const bad=()=>{if(!n||getComputedStyle(n).display==="none")return false;const box=el=>{const b=el.getBoundingClientRect();let l=b.left,R=b.right;[...el.children].forEach(c=>{if(getComputedStyle(c).display==="none")return;const x=c.getBoundingClientRect();if(x.width){l=Math.min(l,x.left);R=Math.max(R,x.right)}});return{left:l,right:R}};const nr=box(n),rr=box(r),lr=box(lg),ov=(x,y)=>x.left<y.right+12&&y.left<x.right+12;return ov(nr,rr)||ov(nr,lr)||rr.right>innerWidth+1||rr.left<-1||lr.left<-1||lr.right>innerWidth+1||n.scrollWidth>n.clientWidth+2};
   hd.classList.remove("nav-collapse","no-cta","no-logo-t");if(!bad())return;hd.classList.add("no-cta");if(!bad())return;hd.classList.add("no-logo-t");if(!bad())return;hd.classList.add("nav-collapse")}
 addEventListener("resize",()=>fitNav());document.addEventListener("sab:ready",()=>{try{hlHeads()}catch(e){}});addEventListener("load",()=>fitNav());
+function fitHero(){document.querySelectorAll(".hero .display,.hero .signature").forEach(h=>{h.style.fontSize="";h.style.whiteSpace="nowrap";let fs=parseFloat(getComputedStyle(h).fontSize),n=0;const box=h.closest(".hero-txt")||h.parentElement,cs=getComputedStyle(box),avail=()=>box.clientWidth-parseFloat(cs.paddingLeft)-parseFloat(cs.paddingRight)-(h.classList.contains("signature")?parseFloat(getComputedStyle(h).paddingLeft)||0:0);while(h.scrollWidth>avail()+1&&fs>14&&n<60){fs-=1;h.style.setProperty("font-size",fs+"px","important");n++}})}
+addEventListener("resize",()=>{try{fitHero()}catch(e){}});addEventListener("load",()=>{try{fitHero()}catch(e){}});if(document.fonts&&document.fonts.ready)document.fonts.ready.then(()=>{try{fitHero()}catch(e){}});
 function dashify(){document.querySelectorAll("h1,h2.h2,.cta-band h2,.hero .signature,.eyebrow,.ft .sig,.banner p,.pc-sub").forEach(el=>{if(el.closest(".prose"))return;
   const w=document.createTreeWalker(el,NodeFilter.SHOW_TEXT);const ns=[];while(w.nextNode())if(w.currentNode.nodeValue.trim())ns.push(w.currentNode);
   ns.forEach((n,i)=>{let t=n.nodeValue;const last=i===ns.length-1;const parts=[];
-    t=t.replace(/\s*·\s*/g," \u0001 ").replace(/\.\s+(?=\S)/g," \u0001 ");
-    if(/\.\s*$/.test(t)){t=t.replace(/\.\s*$/,last?"":" \u0001")}
+    const cm=LANG==="ar"?"،":",";
+    t=t.replace(/\s*·\s*/g,cm+" ").replace(/\.\s+(?=\S)/g,cm+" ");
+    if(/\.\s*$/.test(t)){t=t.replace(/\.\s*$/,last?" \u0001":cm)}
     if(t===n.nodeValue)return;
     const f=document.createDocumentFragment();t.split("\u0001").forEach((seg,k,a)=>{if(seg)f.appendChild(document.createTextNode(seg));if(k<a.length-1){const s=document.createElement("span");s.className="tl";s.setAttribute("aria-hidden","true");f.appendChild(s)}});
-    n.replaceWith(f)})})}
+    n.replaceWith(f)});
+  if(el.matches("h1,h2.h2,.cta-band h2,.hero .signature,.ft .sig")){const lc=el.lastElementChild,endTl=el.querySelector(".tl")&&(()=>{let x=el;while(x.lastChild&&x.lastChild.nodeType===1&&!x.lastChild.classList.contains("tl"))x=x.lastChild;const l=x.lastChild;return l&&((l.nodeType===1&&l.classList.contains("tl"))||(l.nodeType===3&&!l.nodeValue.trim()&&l.previousSibling&&l.previousSibling.classList&&l.previousSibling.classList.contains("tl")))})();
+    if(!endTl){let x=el;while(x.lastElementChild&&!x.lastElementChild.classList.contains("tl")&&x.lastChild===x.lastElementChild)x=x.lastElementChild;const sp=document.createElement("span");sp.className="tl";sp.setAttribute("aria-hidden","true");x.appendChild(document.createTextNode(" "));x.appendChild(sp)}}})}
 function hlHeads(){document.querySelectorAll("h2.h2,h1.display,.phero h1,.cta-band h2").forEach(h=>{if(h.closest(".ft"))return;h.querySelectorAll("em.hl").forEach(e=>e.replaceWith(document.createTextNode(e.textContent)));h.normalize();if(h.querySelector("em"))return;
   const w=document.createTreeWalker(h,NodeFilter.SHOW_TEXT);let n=null;while(w.nextNode())if(w.currentNode.nodeValue.trim())n=w.currentNode;if(!n)return;
   const tx=n.nodeValue.replace(/\s+$/,"");const i=tx.lastIndexOf(" ");if(i<1&&n===h.firstChild)return;if(i<1)return;
-  const em=document.createElement("em");em.className="hl";em.textContent=tx.slice(i+1);n.nodeValue=tx.slice(0,i+1);n.after(em)});try{dashify()}catch(e){}}
+  const em=document.createElement("em");em.className="hl";em.textContent=tx.slice(i+1);n.nodeValue=tx.slice(0,i+1);n.after(em)});try{dashify()}catch(e){}try{fitHero()}catch(e){}}
 function applyLang(l){
   LANG=l;
   document.documentElement.lang=l==="nl"?"nl-BE":l;
