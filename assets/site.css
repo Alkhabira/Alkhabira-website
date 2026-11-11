@@ -512,3 +512,24 @@ html[dir=rtl] .hero::before{content:none}
 
   .hero::after{background:linear-gradient(0deg,rgba(8,29,51,.9),rgba(8,29,51,.45))}
 }
+
+/* ---- Business Health Check ---- */
+.hc-two{display:grid;grid-template-columns:1.2fr 1fr;gap:70px;margin-top:80px}
+.hc-two .h3{margin-bottom:26px}
+.hc-get{list-style:none;margin:0;padding:0;display:grid;gap:22px}
+.hc-get li{display:flex;gap:20px;align-items:flex-start}
+.hc-get .num{flex:none;width:46px;height:46px;border-radius:50%;display:grid;place-items:center;background:var(--navy);color:var(--blush);font-weight:600;font-size:14px}
+.hc-get h3{font-family:var(--serif);font-weight:600;font-size:22px;margin:4px 0 6px}
+html[lang=ar] .hc-get h3{font-family:"IBM Plex Sans Arabic",sans-serif;font-size:18px}
+.hc-get p{margin:0;color:var(--muted)}
+.hc-who{list-style:none;margin:0;padding:0;display:grid;gap:12px}
+.hc-who li{padding:16px 20px;border:1px solid var(--line2);border-radius:14px;background:#fff;font-weight:500;border-inline-start:3px solid var(--rose)}
+@media (max-width:900px){.hc-two{grid-template-columns:1fr;gap:50px}}
+
+/* ---- Soft blush backgrounds (between navy and pink) ---- */
+:root{--ivory:#F5E6EA;--blush-bg:#FAF1F3}
+body{background:var(--blush-bg)}
+.sec.ivory{background:linear-gradient(180deg,#F6E5EA 0%,#F1DCE2 100%)}
+.svc-item:hover{background:rgba(255,255,255,.55)}
+.pillar,.who div,.path,.hc-who li,.step .ic,.svc-item .ic{background:#fff}
+.portrait{background:linear-gradient(160deg,#F3DDE3,#E9C9D2)!important}
