@@ -169,7 +169,7 @@ function applyLang(l){
 }
 
 /* ---------- shell: header, footer, modal, whatsapp ---------- */
-function shell(){
+function shell(){if(!document.getElementById("ftBrandCss")){const st=document.createElement("style");st.id="ftBrandCss";st.textContent='.ft-brand{display:inline-flex!important;align-items:center;gap:14px;margin-bottom:10px;text-decoration:none}.ft-brand .mark{height:46px;width:auto;filter:none}.ft .ft-brand .logo-t{display:block!important}';document.head.appendChild(st)}
   const page=document.body.dataset.page||"home";
   const cur=p=>page===p?' aria-current="page"':"";
   const home=page==="home"?"":"index.html";
@@ -205,7 +205,7 @@ function shell(){
     <div class="ft-top"><p class="sig"><span data-i="ft_sig1">Connecting Ambition</span> <em data-i="ft_sig2">with Opportunity.</em></p>
       <button type="button" class="btn btn-blush" data-open="consultation" data-i="hd_cta">Book a Private Consultation</button></div>
     <div class="ft-grid">
-      <div><a href="index.html" class="ft-logo" aria-label="Saida Afly Business Gateway"><img src="img/logo-full.png" alt="Saida Afly Business Gateway" width="210" height="105"></a>
+      <div><a href="index.html" class="logo ft-brand" aria-label="Saida Afly Business Gateway"><img class="mark" src="img/logo-mark.png" alt="" width="92" height="46"><span class="logo-t"><b>SAIDA AFLY</b><span>BUSINESS GATEWAY</span></span></a>
         <p style="margin:20px 0 0;max-width:340px" data-i="ft_desc">Premium business advisory and private client services in Dubai, combining professional expertise with personal attention.</p>
         <div class="social"><a href="https://wa.me/${CONFIG.whatsapp}" target="_blank" rel="noopener" aria-label="WhatsApp">${WA_SVG}</a>${li}<a href="mailto:${CONFIG.email}" aria-label="Email">${ico("doc",18)}</a></div></div>
       <div><h4 data-i="ft_nav">Navigate</h4><ul><li><a href="index.html" data-i="nav_home">Home</a></li><li><a href="business-health-check.html" data-i="nav_health">Business Health Check</a></li><li><a href="insights.html" data-i="nav_insights">Insights</a></li><li><a href="${home}#contact" data-i="nav_contact">Contact</a></li></ul></div>
